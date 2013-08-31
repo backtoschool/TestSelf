@@ -11,9 +11,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="ooo">
+    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -81,7 +80,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
+            <state line="8" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -557,7 +556,11 @@
       <created>1377938266085</created>
       <updated>1377938266085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ooo">
+      <created>1377939301502</created>
+      <updated>1377939301502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
+        <state line="8" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
