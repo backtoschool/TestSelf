@@ -5,10 +5,14 @@ import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-    // test javaaaaa
+    //test kae
+// test javaaaaa
     //Test Na 1
 
       // test 3
+
+    // test merage kea test
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
