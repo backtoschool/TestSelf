@@ -101,6 +101,61 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="Home_15"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_15.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="Home"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="Home_11"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_11.gif"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_menu"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\layout\main_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="Home_05"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_05.gif"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="test_layout"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\layout\test_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="Home_13"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_13.gif"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="personal_layout"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\layout\personal_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="result_layout"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\layout\result_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="Home_02"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_02.gif"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="Home_08"
+                path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\src\main\res\drawable\Home_08.gif"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="E:\coolzapp\AndroidStudioProjects\TestSelfProject\TestSelf\build\res\rs\debug" />
     </dataSet>

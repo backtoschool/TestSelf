@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TestSelf/TestSelf.iml" filepath="$PROJECT_DIR$/TestSelf/TestSelf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TestSelfProject.iml" filepath="$PROJECT_DIR$/TestSelfProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSelf/build/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/TestSelf/build/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSelf/build/manifests/debug/debug.iml" filepath="$PROJECT_DIR$/TestSelf/build/manifests/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSelf/src/main/main.iml" filepath="$PROJECT_DIR$/TestSelf/src/main/main.iml" />
     </modules>
   </component>
 </project>
