@@ -80,7 +80,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
+            <state line="7" column="22" selection-start="185" selection-end="185" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -560,7 +560,11 @@
       <created>1377939301502</created>
       <updated>1377939301502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pppppp">
+      <created>1377939405465</created>
+      <updated>1377939405465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,7 +607,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="ooo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ooo" />
+    <MESSAGE value="pppppp" />
+    <option name="LAST_COMMIT_MESSAGE" value="pppppp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -668,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
+        <state line="7" column="22" selection-start="185" selection-end="185" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
