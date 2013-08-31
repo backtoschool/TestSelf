@@ -83,7 +83,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28883496" vertical-offset="0" max-vertical-offset="493">
+            <state line="7" column="16" selection-start="179" selection-end="179" vertical-scroll-proportion="0.28883496" vertical-offset="0" max-vertical-offset="493">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -438,7 +438,11 @@
       <created>1377941725305</created>
       <updated>1377941725305</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="top test 3">
+      <created>1377941810882</created>
+      <updated>1377941810882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,7 +490,8 @@
     <MESSAGE value="delete pic" />
     <MESSAGE value="top" />
     <MESSAGE value="top test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="top test 2" />
+    <MESSAGE value="top test 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="top test 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -613,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.28883496" vertical-offset="0" max-vertical-offset="493">
+        <state line="7" column="16" selection-start="179" selection-end="179" vertical-scroll-proportion="0.28883496" vertical-offset="0" max-vertical-offset="493">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
