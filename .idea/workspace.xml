@@ -26,11 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -639,7 +634,11 @@
       <created>1377947988806</created>
       <updated>1377947988806</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="test Theme">
+      <created>1377949406507</created>
+      <updated>1377949406507</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
