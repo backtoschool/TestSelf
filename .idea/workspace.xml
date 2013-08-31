@@ -11,9 +11,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="ooo">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -78,80 +78,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/test_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="12" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
+            <state line="7" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +97,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -211,6 +145,7 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/test_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -418,6 +353,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestSelf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestSelfProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestSelf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testself" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -588,6 +553,11 @@
       <created>1377936952209</created>
       <updated>1377936952209</updated>
     </task>
+    <task id="LOCAL-00001" summary="ooo">
+      <created>1377938266085</created>
+      <updated>1377938266085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -629,6 +599,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="ooo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ooo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,7 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
@@ -651,7 +623,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/test_layout.xml">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
@@ -671,7 +643,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/test_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
@@ -679,13 +651,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml">
@@ -696,6 +661,15 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
