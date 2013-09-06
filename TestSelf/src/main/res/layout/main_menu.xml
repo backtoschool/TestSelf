@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/logo1" />
+        android:src="@drawable/logo1_resmall" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView5"
-            android:src="@drawable/logo2" />
+            android:src="@drawable/logo2_resmall" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,13 +69,13 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgResult"
-            android:src="@drawable/logo3" />
+            android:src="@drawable/logo3_resmall" />
 
     </LinearLayout>
 
