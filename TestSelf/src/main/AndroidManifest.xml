@@ -15,17 +15,21 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.backtoschool.testself.MainActivity"
-            android:theme="@style/AppTheme">
+            android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenu" />
-        <activity android:name=".PersonalActivity" />
-        <activity android:name=".ResultActiviity" />
-        <activity android:name=".TestMenuActivity" />
+        <activity android:name=".MainMenu"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".PersonalActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".ResultActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".TestMenuActivity"
+            android:theme="@style/splashScreenTheme"/>
     </application>
 
 </manifest>

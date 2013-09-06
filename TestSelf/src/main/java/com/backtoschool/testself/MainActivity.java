@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
+import android.util.Log;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -25,7 +26,8 @@ public class MainActivity extends Activity {
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
-        new Handler().postDelayed(new Runnable() {
+        try {
+            new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
@@ -34,6 +36,14 @@ public class MainActivity extends Activity {
                 MainActivity.this.finish();
             }
         }, SPLASH_DISPLAY_LENGHT);
+
+            Log.i("splash","gotoComplete");
+        }catch (Exception  e){
+            Log.i("splash",e.toString());
+
+        }
+
+
     }
 
 

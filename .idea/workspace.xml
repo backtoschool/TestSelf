@@ -26,6 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java" />
+      <change type="DELETED" beforePath="E:\coolzapp\TestSelf\TestSelf\src\main\java\com\backtoschool\testself\ResultActiviity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -38,7 +44,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CompilerWorkspaceConfiguration">
-    <option name="USE_COMPILE_SERVER" value="false" />
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="E:\coolzapp\AndroidStudioProjects\TestSelfProject" />
@@ -93,7 +99,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main_menu.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="48" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.59408605" vertical-offset="255" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="34" selection-start="711" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
@@ -101,6 +125,28 @@
           <provider editor-type-id="text-editor">
             <state line="77" column="44" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1479">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="8" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1071">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,15 +186,15 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/test_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActiviity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/TestMenuActivity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -377,7 +423,7 @@
     <property name="options.lastSelected" value="http.proxy" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidStudioProjects/ManyActivityProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidStudioProjects/ProductAppProject" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -653,21 +699,26 @@
       <created>1378452578778</created>
       <updated>1378452578778</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test Theme">
+      <created>1378452722432</created>
+      <updated>1378452722432</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869694" sideWeight="0.67156863" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3496732" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -679,7 +730,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6503268" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3496732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3496732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -765,14 +816,7 @@
         <state line="5" column="7" selection-start="243" selection-end="243" vertical-scroll-proportion="0.22849463" vertical-offset="0" max-vertical-offset="372" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="569" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActiviity.java">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="45" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
@@ -793,15 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="926" selection-end="926" vertical-scroll-proportion="0.39078498" vertical-offset="264" max-vertical-offset="850">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -812,28 +847,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="638" selection-end="638" vertical-scroll-proportion="0.5368421" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.8412969" vertical-offset="0" max-vertical-offset="799">
-          <folding>
-            <element signature="method#initialWidget#0;class#MainMenu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
         <state line="77" column="44" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1071">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="711" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="48" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.59408605" vertical-offset="255" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
