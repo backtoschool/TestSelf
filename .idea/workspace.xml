@@ -22,16 +22,17 @@
           <theme>@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/splashScreenTheme</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java" />
-      <change type="DELETED" beforePath="E:\coolzapp\TestSelf\TestSelf\src\main\java\com\backtoschool\testself\ResultActiviity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -99,10 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="48" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.59408605" vertical-offset="255" max-vertical-offset="697">
+            <state line="14" column="41" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -117,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main_menu.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
@@ -129,13 +130,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="personal_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,11 +192,11 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActiviity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/TestMenuActivity.java" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -703,7 +705,11 @@
       <created>1378452722432</created>
       <updated>1378452722432</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Set Menu">
+      <created>1378454130363</created>
+      <updated>1378454130363</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -757,7 +763,8 @@
     <MESSAGE value="Miracle: First Page Splash Screen" />
     <MESSAGE value="Miracle: First Page Splash Screen and goto main menu" />
     <MESSAGE value="test Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="test Theme" />
+    <MESSAGE value="Update Set Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Set Menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -785,14 +792,6 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml">
@@ -847,25 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="77" column="44" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="8" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1071">
@@ -884,7 +864,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="48" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.59408605" vertical-offset="255" max-vertical-offset="697">
+        <state line="14" column="41" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="846" selection-end="846" vertical-scroll-proportion="0.84408605" vertical-offset="179" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="77" column="44" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>

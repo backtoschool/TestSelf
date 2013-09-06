@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 
     // test merage kea test
 
-    private final int SPLASH_DISPLAY_LENGHT = 5000;
+    private final int SPLASH_DISPLAY_LENGHT = 2000;
 
     /** Called when the activity is first created. */
     @Override
