@@ -4,5 +4,23 @@
     <string name="app_name">Test Self</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="qa1">วิชาสุดโปรด คือ...</string>
+    <string name="qa1ans1">ภาษาไทย</string>
+    <string name="qa1ans2">ภาษาอังกฤษหรือภาษาต่างประเทศอื่นๆ</string>
+    <string name="qa1ans3">สังคม</string>
+    <string name="qa1ans4">คณิตศาตร์</string>
+    <string name="qa2">ออกไปไกลๆ เลยนะวีชานี้...</string>
+    /*ตัวเลือกเดียวกับข้อ 1*/
+    <string name="qa3">คะแนนวิชาคณิตศาสตร์ของเรามักจะ...</string>
+    <string name="qa3ans1">ดีมาก (A)</string>
+    <string name="qa3ans2">ดี (B)</string>
+    <string name="qa3ans3">ปานกลาง (C)</string>
+    <string name="qa3ans4">แย่ (D sinv F)</string>
+    <string name="qa4">ภาษาอังกฤษของเราได้คะแนน...</string>
+    /*ตัวเลือกเดียวกับข้อ 3*/
+    <string name="qa5">เป็นคนที่สนใจภาษาในระดับ...</string>
+    <string name="qa5ans1">มาก</string>
+    <string name="qa5ans2">ปานกลาง</string>
+    <string name="qa5ans3">น้อย</string>
+    <string name="qa5ans4">น้อยมาก</string>
 </resources>
