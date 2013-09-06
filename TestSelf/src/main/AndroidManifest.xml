@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenu" />
+        <activity android:name=".PersonalActivity" />
+        <activity android:name=".ResultActiviity" />
+        <activity android:name=".TestMenuActivity" />
     </application>
 
 </manifest>
