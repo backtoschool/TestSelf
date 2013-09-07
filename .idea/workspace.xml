@@ -55,7 +55,9 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="" />
+    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TestSelf.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -747,7 +749,11 @@
       <created>1378571187666</created>
       <updated>1378571187666</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="addtest">
+      <created>1378571312163</created>
+      <updated>1378571312163</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
