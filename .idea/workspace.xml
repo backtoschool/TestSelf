@@ -56,8 +56,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -707,7 +705,11 @@
       <created>1378571318196</created>
       <updated>1378571318196</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Database Create">
+      <created>1378572962941</created>
+      <updated>1378572962941</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
