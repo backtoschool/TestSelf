@@ -30,6 +30,10 @@
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".TestMenuActivity"
             android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".ArtTestActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".ScienceTestActivity"
+            android:theme="@style/splashScreenTheme"/>
     </application>
 
 </manifest>

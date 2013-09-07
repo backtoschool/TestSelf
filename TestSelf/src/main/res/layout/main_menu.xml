@@ -15,7 +15,8 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout3" >
+        android:id="@+id/linearLayout3"
+        android:layout_margin="10dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -28,13 +29,15 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2" >
+        android:id="@+id/linearLayout2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgPersonal"
-            android:src="@drawable/btpersonal"
+            android:src="@drawable/btpersonal_resmall"
             android:onClick="onClick" />
     </LinearLayout>
 
@@ -42,13 +45,15 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgStarttest"
-            android:src="@drawable/btstart"
+            android:src="@drawable/btstart_resmall"
             android:onClick="onClick" />
 
     </LinearLayout>
@@ -56,13 +61,15 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgResult"
-            android:src="@drawable/btresult"
+            android:src="@drawable/btresult_resmall"
             android:onClick="onClick" />
 
     </LinearLayout>
@@ -75,7 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgResult"
-            android:src="@drawable/logo3_resmall" />
+            android:src="@drawable/logo3_resmall"
+            android:layout_margin="10dp" />
 
     </LinearLayout>
 
