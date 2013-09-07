@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><color name="bgwhite">#FFFFFF</color></resources>
+<resources><color name="bgwhite">#FFFFFF</color><color name="bgTest">#9a9c9e</color></resources>

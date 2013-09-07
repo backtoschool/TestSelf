@@ -30,7 +30,7 @@
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".TestMenuActivity"
             android:theme="@style/splashScreenTheme"/>
-        <activity android:name=".ArtTestActivity"
+        <activity android:name=".Art1Test1Activity"
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".ScienceTestActivity"
             android:theme="@style/splashScreenTheme"/>

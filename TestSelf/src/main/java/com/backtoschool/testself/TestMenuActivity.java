@@ -44,7 +44,7 @@ public class TestMenuActivity extends Activity implements View.OnClickListener {
                 startActivity(objIntent);
                 break;
             case R.id.imgtest2:
-                objIntent = new Intent(TestMenuActivity.this,ArtTestActivity.class);
+                objIntent = new Intent(TestMenuActivity.this,Art1Test1Activity.class);
                 startActivity(objIntent);
                 break;
 

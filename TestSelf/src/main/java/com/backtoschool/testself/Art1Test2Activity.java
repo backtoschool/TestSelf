@@ -6,9 +6,9 @@ import android.os.Bundle;
 /**
  * Created by MiracleLife on 7/9/2556.
  */
-public class ArtTestActivity extends Activity {
+public class Art1Test2Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.arttest_layout);
+        setContentView(R.layout.art1test2_layout);
     }
 }
