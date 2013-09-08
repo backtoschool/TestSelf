@@ -34,7 +34,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/textView"
             android:textColor="@color/bgwhite"
             android:layout_gravity="center"
@@ -74,13 +73,7 @@
                 android:textColor="@color/bgwhite"
                 android:layout_margin="5dp"
                 android:text="@string/qa1ans4" />
-
-
-
-
             </RadioGroup>
-
-
     </LinearLayout>
 
 </LinearLayout>

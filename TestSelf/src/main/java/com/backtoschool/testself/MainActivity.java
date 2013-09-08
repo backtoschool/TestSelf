@@ -6,11 +6,9 @@ import android.app.Activity;
 import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
-import android.database.sqlite.SQLiteDatabase;
 
 public class MainActivity extends Activity {
-    //Database
-    SQLiteDatabase db;
+
 
     private final int SPLASH_DISPLAY_LENGHT = 2000;
 
@@ -19,10 +17,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Database Create
-        myDBClass myDb = new myDBClass(this);
-        myDb.getWritableDatabase();//First method
-        //End Database
+
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
         try {
