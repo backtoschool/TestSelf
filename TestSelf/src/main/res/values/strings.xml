@@ -4,18 +4,21 @@
     <string name="app_name">Test Self</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+
+
     <string name="qa1">วิชาสุดโปรด คือ...</string>
     <string name="qa1ans1">ภาษาไทย</string>
     <string name="qa1ans2">ภาษาอังกฤษหรือภาษาต่างประเทศอื่นๆ</string>
     <string name="qa1ans3">สังคม</string>
     <string name="qa1ans4">คณิตศาตร์</string>
+
     <string name="qa2">ออกไปไกลๆ เลยนะวีชานี้...</string>
 
     <string name="qa3">คะแนนวิชาคณิตศาสตร์ของเรามักจะ...</string>
     <string name="qa3ans1">ดีมาก (A)</string>
     <string name="qa3ans2">ดี (B)</string>
     <string name="qa3ans3">ปานกลาง (C)</string>
-    <string name="qa3ans4">แย่ (D sinv F)</string>
+    <string name="qa3ans4">แย่ (D หรือ F)</string>
     <string name="qa4">ภาษาอังกฤษของเราได้คะแนน...</string>
 
     <string name="qa5">เป็นคนที่สนใจภาษาในระดับ...</string>
@@ -23,4 +26,76 @@
     <string name="qa5ans2">ปานกลาง</string>
     <string name="qa5ans3">น้อย</string>
     <string name="qa5ans4">น้อยมาก</string>
+
+    <string name="qa6">ข้อไหนที่อธิบายความเป็นตัวเราได้ดีที่สุด</string>
+    <string name="qa6ans1">เสาะแสวงหาความรู้ตามที่ต่างๆ</string>
+    <string name="qa6ans2">สนใจปัญหาสังคม ชอบอ่านข่าวการเมือง</string>
+    <string name="qa6ans3">มีเพื่อนเยอะ ชอบทำงานเป็นกลุ่ม</string>
+    <string name="qa6ans4">เบื่อง่าย ชอบอะไรที่ท้าทาย</string>
+
+    <string name="qa7">ถ้าจะซื้อปากกาสักด้าม สิ่งแรกที่จะใช้พิจารณาคือ...</string>
+    <string name="qa7ans1">ต้องแน่ใจว่าจะได้ปากกาที่มีคุณภาพ เขียนลื่นไหล หมึกออกสม่ำเสมอ</string>
+    <string name="qa7ans2">ราคาต้องไม่แพง คุ้มค่าที่จะซื้อ</string>
+    <string name="qa7ans3">การดีไซน์รูปแบบปากกาที่ทันสมัย สวยถูกใจ</string>
+    <string name="qa7ans4">ดูสีสันของปากกา</string>
+
+    <string name="qa8">ถ้าทำอุปกรณ์หรือเครื่องมืออะไรก็ตามเสียหาย สิ่งที่ทำต่อไปคือ...</string>
+    <string name="qa8ans1">ศึกษาคู่มือเพื่อแก้ไขด้วยตัวเองไม่ต้องพึ่งใครให้ยุ่งยาก</string>
+    <string name="qa8ans2">ถามผู้รู้ แล้วจึงแก้ไขตามคำแนะนำ</string>
+    <string name="qa8ans3">ให้เพื่อนช่วยแก้ไขให้</string>
+    <string name="qa8ans4">ทิ้งไปเลย...ก้เสียแล้วนี่นา</string>
+
+    <string name="qa9">อนาคตอันสดใสของเด็กไทย ควรมาจาก...</string>
+    <string name="qa9ans1">การได้รับการศึกษาและใส่ใจในการเรียนรู้</string>
+    <string name="qa9ans2">การรับประทานอาหารที่ครบหมวดหมู่และการออกกำลังกายให้มีสุขภาพดี</string>
+    <string name="qa9ans3">ได้รับการยอมรับจากเพื่อนและกลุ่มสังคม</string>
+    <string name="qa9ans4">ความรักความอบอุ่นจากครอบครัว</string>
+
+    <string name="qa10">ข้อใหนที่เราให้ความสนใจมากที่สุด</string>
+    <string name="qa10ans1">วิทยาการใหม่ๆ</string>
+    <string name="qa10ans2">ข่าวสังคมและการเมือง</string>
+    <string name="qa10ans3">งานศิลปะ</string>
+    <string name="qa10ans4">งานออกแบบ</string>
+
+    <string name="qa11">รูปทรงใดที่ชอบมากที่สุด</string>
+    <string name="qa11ans1">สี่เหลี่ยมจัตุรัส</string>
+    <string name="qa11ans2">สามเหลี่ยมด้านเท่า</string>
+    <string name="qa11ans3">วงกลม</string>
+    <string name="qa11ans4">ครึ่งวงกลม</string>
+
+    <string name="qa12">งานแบบใหนที่ทำแล้วมีความสุข</string>
+    <string name="qa12ans1">งานค้นคว้า วิจัย</string>
+    <string name="qa12ans2">งานสำนักงาน</string>
+    <string name="qa12ans3">งานติดต่อพบปะผู้คน</string>
+    <string name="qa12ans4">งานที่ไม่หยุดนิ่งกับที่ ต้องออกเดินทางบ่อยๆ</string>
+
+    <string name="qa13">ถ้าจะอธิบายอะไรสักอย่าง คิดว่าจะเลือกใช้วิธีการใดในการอธิบายสิ่งนั้นได้ดีที่สุด</string>
+    <string name="qa13ans1">เขียน</string>
+    <string name="qa13ans2">พูด</string>
+    <string name="qa13ans3">ภาพถ่าย</string>
+    <string name="qa13ans4">ภาพวาด</string>
+
+    <string name="qa14">ลักษณะเด่นของตัวเราคือ...</string>
+    <string name="qa14ans1">ซื่อสัตย์ เที่ยงตรง</string>
+    <string name="qa14ans2">ละเอียดรอบคอบ</string>
+    <string name="qa14ans3">ฉลาด แก้ปัญหาเฉพาะหน้าได้ดี</string>
+    <string name="qa14ans4">จิตนาการกว้างไกล</string>
+
+    <string name="qa15">ความสามารถในการจําของเรา... </string>
+    <string name="qa15ans1">ดี</string>
+    <string name="qa15ans2">ค่อนข้างดี</string>
+    <string name="qa15ans3">ปานกลาง</string>
+    <string name="qa15ans4">ไม่แน่ใจ</string>
+
+    <string name="qa16">ความสามารถในการทำงานที่เกี่ยวข้องกับตัวเลขของเรา...</string>
+
+    <string name="qa17">เมื่อเปรียบเทียบกับวันธรรมดาแล้ว วันหยุดของเราจะเป็นแบบ...</string>
+    <string name="qa17ans1">วางแพลนไว้เยอะแยะไปหมด ไม่งั้นก้น่าเบื่อแย่</string>
+    <string name="qa17ans2">ดูเรื่อยๆ ว่ามีอะไรที่ยังทำค้างอยู่ หรือยังไม่ได้ทำบ้างแล้วก็จัดการทำให้เสร็จไปเสีย</string>
+    <string name="qa17ans3">แพลนไว้มากมาย แต่โดยมากมักจะมีอะไรอย่างอื่นทำตลอด</string>
+    <string name="qa17ans4">ไม่เห็นมีอะไรแตกต่าง ระหว่างวันธรรมดา กับวันหยุดเลยนี่</string>
+
+
+
+
 </resources>
