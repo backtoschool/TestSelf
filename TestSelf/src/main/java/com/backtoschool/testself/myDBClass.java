@@ -18,6 +18,7 @@ public class myDBClass extends SQLiteOpenHelper{
     private static final String TABLE_MEMBER = "members";
     private static final String TABLE_ARTSCORE_T1 = "artscore_t1";
     private static final String TABLE_ARTSCORE_T2 = "artscore_t2";
+    private static final String TABLE_SCIENCESCORE_T1 = "sciencescore_t1";
 
     public myDBClass(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -69,6 +70,23 @@ public class myDBClass extends SQLiteOpenHelper{
                 " ResultGroup TEXT(1)"+
                 ");");
         Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_ARTSCORE_T2);
+        //Three Table - ScienceScore_t1
+        db.execSQL("CREATE TABLE " + TABLE_SCIENCESCORE_T1 +
+                "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                " MemberID Integer," +
+                " Q1 Integer,"+
+                " Q2 Integer,"+
+                " Q3 Integer,"+
+                " Q4 Integer,"+
+                " Q5 Integer,"+
+                " Q6 Integer,"+
+                " Q7 Integer,"+
+                " Q8 Integer,"+
+                " Q9 Integer,"+
+                " Q10 Integer,"+
+                " ResultType TEXT(100)"+
+                ");");
+        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_SCIENCESCORE_T1);
     }
 
     @Override

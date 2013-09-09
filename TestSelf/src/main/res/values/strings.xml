@@ -94,6 +94,37 @@
     <string name="qa17ans3">แพลนไว้มากมาย แต่โดยมากมักจะมีอะไรอย่างอื่นทำตลอด</string>
     <string name="qa17ans4">ไม่เห็นมีอะไรแตกต่าง ระหว่างวันธรรมดา กับวันหยุดเลยนี่</string>
 
+    <string name="qs1">วิชาสุดโปรดคือ...</string>
+    <string name="qs1ans1">ภาษาไทยสังคม</string>
+    <string name="qs1ans2">ภาษาอังกฤษ</string>
+    <string name="qs1ans3">คณิตศาสตร์</string>
+    <string name="qs1ans4">ฟิสิกส์</string>
+    <string name="qs1ans5">เคมี</string>
+    <string name="qs1ans6">ชีววิทยา</string>
+
+    <string name="qs2">วิชาที่น่าเบื่อ พาลให้เกลียดเอาง่ายๆ</string>
+
+    <string name="qs3">เวลามีนัดคุณมักจะ</string>
+    <string name="qs3ans1">ไปก่อนเวลาเสมอ</string>
+    <string name="qs3ans2">ส่วนใหญ่ก้ไปทันเวลา</string>
+    <string name="qs3ans3">ขึ้นอยู่กับความสำคัญของนัด</string>
+    <string name="qs3ans4">ขึ้นอยู่กับอากาศและอารมณ์ในวันนั้น</string>
+
+    <string name="qs4">คะแนนในวิชาคณิตศาสตร์มักจะ</string>
+
+    <string name="qs5">ถ้าจะซื้อปากกาสักด้าม สิ่งแรกที่นำมาพิจารณาคือ...</string>
+    <string name="qs5ans1">คุณภาพดี เขียนลื่น หมึกออกสม่ำเสมอ</string>
+    <string name="qs5ans2">ราคาไม่แพงคุ้มค่าที่จะซื้อ</string>
+    <string name="qs5ans3">ดีไซน์สวย ทันสมัย ถูกใจ</string>
+    <string name="qs5ans4">สีสันของปากกา</string>
+
+    <string name="qs6">ถ้าเกิดว่าพลาดท่า ทำอุปกรณ์หรือเครื่องมือเสียขึ้นมา...</string>
+    <string name="qs6ans1">ศึกษาวิธีแก้ไขจากคู่มือ และทำการแก้ไขเอง</string>
+    <string name="qs6ans2">ถามผู้รู้ และลงมือแก้ไขด้วยตัวเอง</string>
+    <string name="qs6ans3">ขอความช่วยเหลือจากผู้รู้ให้ช่วยแก้ไข</string>
+    <string name="qs6ans4">ช่างมัน! ซื้อใหม่ดีกว่า</string>
+
+
 
 
 
