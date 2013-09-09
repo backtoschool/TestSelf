@@ -152,24 +152,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -267,7 +249,7 @@
       <file leaf-file-name="Art2Test4Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.31911263" vertical-offset="0" max-vertical-offset="586">
+            <state line="13" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34812286" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
@@ -869,7 +851,11 @@
       <created>1378635591181</created>
       <updated>1378635591181</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add Test">
+      <created>1378714941726</created>
+      <updated>1378714941726</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -947,7 +933,8 @@
     <MESSAGE value="add xml string" />
     <MESSAGE value="addtest" />
     <MESSAGE value="Database Create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database Create" />
+    <MESSAGE value="Add Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1156,7 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.31911263" vertical-offset="0" max-vertical-offset="586">
+        <state line="13" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34812286" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>
