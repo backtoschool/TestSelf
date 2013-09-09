@@ -151,26 +151,9 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnnext.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test1_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test2_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test2_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test3_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test3_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test4_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test4_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test5_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test5_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml" />
+    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="set content layout">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnback_resmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnnext_resmall.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -244,7 +227,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="32" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.50364965" vertical-offset="1237" max-vertical-offset="1785">
+            <state line="89" column="38" selection-start="3411" selection-end="3411" vertical-scroll-proportion="0.52737224" vertical-offset="1224" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
@@ -876,7 +859,11 @@
       <created>1378715694797</created>
       <updated>1378715694797</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="set content layout">
+      <created>1378717654717</created>
+      <updated>1378717654717</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -962,23 +949,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test3_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="19" selection-start="3776" selection-end="3776" vertical-scroll-proportion="-20.56" vertical-offset="1237" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="true" />
-            <element signature="e#1857#1874#0" expanded="true" />
-            <element signature="e#2179#2196#0" expanded="true" />
-            <element signature="e#2502#2519#0" expanded="true" />
-            <element signature="e#2825#2842#0" expanded="true" />
-            <element signature="e#3293#3307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test4_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -1217,12 +1187,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnback_resmall.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test1_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="32" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.50364965" vertical-offset="1237" max-vertical-offset="1785">
+        <state line="89" column="38" selection-start="3411" selection-end="3411" vertical-scroll-proportion="0.52737224" vertical-offset="1224" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
