@@ -152,6 +152,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test10Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test11Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test5Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test7Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test8Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test9Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -218,44 +230,7 @@
     <favorites_list name="TestSelf" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Art2Test1Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Art2Test2Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Art2Test3Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Art2Test4Activity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34812286" vertical-offset="0" max-vertical-offset="586">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -287,14 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
@@ -303,6 +270,14 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test5Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test7Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test8Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test9Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test10Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test11Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java" />
       </list>
     </option>
   </component>
@@ -855,7 +830,11 @@
       <created>1378714941726</created>
       <updated>1378714941726</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add Test">
+      <created>1378715136598</created>
+      <updated>1378715136598</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -880,7 +859,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -901,7 +880,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6503268" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6503268" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3496732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -940,138 +919,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1377#0" expanded="false" />
-            <element signature="e#1858#1876#0" expanded="false" />
-            <element signature="e#2181#2199#0" expanded="false" />
-            <element signature="e#2505#2523#0" expanded="false" />
-            <element signature="e#2829#2847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1377#0" expanded="false" />
-            <element signature="e#1858#1876#0" expanded="false" />
-            <element signature="e#2181#2199#0" expanded="false" />
-            <element signature="e#2505#2523#0" expanded="false" />
-            <element signature="e#2829#2847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1377#0" expanded="false" />
-            <element signature="e#1858#1876#0" expanded="false" />
-            <element signature="e#2181#2199#0" expanded="false" />
-            <element signature="e#2505#2523#0" expanded="false" />
-            <element signature="e#2829#2847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <folding>
-            <element signature="e#1363#1377#0" expanded="false" />
-            <element signature="e#1858#1876#0" expanded="false" />
-            <element signature="e#2181#2199#0" expanded="false" />
-            <element signature="e#2505#2523#0" expanded="false" />
-            <element signature="e#2829#2847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -1120,30 +967,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test5Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="9" column="53" selection-start="243" selection-end="243" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test11Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test10Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test9Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test8Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test7Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test5Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="319" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34812286" vertical-offset="0" max-vertical-offset="586">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="335" selection-end="335" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>

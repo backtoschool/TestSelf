@@ -9,6 +9,6 @@ import android.os.Bundle;
 public class Art2Test1Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.art1test1_layout);
+        setContentView(R.layout.art2test1_layout);
     }
 }
