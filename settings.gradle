@@ -1,1 +1,1 @@
-include ':TestSelf'
+include ':libraries:facebook',':TestSelf'
