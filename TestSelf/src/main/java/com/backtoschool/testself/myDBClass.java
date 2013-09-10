@@ -90,13 +90,11 @@ public class myDBClass extends SQLiteOpenHelper{
                 ");");
         Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_SCIENCESCORE_T1);
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
-
-    // Insert Data
+    // Insert Data Member
     public long InsertDataMember(String strName, String strLastname, String strEmail, String strSex,String strAge) {
         // TODO Auto-generated method stub
         try {
