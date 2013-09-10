@@ -5,6 +5,15 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="IDCard">เลขบัตรประจำตัวประชาชน</string>
+    <string name="Name">ชื่อ</string>
+    <string name="LastName">นามสกุล</string>
+    <string name="Email">E-mail</string>
+    <string name="Sex">เพศ</string>
+    <string name="Age">อายุ</string>
+
+
+
     <string name="qa1">วิชาสุดโปรด คือ...</string>
     <string name="qa1ans1">ภาษาไทย</string>
     <string name="qa1ans2">ภาษาอังกฤษหรือภาษาต่างประเทศอื่นๆ</string>

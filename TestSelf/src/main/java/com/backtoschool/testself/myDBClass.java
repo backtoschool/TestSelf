@@ -26,7 +26,6 @@ public class myDBClass extends SQLiteOpenHelper{
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         // TODO Auto-generated constructor stub
     }
-
     @Override
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
@@ -92,6 +91,98 @@ public class myDBClass extends SQLiteOpenHelper{
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+    }
+    // Insert Data TABLE_ARTSCORE_T1
+    public long InsertData_artscore_t1(String strMemberID, String strQ1, String strQ2,String strQ3, String strQ4, String strQ5, String strResultType) {
+        // TODO Auto-generated method stub
+
+        try {
+            SQLiteDatabase db;
+            db = this.getWritableDatabase(); // Write Data
+
+            /**
+             *  for API 11 and above
+             SQLiteStatement insertCmd;
+             String strSQL = "INSERT INTO " + TABLE_MEMBER
+             + "(MemberID,Name,Tel) VALUES (?,?,?)";
+
+             insertCmd = db.compileStatement(strSQL);
+             insertCmd.bindString(1, strMemberID);
+             insertCmd.bindString(2, strName);
+             insertCmd.bindString(3, strTel);
+             return insertCmd.executeInsert();
+             */
+
+            ContentValues Val = new ContentValues();
+            Val.put("MemberID", strMemberID);
+            Val.put("Q1", strQ1);
+            Val.put("Q2", strQ2);
+            Val.put("Q3", strQ3);
+            Val.put("Q4", strQ4);
+            Val.put("Q5", strQ5);
+            Val.put("ResultType",strResultType);
+            long rows = db.insert(TABLE_ARTSCORE_T1, null, Val);
+
+            db.close();
+            return rows; // return rows inserted.
+
+        } catch (Exception e) {
+            return -1;
+        }
+
+    }
+    // Update Data TABLE_ARTSCORE_T1
+    public long UpdateData_artscore_t1(String _id,String strMemberID,String strQ1, String strQ2,String strQ3, String strQ4, String strQ5, String strResultType) {
+        // TODO Auto-generated method stub
+
+        try {
+
+            SQLiteDatabase db;
+            db = this.getWritableDatabase(); // Write Data
+            /**
+             *  for API 11 and above
+             SQLiteStatement insertCmd;
+             String strSQL = "UPDATE " + TABLE_MEMBER
+             + " SET Name = ? "
+             + " , Tel = ? "
+             + " WHERE MemberID = ? ";
+
+             insertCmd = db.compileStatement(strSQL);
+             insertCmd.bindString(1, strName);
+             insertCmd.bindString(2, strTel);
+             insertCmd.bindString(3, strMemberID);
+
+             return insertCmd.executeUpdateDelete();
+             *
+             */
+            ContentValues Val = new ContentValues();
+            if(strMemberID != ""){
+                Val.put("MemberID", strMemberID);
+            }
+            if(strQ1 != ""){
+                Val.put("Q1", strQ1);
+            }
+            if(strQ2 != ""){
+                Val.put("Q2", strQ2);
+            }
+            if(strQ3 != ""){
+                Val.put("Q3", strQ3);
+            }
+            if(strQ4 != ""){
+                Val.put("Q4", strQ4);
+            }
+            if(strQ5 != ""){
+                Val.put("Q5", strQ5);
+            }
+            long rows = db.update(TABLE_ARTSCORE_T1, Val, " _id = ?",
+                    new String[] { String.valueOf(_id) });
+            db.close();
+            return rows; // return rows updated.
+
+        } catch (Exception e) {
+            return -1;
+        }
 
     }
     // Insert Data Member

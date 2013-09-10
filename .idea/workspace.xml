@@ -153,6 +153,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -174,6 +176,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -210,7 +213,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -220,17 +222,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myDBClass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="myDBClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="307" selection-end="356" vertical-scroll-proportion="0.15870307" vertical-offset="26" max-vertical-offset="612">
-              <folding>
-                <element signature="method#myDBClass#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#onCreate#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#onUpgrade#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#InsertDataMember#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-              </folding>
+            <state line="210" column="24" selection-start="7562" selection-end="7565" vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="4624">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personal_layout.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="56" column="12" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -267,8 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test3_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test4_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test5_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml" />
@@ -283,14 +298,14 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -319,9 +334,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -500,11 +512,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="316" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -519,11 +535,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="mmm" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -873,7 +889,11 @@
       <created>1378747136411</created>
       <updated>1378747136411</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="dbClass">
+      <created>1378784777709</created>
+      <updated>1378784777709</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -897,12 +917,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814816" sideWeight="0.6503268" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -917,13 +938,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6503268" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2525926" sideWeight="0.6503268" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3496732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869694" sideWeight="0.6503268" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -960,75 +980,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test5_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="-20.56" vertical-offset="1254" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-            <element signature="e#3294#3308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test1_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="-20.56" vertical-offset="1254" max-vertical-offset="1904">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-            <element signature="e#3294#3308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test2_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="-20.56" vertical-offset="1254" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-            <element signature="e#3294#3308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="25" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.7208029" vertical-offset="1339" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1377#0" expanded="false" />
-            <element signature="e#1858#1876#0" expanded="false" />
-            <element signature="e#2181#2199#0" expanded="false" />
-            <element signature="e#2505#2523#0" expanded="false" />
-            <element signature="e#2829#2847#0" expanded="false" />
-            <element signature="e#3298#3312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.7518248" vertical-offset="1339" max-vertical-offset="1887">
           <folding>
@@ -1041,11 +996,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
           <folding>
@@ -1057,12 +1012,12 @@
             <element signature="e#3298#3312#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
           <folding>
@@ -1074,12 +1029,12 @@
             <element signature="e#3298#3312#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
           <folding>
@@ -1092,11 +1047,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="104" column="19" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.9379562" vertical-offset="1254" max-vertical-offset="1887">
           <folding>
@@ -1109,11 +1064,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="39" selection-start="3700" selection-end="3701" vertical-scroll-proportion="0.689781" vertical-offset="1339" max-vertical-offset="1887">
           <folding>
@@ -1126,11 +1081,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test5_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
           <folding>
@@ -1143,11 +1098,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="19" selection-start="3776" selection-end="3776" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
           <folding>
@@ -1160,11 +1115,11 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="0.9379562" vertical-offset="1254" max-vertical-offset="1887">
           <folding>
@@ -1177,9 +1132,6 @@
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnback_resmall.png">
       <provider selected="true" editor-type-id="images">
@@ -1187,25 +1139,56 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test1_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="0" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.13138686" vertical-offset="1237" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="25" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.74452555" vertical-offset="1326" max-vertical-offset="1887">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="307" selection-end="356" vertical-scroll-proportion="0.15870307" vertical-offset="26" max-vertical-offset="612">
-          <folding>
-            <element signature="method#myDBClass#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#onCreate#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#onUpgrade#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#InsertDataMember#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-          </folding>
+        <state line="210" column="24" selection-start="7562" selection-end="7565" vertical-scroll-proportion="0.0" vertical-offset="1398" max-vertical-offset="2261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="56" column="12" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1462">
+          <folding />
         </state>
       </provider>
     </entry>
