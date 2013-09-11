@@ -13,7 +13,7 @@
     <string name="Sex">เพศ</string>
     <string name="Age">อายุ</string>
 
-
+    <!--  artistry sector quiz  -->
 
     <string name="qa1">วิชาสุดโปรด คือ...</string>
     <string name="qa1ans1">ภาษาไทย</string>
@@ -22,12 +22,17 @@
     <string name="qa1ans4">คณิตศาตร์</string>
 
     <string name="qa2">ออกไปไกลๆ เลยนะวีชานี้...</string>
+    <string name="qa2ans1">ภาษาไทย</string>
+    <string name="qa2ans2">ภาษาอังกฤษ</string>
+    <string name="qa2ans3">สังคม</string>
+    <string name="qa2ans4">คณิตศาตร์</string>
 
     <string name="qa3">คะแนนวิชาคณิตศาสตร์ของเรามักจะ...</string>
     <string name="qa3ans1">ดีมาก (A)</string>
     <string name="qa3ans2">ดี (B)</string>
     <string name="qa3ans3">ปานกลาง (C)</string>
     <string name="qa3ans4">แย่ (D หรือ F)</string>
+
     <string name="qa4">ภาษาอังกฤษของเราได้คะแนน...</string>
 
     <string name="qa5">เป็นคนที่สนใจภาษาในระดับ...</string>
@@ -94,15 +99,22 @@
     <string name="qa15ans1">ดี</string>
     <string name="qa15ans2">ค่อนข้างดี</string>
     <string name="qa15ans3">ปานกลาง</string>
-    <string name="qa15ans4">ไม่แน่ใจ</string>
+    <string name="qa15ans4">ไม่ถนัดเรื่องจำ</string>
 
     <string name="qa16">ความสามารถในการทำงานที่เกี่ยวข้องกับตัวเลขของเรา...</string>
+    <string name="qa16ans1">ดี</string>
+    <string name="qa16ans2">ค่อนข้างดี</string>
+    <string name="qa16ans3">ปานกลาง</string>
+    <string name="qa16ans4">ไม่แน่ใจ</string>
+
 
     <string name="qa17">เมื่อเปรียบเทียบกับวันธรรมดาแล้ว วันหยุดของเราจะเป็นแบบ...</string>
     <string name="qa17ans1">วางแพลนไว้เยอะแยะไปหมด ไม่งั้นก้น่าเบื่อแย่</string>
     <string name="qa17ans2">ดูเรื่อยๆ ว่ามีอะไรที่ยังทำค้างอยู่ หรือยังไม่ได้ทำบ้างแล้วก็จัดการทำให้เสร็จไปเสีย</string>
     <string name="qa17ans3">แพลนไว้มากมาย แต่โดยมากมักจะมีอะไรอย่างอื่นทำตลอด</string>
     <string name="qa17ans4">ไม่เห็นมีอะไรแตกต่าง ระหว่างวันธรรมดา กับวันหยุดเลยนี่</string>
+
+   <!--  science sector quiz  -->
 
     <string name="qs1">วิชาสุดโปรดคือ...</string>
     <string name="qs1ans1">ภาษาไทยสังคม</string>
@@ -122,6 +134,7 @@
 
     <string name="qs4">คะแนนในวิชาคณิตศาสตร์มักจะ</string>
 
+
     <string name="qs5">ถ้าจะซื้อปากกาสักด้าม สิ่งแรกที่นำมาพิจารณาคือ...</string>
     <string name="qs5ans1">คุณภาพดี เขียนลื่น หมึกออกสม่ำเสมอ</string>
     <string name="qs5ans2">ราคาไม่แพงคุ้มค่าที่จะซื้อ</string>
@@ -135,7 +148,86 @@
     <string name="qs6ans4">ช่างมัน! ซื้อใหม่ดีกว่า</string>
 
 
+    <string name="qs7">อนาคตของเด็กไทยจะดีแค่ไหนขึ้นอยู่กับ...</string>
+    <string name="qs7ans1">การได้รับการศึกษาและใส่ใจในการเรียนรู้</string>
+    <string name="qs7ans2">การรับประทานอาหารที่ครบหมวดหมู่</string>
+    <string name="qs7ans3">การออกกำลังกายเพื่อสุขภาพที่แข็งแรง</string>
+    <string name="qs7ans4">การได้รับความรักและความอบอุ่นจากครอบครัว</string>
 
+
+    <string name="qs8">ข้อใดที่ให้ความสนใจมากที่สุด</string>
+    <string name="qs8ans1">วิทยากรใหม่ๆ</string>
+    <string name="qs8ans2">เรื่องเศรษฐกิจและการเมือง</string>
+    <string name="qs8ans3">สังคมและการเมือง</string>
+    <string name="qs8ans4">งานศิลปะและงานออกแบบ</string>
+
+    <string name="qs9">รูปทรงแบบไหนที่ชอบที่สุด</string>
+    <string name="qs9ans1">สี่เหลี่ยมจัตุรัส</string>
+    <string name="qs9ans2">สามเหลี่ยมด้านเท่า</string>
+    <string name="qs9ans3">วงกลม</string>
+    <string name="qs9ans4">ครึ่งวงกลม</string>
+
+
+    <string name="qs10">ข้อใดใกล้เคียงกับความสามารถในตัวเรามากที่สุด</string>
+    <string name="qs10ans1">มีความสามารถด้านกีฬาอย่างโดดเด่น</string>
+    <string name="qs10ans2">มีความสามารถด้านดังคมและความเป็นผู้นำ</string>
+    <string name="qs10ans3">มีความสามารถด้านการออกแบบหรือวาดภาพ</string>
+    <string name="qs10ans4">มีความารถด้านดนตรี เช่น ร้องเพลงหรือเล่นดนตรี</string>
+
+
+    <string name="qs11">ลักษณะนิสัยใดที่ใช่ตัวเรา</string>
+    <string name="qs11ans1">ชอบค้นคว้า</string>
+    <string name="qs11ans2">ชอบลงมือทำสิ่งใหม่ๆ</string>
+    <string name="qs11ans3">ชอบพูดชอบการสื่อสาร และสามารถบรรยายถึงสิ่งต่างๆได้</string>
+    <string name="qs11ans4">เบื่อง่าย ชอบอะไรที่ท้าทาย</string>
+
+
+    <string name="qs12">งานแบบไหนที่ทำแล้วมีความสุข</string>
+    <string name="qs12ans1">งานในห้องทดลองงานวิจัย</string>
+    <string name="qs12ans2">งานในสำนักงานหรือโรงพยาบาล</string>
+    <string name="qs12ans3">งานติดต่อพบปะกับผู้คน</string>
+    <string name="qs12ans4">เบื่อง่าย ชอบอะไรที่ท้าทาย</string>
+
+
+    <string name="qs13">เรื่องใดต่อไปนี้ ที่อยู่ในความสนใจมากเป็นอันดับหนึ่ง</string>
+    <string name="qs13ans1">วิทยาศาตร์</string>
+    <string name="qs13ans2">เทคโนโลยี</string>
+    <string name="qs13ans3">สังคมและการศึกษา</string>
+    <string name="qs13ans4">ธรรมชาติและสภาพแวดล้อม</string>
+
+
+    <string name="qs14">พิจารณาดูตัวเองแล้ว เราเป็นคนที่ถนัดทางไหน</string>
+    <string name="qs14ans1">อ่าน</string>
+    <string name="qs14ans2">คิด</string>
+    <string name="qs14ans3">เขียน</string>
+    <string name="qs14ans4">พูด</string>
+
+    <string name="qs15">ความสามารถในการทำงานกับสิ่งเล็กๆ ชิ้นงานเล็กๆ</string>
+    <string name="qs15ans1">ดี</string>
+    <string name="qs15ans2">ค่อนข้างดี</string>
+    <string name="qs15ans3">ปานกลาง</string>
+    <string name="qs15ans4">ไม่ชอบเลย</string>
+
+
+    <string name="qs16">นิยายใดที่น่าจะเป็นตัวเรา</string>
+    <string name="qs16ans1">เสมอต้นเสมอปลาย</string>
+    <string name="qs16ans2">ทนทายาท</string>
+    <string name="qs16ans3">น้ำใสใจจริง</string>
+    <string name="qs16ans4">ถึงไหนถึงกัน</string>
+
+
+    <string name="qs17">ความสามารถในการจำ ดีแค่ไหน</string>
+    <string name="qs17ans1">ดี</string>
+    <string name="qs17ans2">ค่อนข้างดี</string>
+    <string name="qs17ans3">ปานกลาง</string>
+    <string name="qs17ans4">ไม่เท่าไร</string>
+
+
+    <string name="qs18">ความสามารถใด ที่เราคิดว่า เราถนัดมากกว่ากัน</string>
+    <string name="qs18ans1">ความสามารถเชิงคำนวณ</string>
+    <string name="qs18ans2">ความสามารถในการใช้เหตุผล</string>
+    <string name="qs18ans3">ความสามารถในการติดต่อสื่อสาร</string>
+    <string name="qs18ans4">ความสามารถในการใช้จินตนาการ</string>
 
 
 </resources>
