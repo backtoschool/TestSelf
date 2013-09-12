@@ -152,9 +152,182 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_blue_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_blue_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-mdpi/com_facebook_button_blue_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_blue_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_blue_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_blue_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-mdpi/com_facebook_button_blue_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_blue_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_blue_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_blue_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-mdpi/com_facebook_button_blue_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_blue_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_check_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_check_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_grey_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_grey_normal.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-ldpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_inverse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_inverse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-mdpi/com_facebook_inverse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_inverse_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_list_divider.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_list_section_header_background.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_focused.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_longpressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_pressed.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_selector_disabled.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-hdpi/com_facebook_picker_magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-mdpi/com_facebook_picker_magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable-xhdpi/com_facebook_picker_magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_place_default_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_profile_default_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_profile_picture_blank_portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_profile_picture_blank_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AccessToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AccessTokenSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/AnalyticsEvents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AppEventsConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AppEventsLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AppLinkData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/AsyncFacebookRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AuthorizationClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/CacheableRequestBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/CreateGraphObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/DialogError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Facebook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookAuthorizationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FacebookDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookDialogException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/FacebookError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FacebookFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookGraphObjectException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookOperationCanceledException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookRequestError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookSdkVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookServiceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/FbDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/FileLruCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FriendPickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/GetTokenClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphMultiResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectCursor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphObjectList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectPagingLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphPlace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/HttpMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ImageDownloader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ImageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ImageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ImageResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/InsightsLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/JsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/LegacyHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/LoggingBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/LoginActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/LoginButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/NativeAppCallAttachmentStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/NativeAppCallContentProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/NativeProtocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/NonCachingTokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/OpenGraphAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/OpenGraphObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PlacePickerFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/PlatformServiceClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ProfilePictureView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/PropertyName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/RequestAsyncTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/RequestBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ServerProtocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Session.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/SessionAuthorizationType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SessionDefaultAudience.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SessionLoginBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SessionState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/SessionTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Settings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SharedPreferencesTokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/SimpleGraphObjectCursor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TestSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TokenCachingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/UiLifecycleHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/UrlRedirectCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/UserSettingsFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Utility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Validate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/WebDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/WorkQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_blue.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_button_check.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_login_activity_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_checkbox.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_item_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_list_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_search_box.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_title_bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_picker_top_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_placepickerfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_search_bar_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_top_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_top_button.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-hdpi/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-ldpi/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-mdpi/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-xhdpi/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values/drawables.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-es/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-he/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values-iw/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/facebook/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -222,21 +395,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myDBClass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="myDBClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="32" selection-start="6946" selection-end="6946" vertical-scroll-proportion="0.2670157" vertical-offset="3077" max-vertical-offset="3842">
-              <folding>
-                <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-              </folding>
+            <state line="21" column="39" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="4624">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonalActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PersonalActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+            <state line="14" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
               <folding />
             </state>
           </provider>
@@ -325,7 +496,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,80 +520,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSelf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSelf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSelf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestSelf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="facebook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -817,7 +920,11 @@
       <created>1378806824714</created>
       <updated>1378806824714</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add facebook sdk">
+      <created>1378832588706</created>
+      <updated>1378832588706</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -866,8 +973,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796487" sideWeight="0.6503268" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -905,38 +1012,12 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test4_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="19" selection-start="3776" selection-end="3776" vertical-scroll-proportion="0.9379562" vertical-offset="1237" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-            <element signature="e#3293#3307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test3_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="0.9379562" vertical-offset="1254" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1363#1376#0" expanded="false" />
-            <element signature="e#1857#1874#0" expanded="false" />
-            <element signature="e#2179#2196#0" expanded="false" />
-            <element signature="e#2502#2519#0" expanded="false" />
-            <element signature="e#2825#2842#0" expanded="false" />
-            <element signature="e#3294#3308#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="104" column="19" selection-start="3777" selection-end="3777" vertical-scroll-proportion="0.9379562" vertical-offset="1254" max-vertical-offset="1887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/drawable/icnback_resmall.png">
@@ -949,9 +1030,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.13138686" vertical-offset="1237" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.13138686" vertical-offset="1237" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
@@ -959,9 +1038,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
@@ -969,9 +1046,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="25" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.74452555" vertical-offset="1326" max-vertical-offset="1887">
-          <folding />
-        </state>
+        <state line="102" column="25" selection-start="3739" selection-end="3739" vertical-scroll-proportion="0.74452555" vertical-offset="1326" max-vertical-offset="1887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
@@ -983,28 +1058,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="4" column="1" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/facebook/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="1" selection-start="631" selection-end="631" vertical-scroll-proportion="0.9283276" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ProfilePictureView.java">
@@ -1017,33 +1081,41 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.53467155" vertical-offset="302" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="35" column="38" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.53467155" vertical-offset="302" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="782" selection-end="782" vertical-scroll-proportion="0.5648464" vertical-offset="9" max-vertical-offset="850">
           <folding>
-            <element signature="e#1645#1661#0" expanded="true" />
+            <element signature="e#1645#1661#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="2499">
-          <folding />
-        </state>
+        <state line="13" column="36" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="2499" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="32" selection-start="6946" selection-end="6946" vertical-scroll-proportion="0.2670157" vertical-offset="3077" max-vertical-offset="3842">
-          <folding>
-            <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-          </folding>
+        <state line="21" column="39" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="3842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/facebook/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.3771331" vertical-offset="0" max-vertical-offset="586">
+          <folding />
         </state>
       </provider>
     </entry>
