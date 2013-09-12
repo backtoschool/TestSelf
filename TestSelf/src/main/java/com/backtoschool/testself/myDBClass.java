@@ -37,7 +37,8 @@ public class myDBClass extends SQLiteOpenHelper{
                 " LastName TEXT(100),"+
                 " Email TEXT(100),"+
                 " Sex TEXT(100),"+
-                " AgE TEXT(100)"+
+                " AgE TEXT(100),"+
+                " Result TEXT(1000)"+
                 ");");
         Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_MEMBER);
         //Second Table - ArtScore1
@@ -586,7 +587,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
 
     // Insert Data Member
-    public long InsertDataMember(String strName, String strLastname, String strEmail, String strSex,String strAge) {
+    public long Insert_Data_Member(String strName, String strLastname, String strEmail, String strSex,String strAge,String strResult) {
         // TODO Auto-generated method stub
         try {
             SQLiteDatabase db;
@@ -609,6 +610,7 @@ public class myDBClass extends SQLiteOpenHelper{
             Val.put("Email", strEmail);
             Val.put("Sex", strSex);
             Val.put("Age", strAge);
+            Val.put("Result", strResult);
 
             long rows = db.insert(TABLE_MEMBER, null, Val);
 
@@ -620,6 +622,62 @@ public class myDBClass extends SQLiteOpenHelper{
         }
 
     }
+
+    // Update Data TABLE_SCIENCESCORE_T2
+    public long Update_Data_Member(String strMemberID,String strName, String strLastname, String strEmail, String strSex,String strAge,String strResult) {
+        // TODO Auto-generated method stub
+
+        try {
+
+            SQLiteDatabase db;
+            db = this.getWritableDatabase(); // Write Data
+            /**
+             *  for API 11 and above
+             SQLiteStatement insertCmd;
+             String strSQL = "UPDATE " + TABLE_MEMBER
+             + " SET Name = ? "
+             + " , Tel = ? "
+             + " WHERE MemberID = ? ";
+
+             insertCmd = db.compileStatement(strSQL);
+             insertCmd.bindString(1, strName);
+             insertCmd.bindString(2, strTel);
+             insertCmd.bindString(3, strMemberID);
+
+             return insertCmd.executeUpdateDelete();
+             *
+             */
+            ContentValues Val = new ContentValues();
+            if(strName != ""){
+                Val.put("Name", strName);
+            }
+            if(strLastname != ""){
+                Val.put("Lastname", strLastname);
+            }
+            if(strEmail != ""){
+                Val.put("Email", strEmail);
+            }
+            if(strSex != ""){
+                Val.put("Sex", strSex);
+            }
+            if(strAge != ""){
+                Val.put("Age", strAge);
+            }
+            if(strResult != ""){
+                Val.put("Result", strResult);
+            }
+
+            long rows = db.update(TABLE_MEMBER, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
+            db.close();
+            return rows; // return rows updated.
+
+        } catch (Exception e) {
+            return -1;
+        }
+    }
+
+
     // Select Data Member
     public String[] SelectDataMember(String strMemberID) {
         // TODO Auto-generated method stub
@@ -645,13 +703,15 @@ public class myDBClass extends SQLiteOpenHelper{
                      *  3 = Email
                      *  4 = Sex
                      *  5 = Age
+                     *  6 = Result
                      */
                     arrData[0] = cursor.getString(0);
                     arrData[1] = cursor.getString(1);
                     arrData[2] = cursor.getString(2);
-                    arrData[3] = cursor.getString(2);
-                    arrData[4] = cursor.getString(2);
-                    arrData[5] = cursor.getString(2);
+                    arrData[3] = cursor.getString(3);
+                    arrData[4] = cursor.getString(4);
+                    arrData[5] = cursor.getString(5);
+                    arrData[6] = cursor.getString(6);
                 }
             }
             cursor.close();
