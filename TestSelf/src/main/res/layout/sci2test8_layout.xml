@@ -38,7 +38,7 @@
             android:textColor="@color/bgwhite"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:text="@string/qs2" />
+            android:text="@string/qs18" />
         <RadioGroup android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp">
@@ -48,7 +48,7 @@
                 android:id="@+id/radioButton"
                 android:textColor="@color/bgwhite"
                 android:layout_margin="5dp"
-                android:text="@string/qs1ans1" />
+                android:text="@string/qs18ans1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
                 android:id="@+id/radioButton2"
                 android:textColor="@color/bgwhite"
                 android:layout_margin="5dp"
-                android:text="@string/qs1ans2" />
+                android:text="@string/qs18ans2" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
                 android:id="@+id/radioButton3"
                 android:textColor="@color/bgwhite"
                 android:layout_margin="5dp"
-                android:text="@string/qs1ans3" />
+                android:text="@string/qs18ans3" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -72,23 +72,7 @@
                 android:id="@+id/radioButton4"
                 android:textColor="@color/bgwhite"
                 android:layout_margin="5dp"
-                android:text="@string/qs1ans4" />
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton4"
-                android:textColor="@color/bgwhite"
-                android:layout_margin="5dp"
-                android:text="@string/qs1ans5" />
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton4"
-                android:textColor="@color/bgwhite"
-                android:layout_margin="5dp"
-                android:text="@string/qs1ans6" />
+                android:text="@string/qs18ans4" />
 
 
         </RadioGroup>

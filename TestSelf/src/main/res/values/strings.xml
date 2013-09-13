@@ -41,6 +41,8 @@
     <string name="qa5ans3">น้อย</string>
     <string name="qa5ans4">น้อยมาก</string>
 
+    <!-- end of sci sub test 1 and start of sci sub test 2 -->
+
     <string name="qa6">ข้อไหนที่อธิบายความเป็นตัวเราได้ดีที่สุด</string>
     <string name="qa6ans1">เสาะแสวงหาความรู้ตามที่ต่างๆ</string>
     <string name="qa6ans2">สนใจปัญหาสังคม ชอบอ่านข่าวการเมือง</string>
@@ -113,6 +115,8 @@
     <string name="qa17ans2">ดูเรื่อยๆ ว่ามีอะไรที่ยังทำค้างอยู่ หรือยังไม่ได้ทำบ้างแล้วก็จัดการทำให้เสร็จไปเสีย</string>
     <string name="qa17ans3">แพลนไว้มากมาย แต่โดยมากมักจะมีอะไรอย่างอื่นทำตลอด</string>
     <string name="qa17ans4">ไม่เห็นมีอะไรแตกต่าง ระหว่างวันธรรมดา กับวันหยุดเลยนี่</string>
+
+
 
    <!--  science sector quiz  -->
 

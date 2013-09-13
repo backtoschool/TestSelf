@@ -38,6 +38,23 @@
         <activity android:name="com.facebook.LoginActivity"></activity>
         <activity android:name=".Sci1Test1Activity"
             android:theme="@style/splashScreenTheme" />
+        <activity android:name=".Sci1Test2Activity" />
+        <activity android:name=".Sci1Test3Activity" />
+        <activity android:name=".Sci1Test4Activity" />
+        <activity android:name=".Sci1Test5Activity" />
+        <activity android:name=".Sci1Test6Activity" />
+        <activity android:name=".Sci1Test7Activity" />
+        <activity android:name=".Sci1Test8Activity" />
+        <activity android:name=".Sci1Test9Activity" />
+        <activity android:name=".Sci1Test10Activity" />
+        <activity android:name=".Sci2Test1Activity" />
+        <activity android:name=".Sci2Test5Activity" />
+        <activity android:name=".Sci2Test6Activity" />
+        <activity android:name=".Sci2Test7Activity" />
+        <activity android:name=".Sci2Test8Activity" />
+        <activity android:name=".Sci2Test2Activity" />
+        <activity android:name=".Sci2Test3Activity" />
+        <activity android:name=".Sci2Test4Activity" />
 
         <meta-data android:value="@string/app_id"
             android:name="com.facebook.sdk.ApplicationId"/>
