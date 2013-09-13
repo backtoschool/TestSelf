@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="wrap_content"
+    android:orientation="vertical" android:layout_width="fill_parent"
     android:layout_height="match_parent">
     <ImageView
         android:layout_width="wrap_content"
@@ -34,54 +34,66 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/qa3"
             android:id="@+id/textView"
             android:textColor="@color/bgwhite"
             android:layout_gravity="center"
-            android:layout_margin="20dp" />
+            android:layout_margin="20dp"
+            android:text="@string/qs1" />
         <RadioGroup android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/qa3ans1"
                 android:id="@+id/radioButton"
                 android:textColor="@color/bgwhite"
-                android:layout_margin="5dp" />
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/qa3ans2"
                 android:id="@+id/radioButton2"
                 android:textColor="@color/bgwhite"
-                android:layout_margin="5dp" />
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans2" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/qa3ans3"
                 android:id="@+id/radioButton3"
                 android:textColor="@color/bgwhite"
-                android:layout_margin="5dp" />
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans3" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/qa3ans4"
                 android:id="@+id/radioButton4"
                 android:textColor="@color/bgwhite"
-                android:layout_margin="5dp" />
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans4" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:textColor="@color/bgwhite"
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans5" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton4"
+                android:textColor="@color/bgwhite"
+                android:layout_margin="5dp"
+                android:text="@string/qs1ans6" />
 
 
-
-
-            </RadioGroup>
-
-
+        </RadioGroup>
     </LinearLayout>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
