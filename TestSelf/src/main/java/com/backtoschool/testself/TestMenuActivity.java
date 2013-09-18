@@ -40,7 +40,7 @@ public class TestMenuActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgtest1:
-                objIntent = new Intent(TestMenuActivity.this,ScienceTestActivity.class);
+                objIntent = new Intent(TestMenuActivity.this,Sci1Test1Activity.class);
                 startActivity(objIntent);
                 break;
             case R.id.imgtest2:
