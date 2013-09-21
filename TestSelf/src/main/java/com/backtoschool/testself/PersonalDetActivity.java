@@ -23,7 +23,7 @@ public class PersonalDetActivity extends Activity {
     private void ShowData() {
 
         // txtMemberID, txtName, txtTel
-        final TextView tName = (TextView) findViewById(R.id.txtName);
+        final TextView tName = (TextView) findViewById(R.id.txtData);
         final ImageView imgMe = (ImageView) findViewById(R.id.imgMe);
         // new Class DB
         final myDBClass myDb = new myDBClass(this);

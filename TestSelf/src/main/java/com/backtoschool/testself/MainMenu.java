@@ -56,7 +56,8 @@ public class MainMenu extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgPersonal:
-                objIntent = new Intent(MainMenu.this,PersonalActivity.class);
+                //objIntent = new Intent(MainMenu.this,PersonalActivity.class);
+                objIntent = new Intent(MainMenu.this,PersonalDetActivity.class);
                 startActivity(objIntent);
                 break;
             case R.id.imgStarttest:
