@@ -87,7 +87,7 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q8 Integer,"+
                 " Q9 Integer,"+
                 " Q10 Integer,"+
-                " ResultType TEXT(100),"+
+                " ResultType TEXT(100)"+
                 ");");
         Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_SCIENCESCORE_T1);
         //Four Table - ScienceScore_t2
