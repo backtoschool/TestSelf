@@ -163,9 +163,8 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="commit sci1test1 ex3">
+    <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -245,7 +244,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="27" selection-start="10787" selection-end="10787" vertical-scroll-proportion="0.5489796" vertical-offset="3811" max-vertical-offset="4301">
+            <state line="242" column="0" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.6183674" vertical-offset="3811" max-vertical-offset="4301">
               <folding />
             </state>
           </provider>
@@ -1068,7 +1067,11 @@
       <created>1379782950840</created>
       <updated>1379782950840</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="commit sci1test1 ex3">
+      <created>1379783087068</created>
+      <updated>1379783087068</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1297,7 +1300,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="27" selection-start="10787" selection-end="10787" vertical-scroll-proportion="0.5489796" vertical-offset="3811" max-vertical-offset="4301">
+        <state line="242" column="0" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.6183674" vertical-offset="3811" max-vertical-offset="4301">
           <folding />
         </state>
       </provider>
