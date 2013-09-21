@@ -587,7 +587,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
 
     // Insert Data Member
-    public long Insert_Data_Member(String strName, String strLastname, String strEmail, String strSex,String strAge,String strResult) {
+    public long Insert_Data_Member(String strName, String strLastname, String strEmail,
+                                   String strSex,String strAge,String strResult) {
         // TODO Auto-generated method stub
         try {
             SQLiteDatabase db;
@@ -624,7 +625,8 @@ public class myDBClass extends SQLiteOpenHelper{
     }
 
     // Update Data TABLE_SCIENCESCORE_T2
-    public long Update_Data_Member(String strMemberID,String strName, String strLastname, String strEmail, String strSex,String strAge,String strResult) {
+    public long Update_Data_Member(String strMemberID,String strName, String strLastname,
+                                   String strEmail, String strSex,String strAge,String strResult) {
         // TODO Auto-generated method stub
 
         try {
