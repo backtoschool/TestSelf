@@ -108,6 +108,8 @@ public class Sci1Test1Activity extends Activity {
         objMyDBClass = new myDBClass(this);
         long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
+
+
     }
 
 

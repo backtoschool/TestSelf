@@ -136,6 +136,18 @@
           <theme>@style/splashScreenTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/splashScreenTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/splashScreenTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sciencetest_layout.xml">
         <config>
           <device>Nexus 4</device>
@@ -152,11 +164,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -178,6 +188,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -214,7 +225,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -227,44 +237,66 @@
       <file leaf-file-name="myDBClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="31" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-1.0285715" vertical-offset="1671" max-vertical-offset="3451">
-              <folding>
-                <element signature="method#Insert_Data_artscore_t1#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Update_Data_artscore_t1#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Insert_Data_artscore_t2#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Update_Data_artscore_t2#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Insert_Data_sciencescore_t1#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Update_Data_sciencescore_t1#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Insert_Data_sciencescore_t2#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Update_Data_sciencescore_t2#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#Update_Data_Member#0;class#myDBClass#0" expanded="false" />
-                <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="154" column="0" selection-start="5506" selection-end="5506" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="2720">
+            <state line="388" column="23" selection-start="13984" selection-end="13988" vertical-scroll-proportion="-1.4918368" vertical-offset="7242" max-vertical-offset="12444">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonalActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java">
+      <file leaf-file-name="sci1test1_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="2210">
+            <state line="47" column="43" selection-start="1787" selection-end="1797" vertical-scroll-proportion="-3.4" vertical-offset="714" max-vertical-offset="2108">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#734#1117#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1460#1473#0" expanded="true" />
+                <element signature="e#1923#1940#0" expanded="true" />
+                <element signature="e#2244#2261#0" expanded="true" />
+                <element signature="e#2565#2582#0" expanded="true" />
+                <element signature="e#2886#2903#0" expanded="true" />
+                <element signature="e#3207#3224#0" expanded="true" />
+                <element signature="e#3528#3545#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sci1test2_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="87" column="43" selection-start="3402" selection-end="3402" vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="2108">
+              <folding>
+                <element signature="e#1460#1473#0" expanded="true" />
+                <element signature="e#1923#1940#0" expanded="true" />
+                <element signature="e#2244#2261#0" expanded="true" />
+                <element signature="e#2565#2582#0" expanded="true" />
+                <element signature="e#2886#2903#0" expanded="true" />
+                <element signature="e#3207#3224#0" expanded="true" />
+                <element signature="e#3528#3545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sci1Test1Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="75" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1359" max-vertical-offset="2006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sci1Test2Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="82" selection-start="2622" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1989">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -277,6 +309,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="top" />
+      </list>
+    </option>
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -301,30 +338,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test6_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test7_layout.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test9_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
         <option value="$PROJECT_DIR$/libraries/facebook/build.gradle" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -470,8 +507,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Avd18" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="EmuAtom" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
@@ -507,7 +545,7 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/TestMenuActivity.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Created" />
@@ -1010,13 +1048,13 @@
       <created>1379747085098</created>
       <updated>1379747085098</updated>
     </task>
-    <task id="LOCAL-00053" summary="lllll">
-      <created>1379748162528</created>
-      <updated>1379748162529</updated>
+    <task id="LOCAL-00053" summary="commit sci1test1">
+      <created>1379779405101</created>
+      <updated>1379779405101</updated>
     </task>
-    <task id="LOCAL-00054" summary="lllll">
-      <created>1379755551877</created>
-      <updated>1379755551877</updated>
+    <task id="LOCAL-00054" summary="commit sci1test1 ex2">
+      <created>1379780134780</created>
+      <updated>1379780134780</updated>
     </task>
     <option name="localTasksCounter" value="55" />
     <servers />
@@ -1042,30 +1080,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796487" sideWeight="0.67156863" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327454" sideWeight="0.6733129" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3082822" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20858896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3496732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26150307" sideWeight="0.79141104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34815952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1102,15 +1140,20 @@
     <MESSAGE value="add facebook sdk" />
     <MESSAGE value="db Class method  Insert &amp; Update (all table)&#10; -Member&#10; -artscore_t1&#10; -artscore_t2&#10; -sciencescore_t1&#10; -sciencescore_t2" />
     <MESSAGE value="lllll" />
-    <option name="LAST_COMMIT_MESSAGE" value="lllll" />
+    <MESSAGE value="commit sci1test1" />
+    <MESSAGE value="commit sci1test1 ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit sci1test1 ex2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
@@ -1131,91 +1174,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/facebook/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.79480517" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="22" selection-start="10979" selection-end="10979" vertical-scroll-proportion="0.0" vertical-offset="3762" max-vertical-offset="4369">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art1test1_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test1Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="337" selection-end="337" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.3327645" vertical-offset="247" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="11" selection-start="3112" selection-end="3112" vertical-scroll-proportion="0.79692835" vertical-offset="723" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.1450512" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci2Test8Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="146" selection-end="146" vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.79480517" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0" vertical-offset="1400" max-vertical-offset="2210">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#734#1117#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
+        <state line="28" column="41" selection-start="804" selection-end="804" vertical-scroll-proportion="0.4888179" vertical-offset="0" max-vertical-offset="2023">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,26 +1189,106 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="154" column="0" selection-start="5506" selection-end="5506" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="2720">
+        <state line="40" column="4" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="30" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.7060703" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="582" selection-end="582" vertical-scroll-proportion="0.40734825" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="54" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test3_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="43" selection-start="1787" selection-end="1797" vertical-scroll-proportion="-3.4" vertical-offset="714" max-vertical-offset="2108">
+          <folding>
+            <element signature="e#1460#1473#0" expanded="true" />
+            <element signature="e#1923#1940#0" expanded="true" />
+            <element signature="e#2244#2261#0" expanded="true" />
+            <element signature="e#2565#2582#0" expanded="true" />
+            <element signature="e#2886#2903#0" expanded="true" />
+            <element signature="e#3207#3224#0" expanded="true" />
+            <element signature="e#3528#3545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="87" column="43" selection-start="3402" selection-end="3402" vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="2091">
+          <folding>
+            <element signature="e#1460#1473#0" expanded="true" />
+            <element signature="e#1923#1940#0" expanded="true" />
+            <element signature="e#2244#2261#0" expanded="true" />
+            <element signature="e#2565#2582#0" expanded="true" />
+            <element signature="e#2886#2903#0" expanded="true" />
+            <element signature="e#3207#3224#0" expanded="true" />
+            <element signature="e#3528#3545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="75" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1359" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="82" selection-start="2622" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1989">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="31" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-1.0285715" vertical-offset="1671" max-vertical-offset="3451">
-          <folding>
-            <element signature="method#Insert_Data_artscore_t1#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Update_Data_artscore_t1#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Insert_Data_artscore_t2#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Update_Data_artscore_t2#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Insert_Data_sciencescore_t1#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Update_Data_sciencescore_t1#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Insert_Data_sciencescore_t2#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Update_Data_sciencescore_t2#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#Update_Data_Member#0;class#myDBClass#0" expanded="false" />
-            <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
-          </folding>
+        <state line="388" column="23" selection-start="13984" selection-end="13988" vertical-scroll-proportion="-1.4918368" vertical-offset="7242" max-vertical-offset="12444">
+          <folding />
         </state>
       </provider>
     </entry>
