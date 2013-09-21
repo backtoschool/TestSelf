@@ -36,14 +36,21 @@
             android:theme="@style/splashScreenTheme"/>
 
         <activity android:name="com.facebook.LoginActivity"></activity>
+
         <activity android:name=".Sci1Test1Activity"
             android:theme="@style/splashScreenTheme" />
-        <activity android:name=".Sci1Test2Activity" />
-        <activity android:name=".Sci1Test3Activity" />
-        <activity android:name=".Sci1Test4Activity" />
-        <activity android:name=".Sci1Test5Activity" />
-        <activity android:name=".Sci1Test6Activity" />
-        <activity android:name=".Sci1Test7Activity" />
+        <activity android:name=".Sci1Test2Activity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".Sci1Test3Activity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".Sci1Test4Activity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".Sci1Test5Activity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".Sci1Test6Activity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".Sci1Test7Activity"
+            android:theme="@style/splashScreenTheme"/>
         <activity android:name=".Sci1Test8Activity" />
         <activity android:name=".Sci1Test9Activity" />
         <activity android:name=".Sci1Test10Activity" />
