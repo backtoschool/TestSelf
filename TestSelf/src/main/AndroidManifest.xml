@@ -51,7 +51,8 @@
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".Sci1Test7Activity"
             android:theme="@style/splashScreenTheme"/>
-        <activity android:name=".Sci1Test8Activity" />
+        <activity android:name=".Sci1Test8Activity"
+            android:theme="@style/splashScreenTheme"/>
         <activity android:name=".Sci1Test9Activity" />
         <activity android:name=".Sci1Test10Activity" />
         <activity android:name=".Sci2Test1Activity" />
