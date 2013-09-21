@@ -94,7 +94,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView3"
             android:src="@drawable/icnnext_resmall"
-            android:layout_marginLeft="50dp" />
+            android:layout_marginLeft="50dp"
+            android:onClick="onClickNext" />
     </LinearLayout>
 
 </LinearLayout>
