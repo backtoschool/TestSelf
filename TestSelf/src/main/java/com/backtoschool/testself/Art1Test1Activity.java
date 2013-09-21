@@ -67,12 +67,12 @@ public class Art1Test1Activity extends Activity {
                 Log.d("insertDB", "Have Check Button !!!!!");
 
                 Toast.makeText(Art1Test1Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
-                        Toast.LENGTH_SHORT).show();
+                Toast.LENGTH_SHORT).show();
 
 
             }else{
 
-                UpdateDataSQLite();
+                //UpdateDataSQLite();
 
                 Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
 
@@ -94,7 +94,7 @@ public class Art1Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1("",strAns,null,null,null,null,null,null,null,null,null,null);
+        long insertID = objMyDBClass.Insert_Data_artscore_t1(null,strAns,null,null,null,null,null,null,null,null,null,null);
 
 
     }
