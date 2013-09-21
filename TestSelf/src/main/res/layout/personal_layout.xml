@@ -140,16 +140,6 @@
             android:id="@+id/btnSaveData" />
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
 
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/imageView2"
-            android:layout_margin="@dimen/marginall" />
-    </LinearLayout>
 
 </LinearLayout>
