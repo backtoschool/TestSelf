@@ -152,11 +152,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build.gradle" afterPath="$PROJECT_DIR$/libraries/facebook/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -224,10 +221,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myDBClass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="myDBClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="674" column="31" selection-start="23762" selection-end="23762" vertical-scroll-proportion="0.0" vertical-offset="11458" max-vertical-offset="12444">
+            <state line="19" column="25" selection-start="559" selection-end="559" vertical-scroll-proportion="0.63978493" vertical-offset="0" max-vertical-offset="12359">
               <folding />
             </state>
           </provider>
@@ -263,10 +260,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.425974" vertical-offset="924" max-vertical-offset="1309">
+            <state line="70" column="11" selection-start="3112" selection-end="3112" vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -279,18 +276,6 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state line="40" column="4" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -345,14 +330,14 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test10_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test11_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
         <option value="$PROJECT_DIR$/libraries/facebook/build.gradle" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalActivity.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -573,6 +558,15 @@
     </UpdateInfo>
   </component>
   <component name="RunManager" selected="Android Application.main">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -965,7 +959,11 @@
       <created>1379006672381</created>
       <updated>1379006672381</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="lllll">
+      <created>1379747085098</created>
+      <updated>1379747085098</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1004,7 +1002,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1048,7 +1046,8 @@
     <MESSAGE value="dbClass" />
     <MESSAGE value="add facebook sdk" />
     <MESSAGE value="db Class method  Insert &amp; Update (all table)&#10; -Member&#10; -artscore_t1&#10; -artscore_t2&#10; -sciencescore_t1&#10; -sciencescore_t2" />
-    <option name="LAST_COMMIT_MESSAGE" value="db Class method  Insert &amp; Update (all table)&#10; -Member&#10; -artscore_t1&#10; -artscore_t2&#10; -sciencescore_t1&#10; -sciencescore_t2" />
+    <MESSAGE value="lllll" />
+    <option name="LAST_COMMIT_MESSAGE" value="lllll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1082,28 +1081,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="50" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.74452555" vertical-offset="714" max-vertical-offset="1887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.22849463" vertical-offset="0" max-vertical-offset="372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/facebook/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.41979522" vertical-offset="60" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="674" column="31" selection-start="23762" selection-end="23762" vertical-scroll-proportion="0.0" vertical-offset="9945" max-vertical-offset="12359">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
@@ -1159,7 +1136,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.425974" vertical-offset="924" max-vertical-offset="1309">
+        <state line="70" column="11" selection-start="3112" selection-end="3112" vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.044155844" vertical-offset="0" max-vertical-offset="385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.044155844" vertical-offset="0" max-vertical-offset="385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/facebook/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.79480517" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="559" selection-end="559" vertical-scroll-proportion="0.63978493" vertical-offset="0" max-vertical-offset="12359">
           <folding />
         </state>
       </provider>
