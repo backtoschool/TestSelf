@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 public class Sci1Test1Activity extends Activity {
 
-    private RadioButton radThai, radEng, radMath, radPhy, radChe, radBio;
+    private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
     private String strAns = "";
     private myDBClass objMyDBClass;
 
@@ -32,12 +32,12 @@ public class Sci1Test1Activity extends Activity {
 
     public void initialWidget(){
 
-        radThai = (RadioButton) findViewById(R.id.radThai);
-        radEng = (RadioButton) findViewById(R.id.radEng);
-        radMath = (RadioButton) findViewById(R.id.radMath);
-        radPhy = (RadioButton) findViewById(R.id.radPhy);
-        radChe = (RadioButton) findViewById(R.id.radChe);
-        radBio = (RadioButton) findViewById(R.id.radBio);
+        radChoice1 = (RadioButton) findViewById(R.id.radChoice1);
+        radChoice2 = (RadioButton) findViewById(R.id.radChoice2);
+        radChoice3 = (RadioButton) findViewById(R.id.radChoice3);
+        radChoice4 = (RadioButton) findViewById(R.id.radChoice4);
+        radChoice5 = (RadioButton) findViewById(R.id.radChoice5);
+        radChoice6 = (RadioButton) findViewById(R.id.radChoice6);
 
     }
 
@@ -47,27 +47,27 @@ public class Sci1Test1Activity extends Activity {
 
         try{
 
-            if(radThai.isChecked()){
+            if(radChoice1.isChecked()){
 
                 strAns = "1";
 
-            }else if(radEng.isChecked()){
+            }else if(radChoice2.isChecked()){
 
                 strAns = "2";
 
-            }else if(radMath.isChecked()){
+            }else if(radChoice3.isChecked()){
 
                 strAns = "3";
 
-            }else if(radPhy.isChecked()){
+            }else if(radChoice4.isChecked()){
 
                 strAns = "4";
 
-            }else if(radChe.isChecked()){
+            }else if(radChoice5.isChecked()){
 
                 strAns = "5";
 
-            }else if(radBio.isChecked()){
+            }else if(radChoice6.isChecked()){
 
                 strAns = "6";
 
@@ -107,6 +107,8 @@ public class Sci1Test1Activity extends Activity {
 
         objMyDBClass = new myDBClass(this);
         long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
+
+
 
     }
 
