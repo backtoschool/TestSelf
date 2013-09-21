@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
-kkkkk
+
 /**
  * Created by MiracleLife on 6/9/2556.
  */
@@ -22,6 +22,12 @@ public class PersonalActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_layout);
+
+
+
+
+
+
 
         // btnSave (Save)
         final Button save = (Button) findViewById(R.id.btnSaveData);
@@ -38,6 +44,9 @@ public class PersonalActivity extends Activity {
             }
         });
     }
+
+
+
 
     public boolean SaveData()
     {
