@@ -98,7 +98,7 @@ public class Sci1Test6Activity extends Activity {
         objMyDBClass = new myDBClass(this);
         //long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
-        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, strAns, null, null, null, null, null, null, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, strAns, null, null, null, null, null);
 
     }
 

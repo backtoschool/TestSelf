@@ -83,7 +83,7 @@ public class Sci1Test10Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Sci1Test5Activity Error " + e.toString());
+            Log.d("insertDB", "Sci1Test10Activity Error " + e.toString());
 
         }
 
@@ -95,7 +95,7 @@ public class Sci1Test10Activity extends Activity {
         objMyDBClass = new myDBClass(this);
         //long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
-        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, strAns, null, null, null, null, null, null, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, null, null, null, null, strAns, null);
 
     }
 
