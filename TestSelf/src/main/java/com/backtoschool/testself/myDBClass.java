@@ -679,10 +679,13 @@ public class myDBClass extends SQLiteOpenHelper{
         }
     }
 
-
+    private String strMemberID;
     // Select Data Member
-    public String[] SelectDataMember(String strMemberID) {
+    public String[] SelectDataMember() {
         // TODO Auto-generated method stub
+
+        strMemberID = "1";
+
 
         try {
             String arrData[] = null;
