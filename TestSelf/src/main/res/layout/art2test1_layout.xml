@@ -92,16 +92,10 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView2"
-            android:src="@drawable/icnback_resmall"
-            android:layout_marginRight="50dp" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/imageView3"
             android:src="@drawable/icnnext_resmall"
-            android:layout_marginLeft="50dp" />
+            android:layout_marginLeft="50dp"
+            android:onClick="onClickNext" />
     </LinearLayout>
 
 </LinearLayout>

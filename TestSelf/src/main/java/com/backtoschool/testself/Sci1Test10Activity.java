@@ -89,7 +89,6 @@ public class Sci1Test10Activity extends Activity {
 
     }
 
-
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
@@ -98,6 +97,5 @@ public class Sci1Test10Activity extends Activity {
         long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, null, null, null, null, strAns, null);
 
     }
-
 
 }
