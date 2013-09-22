@@ -2,6 +2,7 @@ package com.backtoschool.testself;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,7 +14,12 @@ public class PersonalDetActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_det_layout);
 
-        ShowData();
+        try{
+            ShowData();
+        }catch (Exception e){
+            Log.i("ShowData",e.toString());
+        }
+
 
 
 
@@ -28,9 +34,7 @@ public class PersonalDetActivity extends Activity {
         // new Class DB
         final myDBClass myDb = new myDBClass(this);
         // Show Data
-        String arrData[] = myDb.SelectDataMember();
-
-        String data ;
+        String arrData[] = myDb.SelectDataMember("1");
 
         if(arrData != null)
         {

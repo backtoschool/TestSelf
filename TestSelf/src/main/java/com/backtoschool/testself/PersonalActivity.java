@@ -9,7 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by MiracleLife on 6/9/2556.
@@ -23,10 +27,7 @@ public class PersonalActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_layout);
 
-
-
-
-
+        CheckData();
 
 
         // btnSave (Save)
@@ -44,9 +45,16 @@ public class PersonalActivity extends Activity {
             }
         });
     }
+    private void CheckData() {
+        // new Class DB
+        final myDBClass myDb = new myDBClass(this);
+        final ArrayList<HashMap<String, String>> MebmerList = myDb.SelectAllDataMember();
 
 
 
+
+
+    }
 
     public boolean SaveData()
     {

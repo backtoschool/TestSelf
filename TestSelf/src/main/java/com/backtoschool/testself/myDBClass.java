@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by MiracleLife on 7/9/2556.
  */
@@ -679,12 +682,11 @@ public class myDBClass extends SQLiteOpenHelper{
         }
     }
 
-    private String strMemberID;
-    // Select Data Member
-    public String[] SelectDataMember() {
+
+    public String[] SelectDataMember(String strMemberID) {
         // TODO Auto-generated method stub
 
-        strMemberID = "1";
+        //strMemberID = "1";
 
 
         try {
@@ -728,4 +730,55 @@ public class myDBClass extends SQLiteOpenHelper{
         }
 
     }
+
+    // Show All Data
+    public ArrayList<HashMap<String, String>> SelectAllDataMember() {
+        // TODO Auto-generated method stub
+
+        try {
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            String strSQL = "SELECT  * FROM " + TABLE_MEMBER;
+            Cursor cursor = db.rawQuery(strSQL, null);
+            /***
+             *  0 = MemberID
+             *  1 = Name
+             *  2 = Lastname
+             *  3 = Email
+             *  4 = Sex
+             *  5 = Age
+             *  6 = Result
+             */
+
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+                    do {
+                        map = new HashMap<String, String>();
+                        map.put("MemberID", cursor.getString(0));
+                        map.put("Name", cursor.getString(1));
+                        map.put("Lastname", cursor.getString(2));
+                        map.put("Email", cursor.getString(3));
+                        map.put("Sex", cursor.getString(4));
+                        map.put("Age", cursor.getString(5));
+                        map.put("Result", cursor.getString(6));
+                        MyArrList.add(map);
+                    } while (cursor.moveToNext());
+                }
+            }
+            cursor.close();
+            db.close();
+            return MyArrList;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
 }
