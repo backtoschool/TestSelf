@@ -77,8 +77,8 @@ public class Art1Test5Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                //objIntent = new Intent(Art1Test5Activity.this, Art1Test5Activity.class);
-                //startActivity(objIntent);
+                objIntent = new Intent(Art1Test5Activity.this, Art2Test1Activity.class);
+                startActivity(objIntent);
 
             }
 

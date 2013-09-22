@@ -41,7 +41,8 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Email TEXT(100),"+
                 " Sex TEXT(100),"+
                 " AgE TEXT(100),"+
-                " Result TEXT(1000)"+
+                " ResultScience TEXT(1000),"+
+                " ResultArt TEXT(1000)"+
                 ");");
         Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_MEMBER);
         //Second Table - ArtScore1
