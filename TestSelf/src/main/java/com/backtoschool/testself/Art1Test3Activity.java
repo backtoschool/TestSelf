@@ -12,6 +12,7 @@ import android.widget.Toast;
  * Created by MiracleLife on 7/9/2556.
  */
 public class Art1Test3Activity extends Activity {
+
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
     private String strAns = "";
     private myDBClass objMyDBClass;
@@ -21,7 +22,6 @@ public class Art1Test3Activity extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.art1test3_layout);
 
         initialWidget();
@@ -95,9 +95,7 @@ public class Art1Test3Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
-
-
+        long insertID = objMyDBClass.Update_Data_artscore_t1(null, null, null, null, strAns, null, null, null);
 
     }
 }

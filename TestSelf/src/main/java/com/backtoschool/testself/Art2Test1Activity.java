@@ -95,7 +95,7 @@ public class Art2Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
+        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, null, strAns, null, null, null, null, null, null, null, null, null);
 
 
 
