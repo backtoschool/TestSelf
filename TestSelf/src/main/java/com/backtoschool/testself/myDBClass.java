@@ -352,9 +352,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     // Insert Data TABLE_SCIENCESCORE_T1
     public long Insert_Data_sciencescore_t1(String strMemberID,
-                                            String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
-                                            String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
-                                            String strResultType) {
+                                            String strQ1) {
         // TODO Auto-generated method stub
 
         try {
@@ -377,16 +375,6 @@ public class myDBClass extends SQLiteOpenHelper{
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
             Val.put("Q1", strQ1);
-            Val.put("Q2", strQ2);
-            Val.put("Q3", strQ3);
-            Val.put("Q4", strQ4);
-            Val.put("Q5", strQ5);
-            Val.put("Q6", strQ6);
-            Val.put("Q7", strQ7);
-            Val.put("Q8", strQ8);
-            Val.put("Q9", strQ9);
-            Val.put("Q10", strQ10);
-            Val.put("ResultType",strResultType);
             long rows = db.insert(TABLE_SCIENCESCORE_T1, null, Val);
 
             db.close();
@@ -398,7 +386,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_SCIENCESCORE_T1
-    public long Update_Data_sciencescore_t1(String _id_TABLE_SCIENCESCORE_T1,String strMemberID,
+    public long Update_Data_sciencescore_t1(String strMemberID,
                                            String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
                                            String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
                                            String strResultType) {
@@ -425,45 +413,44 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strMemberID != ""){
-                Val.put("MemberID", strMemberID);
-            }
-            if(strQ1 != "" || strQ1 != null){
+
+
+            if(strQ1 != "" && strQ1 != null){
                 Val.put("Q1", strQ1);
             }
-            if(strQ2 != "" || strQ2 != null){
+            if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
-            if(strQ3 != "" || strQ3 != null){
+            if(strQ3 != "" && strQ3 != null){
                 Val.put("Q3", strQ3);
             }
-            if(strQ4 != "" || strQ4 != null){
+            if(strQ4 != "" && strQ4 != null){
                 Val.put("Q4", strQ4);
             }
-            if(strQ5 != "" || strQ5 != null){
+            if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
-            if(strQ6 != "" || strQ6 != null){
+            if(strQ6 != "" && strQ6 != null){
                 Val.put("Q6", strQ6);
             }
-            if(strQ7 != "" || strQ7 != null){
+            if(strQ7 != "" && strQ7 != null){
                 Val.put("Q7", strQ7);
             }
-            if(strQ8 != "" || strQ8 != null){
+            if(strQ8 != "" && strQ8 != null){
                 Val.put("Q8", strQ8);
             }
-            if(strQ9 != "" || strQ9 != null){
+            if(strQ9 != "" && strQ9 != null){
                 Val.put("Q9", strQ9);
             }
-            if(strQ10 != "" || strQ10 != null){
+            if(strQ10 != "" && strQ10 != null){
                 Val.put("Q10", strQ10);
             }
-            if(strResultType != ""){
+            if(strResultType != "" && strResultType != null){
                 Val.put("ResultType", strResultType);
 
             }
-            long rows = db.update(TABLE_SCIENCESCORE_T1, Val, " _id = ?",
-                    new String[] { String.valueOf(_id_TABLE_SCIENCESCORE_T1) });
+            long rows = db.update(TABLE_SCIENCESCORE_T1, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
             db.close();
             return rows; // return rows updated.
 

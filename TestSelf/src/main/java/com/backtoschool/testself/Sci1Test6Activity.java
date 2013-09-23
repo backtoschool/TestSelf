@@ -47,7 +47,7 @@ public class Sci1Test6Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "1";
+                strAns = "3";
 
             }else if(radChoice2.isChecked()){
 
@@ -55,11 +55,11 @@ public class Sci1Test6Activity extends Activity {
 
             }else if(radChoice3.isChecked()){
 
-                strAns = "3";
+                strAns = "1";
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "4";
+                strAns = "0";
 
             }
 
@@ -76,7 +76,6 @@ public class Sci1Test6Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
 
                 objIntent = new Intent(Sci1Test6Activity.this, Sci1Test7Activity.class);
                 startActivity(objIntent);
@@ -96,9 +95,17 @@ public class Sci1Test6Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        //long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
-        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, strAns, null, null, null, null, null);
+        /*
+            Update_Data_sciencescore_t1(String _id_TABLE_SCIENCESCORE_T1,String strMemberID,
+                                                       String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
+                                                       String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
+                                                       String strResultType)
+        */
+
+        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, strAns, null, null, null, null, null);
+
+        Log.d("insertDB", "update DB Success !!!!!" + strAns);
 
     }
 
