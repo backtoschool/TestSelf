@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgtest1"
-            android:src="@drawable/btmenu1_resmall"
+            android:src="@drawable/btnresultsci_resize"
             android:onClick="onClick" />
 
     </LinearLayout>
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imgtest2"
-            android:src="@drawable/btmenu2_resmall"
+            android:src="@drawable/btnresultart_resize"
             android:layout_gravity="center_vertical"
             android:onClick="onClick" />
     </LinearLayout>
