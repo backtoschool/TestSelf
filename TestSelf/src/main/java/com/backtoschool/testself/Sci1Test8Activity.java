@@ -66,7 +66,7 @@ public class Sci1Test8Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Sci1Test8Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -84,7 +84,7 @@ public class Sci1Test8Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Sci1Test8Activity Error " + e.toString());
+            Log.d("Database", "Sci1Test8Activity Error " + e.toString());
 
         }
 
@@ -102,9 +102,9 @@ public class Sci1Test8Activity extends Activity {
                                                        String strResultType)
         */
 
-        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, null, strAns, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", null, null, null, null, null, null, strAns, null, null, null);
 
-        Log.d("insertDB", "update DB Success !!!!!" + strAns);
+        Log.d("Database", "update DB Success !!!!!" + strAns);
 
     }
 

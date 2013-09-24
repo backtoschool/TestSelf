@@ -76,7 +76,7 @@ public class Sci1Test1Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Sci1Test1Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                 Toast.LENGTH_SHORT).show();
@@ -94,7 +94,7 @@ public class Sci1Test1Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Sci1Test1Activity Error " + e.toString());
+            Log.d("Database", "Sci1Test1Activity Error " + e.toString());
 
         }
 
@@ -116,7 +116,7 @@ public class Sci1Test1Activity extends Activity {
 
         long insertID = objMyDBClass.Insert_Data_sciencescore_t1("1", strAns);
 
-        Log.d("insertDB", "insert DB Success !!!!! " + strAns );
+        Log.d("Database", "insert DB Success !!!!! " + strAns );
 
     }
 
