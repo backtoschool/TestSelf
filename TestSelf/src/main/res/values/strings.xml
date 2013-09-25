@@ -239,7 +239,7 @@
     <string name="sex">เพศ</string>
     <string name="male">ชาย</string>
     <string name="female">หญิง</string>
-    <string name="savedata">บันทึกข้อมูลของฉัน</string>
+    <string name="savedata">บันทึกข้อมูลของฉัน</string><string name="login">Login</string>
 
 
 

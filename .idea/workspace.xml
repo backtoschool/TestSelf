@@ -118,6 +118,12 @@
           <theme>@style/splashScreenTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/splashScreenTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
         <config>
           <device>Nexus 4</device>
@@ -170,12 +176,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/Manifest.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -243,49 +247,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myDBClass.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="719" column="17" selection-start="26075" selection-end="26075" vertical-scroll-proportion="7.3255816" vertical-offset="9303" max-vertical-offset="12444">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonalDetActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="28" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="65" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1615">
+            <state line="39" column="37" selection-start="1382" selection-end="1382" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="login_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="25" column="4" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="15" selection-start="253" selection-end="253" vertical-scroll-proportion="0.26109216" vertical-offset="0" max-vertical-offset="586">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="0" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.0" vertical-offset="3715" max-vertical-offset="4301">
+            <state line="242" column="0" selection-start="10891" selection-end="10891" vertical-scroll-proportion="0.0" vertical-offset="3715" max-vertical-offset="4301">
               <folding />
             </state>
           </provider>
@@ -293,44 +291,35 @@
       </file>
       <file leaf-file-name="sci1test2_layout.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="87" column="43" selection-start="3402" selection-end="3402" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2108">
-              <folding />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="87" column="43" selection-start="3402" selection-end="3402" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2023">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="personal_det_layout.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="personal_layout.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2550">
-              <folding />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sci1Test1Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="75" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2108">
+          <provider editor-type-id="text-editor">
+            <state line="40" column="4" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2788">
               <folding />
             </state>
           </provider>
@@ -339,7 +328,7 @@
       <file leaf-file-name="Sci1Test2Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="82" selection-start="2622" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="2091">
+            <state line="109" column="82" selection-start="2622" selection-end="2626" vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="2227">
               <folding />
             </state>
           </provider>
@@ -382,8 +371,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
-        <option value="$PROJECT_DIR$/libraries/facebook/build.gradle" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -398,6 +385,8 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/LoginActivity.java" />
       </list>
     </option>
   </component>
@@ -547,7 +536,7 @@
     <property name="options.lastSelected" value="http.proxy" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="E:/coolzapp/TestSelf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -556,11 +545,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="EmuAtom" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -573,119 +562,6 @@
       <recent name="E:\coolzapp\TestSelf\TestSelf\src\main\res\drawable-xhdpi" />
       <recent name="E:\coolzapp\TestSelf\TestSelf\src\main\res\drawable-mdpi" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/TestSelf/build/manifests/debug/debug.iml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Android Application.main">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -723,19 +599,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -761,6 +624,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1143,12 +1019,12 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3082822" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20751634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1161,7 +1037,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1202,46 +1078,29 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.7060703" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test3_layout.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test3_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test1_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="43" selection-start="1787" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci1Test1Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="75" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1359" max-vertical-offset="2006">
+        <state line="108" column="0" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2244">
           <folding />
         </state>
       </provider>
@@ -1262,19 +1121,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.0" vertical-offset="3715" max-vertical-offset="4301">
+        <state line="242" column="0" selection-start="10891" selection-end="10891" vertical-scroll-proportion="0.0" vertical-offset="3715" max-vertical-offset="4301">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sci1test2_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="87" column="43" selection-start="3402" selection-end="3402" vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="2091">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
@@ -1284,53 +1143,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_det_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/personal_layout.xml">
-      <provider editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2720">
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+      <provider editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="65" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1224">
+        <state line="63" column="65" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.53583616" vertical-offset="638" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/PersonalDetActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="27" selection-start="957" selection-end="957" vertical-scroll-proportion="0.21672355" vertical-offset="451" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="719" column="17" selection-start="26075" selection-end="26075" vertical-scroll-proportion="7.3255816" vertical-offset="9303" max-vertical-offset="12444">
+        <state line="36" column="49" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.4778157" vertical-offset="196" max-vertical-offset="11237">
+          <folding>
+            <element signature="method#SelectDataMember#0;class#myDBClass#0" expanded="false" />
+            <element signature="method#SelectAllDataMember#0;class#myDBClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/main_menu.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="37" selection-start="1382" selection-end="1382" vertical-scroll-proportion="-26.52" vertical-offset="0" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/login_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="253" selection-end="253" vertical-scroll-proportion="0.26109216" vertical-offset="0" max-vertical-offset="586">
           <folding />
         </state>
       </provider>
