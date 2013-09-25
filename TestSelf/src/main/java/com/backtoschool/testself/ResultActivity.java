@@ -10,5 +10,7 @@ public class ResultActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.result_layout);
+
+        //หน้าแสดงผล โดยมีสองแบบทั้งสายวิทย์และศิลป์
     }
 }
