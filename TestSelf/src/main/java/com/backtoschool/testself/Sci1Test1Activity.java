@@ -49,42 +49,40 @@ public class Sci1Test1Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "1";
+                strAns = "0";
 
             }else if(radChoice2.isChecked()){
 
-                strAns = "2";
+                strAns = "4";
 
             }else if(radChoice3.isChecked()){
 
-                strAns = "3";
+                strAns = "8";
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "4";
+                strAns = "10";
 
             }else if(radChoice5.isChecked()){
 
-                strAns = "5";
+                strAns = "10";
 
             }else if(radChoice6.isChecked()){
 
-                strAns = "6";
+                strAns = "10";
 
             }
 
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Sci1Test1Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                 Toast.LENGTH_SHORT).show();
 
 
             }else{
-
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
 
                 UpdateDataSQLite();
 
@@ -96,7 +94,7 @@ public class Sci1Test1Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Sci1Test1Activity Error " + e.toString());
+            Log.d("Database", "Sci1Test1Activity Error " + e.toString());
 
         }
 
@@ -106,9 +104,19 @@ public class Sci1Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_sciencescore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
+        /*
 
+            Insert_Data_sciencescore_t1(String strMemberID,
+                                                        String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
+                                                        String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
+                                                        String strResultType)
+
+         */
+
+        long insertID = objMyDBClass.Insert_Data_sciencescore_t1("1", strAns);
+
+        Log.d("Database", "insert DB Success !!!!! " + strAns );
 
     }
 

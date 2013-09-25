@@ -12,29 +12,30 @@ import android.widget.Toast;
  * Created by MiracleLife on 7/9/2556.
  */
 public class Art1Test1Activity extends Activity {
-    String score = "";
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.art1test1_layout);
-        initialWidget();
-    }
-
-    //Cerate By KAE 21/9/2556
-    private RadioButton rad1, rad2, rad3, rad4;
-    private String strAns;
+    private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
+    private String strAns = "";
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
 
-//Insert_Data_artscore_t1
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.art1test1_layout);
+
+        initialWidget();
+
+    }
 
 
     public void initialWidget(){
 
-        rad1 = (RadioButton) findViewById(R.id.radioButton);
-        rad2 = (RadioButton) findViewById(R.id.radioButton2);
-        rad3 = (RadioButton) findViewById(R.id.radioButton3);
-        rad4 = (RadioButton) findViewById(R.id.radioButton4);
+        radChoice1 = (RadioButton) findViewById(R.id.radioButton);
+        radChoice2 = (RadioButton) findViewById(R.id.radioButton2);
+        radChoice3 = (RadioButton) findViewById(R.id.radioButton3);
+        radChoice4 = (RadioButton) findViewById(R.id.radioButton4);
+
     }
 
 
@@ -43,19 +44,19 @@ public class Art1Test1Activity extends Activity {
 
         try{
 
-            if(rad1.isChecked()){
+            if(radChoice1.isChecked()){
 
                 strAns = "4";
 
-            }else if(rad2.isChecked()){
+            }else if(radChoice2.isChecked()){
 
                 strAns = "4";
 
-            }else if(rad3.isChecked()){
+            }else if(radChoice3.isChecked()){
 
                 strAns = "2";
 
-            }else if(rad4.isChecked()){
+            }else if(radChoice4.isChecked()){
 
                 strAns = "0";
 
@@ -67,14 +68,14 @@ public class Art1Test1Activity extends Activity {
                 Log.d("insertDB", "Have Check Button !!!!!");
 
                 Toast.makeText(Art1Test1Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
-                Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();
 
 
             }else{
 
-                //UpdateDataSQLite();
+                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
 
-                Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
+                UpdateDataSQLite();
 
                 objIntent = new Intent(Art1Test1Activity.this, Art1Test2Activity.class);
                 startActivity(objIntent);
@@ -84,7 +85,7 @@ public class Art1Test1Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "my Error " + e.toString());
+            Log.d("insertDB", "Art1Test1Activity Error " + e.toString());
 
         }
 
@@ -94,7 +95,8 @@ public class Art1Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1(null,strAns,null,null,null,null,null,null,null,null,null,null);
+        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
+
 
 
     }

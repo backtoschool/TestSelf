@@ -88,7 +88,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnSend"
             android:src="@drawable/img_send"
-            android:onClick="onClickNext" />
+            android:onClick="onClickNext"
+            android:clickable="true" />
     </LinearLayout>
 
 </LinearLayout>

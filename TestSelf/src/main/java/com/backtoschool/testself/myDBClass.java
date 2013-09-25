@@ -41,9 +41,10 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Email TEXT(100),"+
                 " Sex TEXT(100),"+
                 " AgE TEXT(100),"+
-                " Result TEXT(1000)"+
+                " ResultScience TEXT(1000),"+
+                " ResultArt TEXT(1000)"+
                 ");");
-        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_MEMBER);
+        Log.d("Database", "Create Table Successfully."+TABLE_MEMBER);
         //Second Table - ArtScore1
         db.execSQL("CREATE TABLE " + TABLE_ARTSCORE_T1 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -55,7 +56,7 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q5 Integer,"+
                 " ResultType Integer"+
                 ");");
-        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_ARTSCORE_T1);
+        Log.d("Database", "Create Table Successfully."+TABLE_ARTSCORE_T1);
         //Second Table - ArtScore2
         db.execSQL("CREATE TABLE " + TABLE_ARTSCORE_T2 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -75,7 +76,7 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q12 Integer,"+
                 " ResultGroup TEXT(1)"+
                 ");");
-        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_ARTSCORE_T2);
+        Log.d("Database", "Create Table Successfully."+TABLE_ARTSCORE_T2);
         //Three Table - ScienceScore_t1
         db.execSQL("CREATE TABLE " + TABLE_SCIENCESCORE_T1 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -92,24 +93,24 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q10 Integer,"+
                 " ResultType TEXT(100)"+
                 ");");
-        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_SCIENCESCORE_T1);
+        Log.d("Database", "Create Table Successfully."+TABLE_SCIENCESCORE_T1);
         //Four Table - ScienceScore_t2
         db.execSQL("CREATE TABLE " + TABLE_SCIENCESCORE_T2 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 " MemberID Integer," +
                 " _id_ScienceScore_t1"+
                 " ScienceGroup TEXT(100),"+
-                " QS1 Integer,"+
-                " QS2 Integer,"+
-                " QS3 Integer,"+
-                " QS4 Integer,"+
-                " QS5 Integer,"+
-                " QS6 Integer,"+
-                " QS7 Integer,"+
-                " QS8 Integer,"+
+                " Q1 Integer,"+
+                " Q2 Integer,"+
+                " Q3 Integer,"+
+                " Q4 Integer,"+
+                " Q5 Integer,"+
+                " Q6 Integer,"+
+                " Q7 Integer,"+
+                " Q8 Integer,"+
                 " ScienceGroupType TEXT(100)"+
                 ");");
-        Log.d("CREATE TABLE", "Create Table Successfully."+TABLE_SCIENCESCORE_T2);
+        Log.d("Database", "Create Table Successfully."+TABLE_SCIENCESCORE_T2);
 
     }
     @Override
@@ -351,9 +352,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     // Insert Data TABLE_SCIENCESCORE_T1
     public long Insert_Data_sciencescore_t1(String strMemberID,
-                                            String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
-                                            String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
-                                            String strResultType) {
+                                            String strQ1) {
         // TODO Auto-generated method stub
 
         try {
@@ -376,16 +375,6 @@ public class myDBClass extends SQLiteOpenHelper{
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
             Val.put("Q1", strQ1);
-            Val.put("Q2", strQ2);
-            Val.put("Q3", strQ3);
-            Val.put("Q4", strQ4);
-            Val.put("Q5", strQ5);
-            Val.put("Q6", strQ6);
-            Val.put("Q7", strQ7);
-            Val.put("Q8", strQ8);
-            Val.put("Q9", strQ9);
-            Val.put("Q10", strQ10);
-            Val.put("ResultType",strResultType);
             long rows = db.insert(TABLE_SCIENCESCORE_T1, null, Val);
 
             db.close();
@@ -397,8 +386,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_SCIENCESCORE_T1
-    public long Update_Data_sciencescore_t1(String _id_TABLE_SCIENCESCORE_T1,String strMemberID,
-                                           String strQ1, String strQ2,String strQ3,String strQ4,String strQ5,
+    public long Update_Data_sciencescore_t1(String strMemberID,
+                                           String strQ2,String strQ3,String strQ4,String strQ5,
                                            String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
                                            String strResultType) {
         // TODO Auto-generated method stub
@@ -424,45 +413,41 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strMemberID != ""){
-                Val.put("MemberID", strMemberID);
-            }
-            if(strQ1 != "" || strQ1 != null){
-                Val.put("Q1", strQ1);
-            }
-            if(strQ2 != "" || strQ2 != null){
+
+
+            if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
-            if(strQ3 != "" || strQ3 != null){
+            if(strQ3 != "" && strQ3 != null){
                 Val.put("Q3", strQ3);
             }
-            if(strQ4 != "" || strQ4 != null){
+            if(strQ4 != "" && strQ4 != null){
                 Val.put("Q4", strQ4);
             }
-            if(strQ5 != "" || strQ5 != null){
+            if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
-            if(strQ6 != "" || strQ6 != null){
+            if(strQ6 != "" && strQ6 != null){
                 Val.put("Q6", strQ6);
             }
-            if(strQ7 != "" || strQ7 != null){
+            if(strQ7 != "" && strQ7 != null){
                 Val.put("Q7", strQ7);
             }
-            if(strQ8 != "" || strQ8 != null){
+            if(strQ8 != "" && strQ8 != null){
                 Val.put("Q8", strQ8);
             }
-            if(strQ9 != "" || strQ9 != null){
+            if(strQ9 != "" && strQ9 != null){
                 Val.put("Q9", strQ9);
             }
-            if(strQ10 != "" || strQ10 != null){
+            if(strQ10 != "" && strQ10 != null){
                 Val.put("Q10", strQ10);
             }
-            if(strResultType != ""){
+            if(strResultType != "" && strResultType != null){
                 Val.put("ResultType", strResultType);
 
             }
-            long rows = db.update(TABLE_SCIENCESCORE_T1, Val, " _id = ?",
-                    new String[] { String.valueOf(_id_TABLE_SCIENCESCORE_T1) });
+            long rows = db.update(TABLE_SCIENCESCORE_T1, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
             db.close();
             return rows; // return rows updated.
 
@@ -472,9 +457,7 @@ public class myDBClass extends SQLiteOpenHelper{
     }
     // Insert Data TABLE_SCIENCESCORE_T2
     public long Insert_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
-                                            String strQ1, String strQ2,String strQ3,
-                                            String strQ4,String strQ5,String strQ6, String strQ7,String strQ8,
-                                            String strScienceGroupType) {
+                                            String strQ1) {
         // TODO Auto-generated method stub
 
         try {
@@ -497,15 +480,9 @@ public class myDBClass extends SQLiteOpenHelper{
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
             Val.put("_id_ScienceScore_t1", strid_sciencescore_t1);
-            Val.put("Q1", strQ1);
-            Val.put("Q2", strQ2);
-            Val.put("Q3", strQ3);
-            Val.put("Q4", strQ4);
-            Val.put("Q5", strQ5);
-            Val.put("Q6", strQ6);
-            Val.put("Q7", strQ7);
-            Val.put("Q8", strQ8);
-            Val.put("ScienceGroupType",strScienceGroupType);
+            if(strQ1 != "" && strQ1 != null){
+                Val.put("Q1", strQ1);
+            }
             long rows = db.insert(TABLE_SCIENCESCORE_T2, null, Val);
 
             db.close();
@@ -517,8 +494,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_SCIENCESCORE_T2
-    public long Update_Data_sciencescore_t2(String _id_TABLE_SCIENCESCORE_T2,String strMemberID,String strid_sciencescore_t1,
-                                            String strQ1, String strQ2,String strQ3,
+    public long Update_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
+                                            String strQ2,String strQ3,
                                             String strQ4,String strQ5,String strQ6, String strQ7,String strQ8,
                                             String strScienceGroupType) {
         // TODO Auto-generated method stub
@@ -544,42 +521,37 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strMemberID != ""){
-                Val.put("MemberID", strMemberID);
-            }
+
             if(strid_sciencescore_t1 != "" || strid_sciencescore_t1 != null){
                 Val.put("_id_ScienceScore_t1", strid_sciencescore_t1);
             }
-            if(strQ1 != "" || strQ1 != null){
-                Val.put("Q1", strQ1);
-            }
-            if(strQ2 != "" || strQ2 != null){
+            if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
-            if(strQ3 != "" || strQ3 != null){
+            if(strQ3 != "" && strQ3 != null){
                 Val.put("Q3", strQ3);
             }
-            if(strQ4 != "" || strQ4 != null){
+            if(strQ4 != "" && strQ4 != null){
                 Val.put("Q4", strQ4);
             }
-            if(strQ5 != "" || strQ5 != null){
+            if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
-            if(strQ6 != "" || strQ6 != null){
+            if(strQ6 != "" && strQ6 != null){
                 Val.put("Q6", strQ6);
             }
-            if(strQ7 != "" || strQ7 != null){
+            if(strQ7 != "" && strQ7 != null){
                 Val.put("Q7", strQ7);
             }
-            if(strQ8 != "" || strQ8 != null){
+            if(strQ8 != "" && strQ8 != null){
                 Val.put("Q8", strQ8);
             }
-            if(strScienceGroupType != ""){
+            if(strScienceGroupType != "" && strScienceGroupType != null){
                 Val.put("ScienceGroupType", strScienceGroupType);
 
             }
-            long rows = db.update(TABLE_SCIENCESCORE_T2, Val, " _id = ?",
-                    new String[] { String.valueOf(_id_TABLE_SCIENCESCORE_T2) });
+            long rows = db.update(TABLE_SCIENCESCORE_T2, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
             db.close();
             return rows; // return rows updated.
 

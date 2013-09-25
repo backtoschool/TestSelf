@@ -95,18 +95,20 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout" >
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView3"
-            android:src="@drawable/icnnext_resmall"
-            android:layout_marginLeft="50dp"
-            android:onClick="onClickNext" />
+            android:id="@+id/btnSend"
+            android:src="@drawable/img_send"
+            android:onClick="onClickNext"
+            android:clickable="true" />
     </LinearLayout>
 
 </LinearLayout>

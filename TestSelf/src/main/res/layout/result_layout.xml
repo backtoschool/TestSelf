@@ -22,4 +22,49 @@
             android:id="@+id/imageView5"
             android:src="@drawable/logo2_resmall" />
     </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgtest1"
+            android:src="@drawable/btnresultsci_resize"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgtest2"
+            android:src="@drawable/btnresultart_resize"
+            android:layout_gravity="center_vertical"
+            android:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgResult"
+            android:src="@drawable/logo3_resmall"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
 </LinearLayout>

@@ -75,7 +75,7 @@ public class Art2Test11Activity extends Activity {
 
                 Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
 
-                objIntent = new Intent(Art2Test11Activity.this, ResultActivity.class);
+                objIntent = new Intent(Art2Test11Activity.this, Art2Test12Activity.class);
                 startActivity(objIntent);
 
             }

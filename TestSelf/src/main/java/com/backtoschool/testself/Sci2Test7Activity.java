@@ -64,7 +64,7 @@ public class Sci2Test7Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Sci2Test7Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -74,8 +74,6 @@ public class Sci2Test7Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
-
                 objIntent = new Intent(Sci2Test7Activity.this, Sci2Test8Activity.class);
                 startActivity(objIntent);
 
@@ -84,7 +82,7 @@ public class Sci2Test7Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Sci2Test7Activity Error " + e.toString());
+            Log.d("Database", "Sci2Test7Activity Error " + e.toString());
 
         }
 
@@ -93,8 +91,17 @@ public class Sci2Test7Activity extends Activity {
 
     public void UpdateDataSQLite(){
 
+        /*
+        Update_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
+                String strQ2,String strQ3,
+                String strQ4,String strQ5,String strQ6, String strQ7,String strQ8,
+                String strScienceGroupType)
+        */
+
         objMyDBClass = new myDBClass(this);
-        long updateData = objMyDBClass.Update_Data_sciencescore_t2(null, null, null, null, null, null, null, null, null, strAns, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t2("1", "1", null, null, null, null, null, strAns, null, null);
+
+        Log.d("Database", "insert DB Success !!!!!" + strAns);
 
     }
 

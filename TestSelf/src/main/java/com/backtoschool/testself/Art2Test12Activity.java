@@ -102,5 +102,4 @@ public class Art2Test12Activity extends Activity {
     }
 
 
-
 }
