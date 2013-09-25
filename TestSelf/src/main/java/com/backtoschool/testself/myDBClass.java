@@ -655,7 +655,7 @@ public class myDBClass extends SQLiteOpenHelper{
     }
 
 
-    public String[] SelectDataMember(String strMemberID) {
+    public String[] SelectDataMember(String strEmail) {
         // TODO Auto-generated method stub
 
         //strMemberID = "1";
@@ -668,8 +668,8 @@ public class myDBClass extends SQLiteOpenHelper{
             db = this.getReadableDatabase(); // Read Data
 
             Cursor cursor = db.query(TABLE_MEMBER, new String[] { "*" },
-                    "MemberID=?",
-                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+                    "Email=?",
+                    new String[] { String.valueOf(strEmail) }, null, null, null, null);
 
             if(cursor != null)
             {

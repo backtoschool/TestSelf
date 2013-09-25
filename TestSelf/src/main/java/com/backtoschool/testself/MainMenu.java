@@ -15,24 +15,10 @@ import android.widget.ImageView;
 public class MainMenu extends Activity implements View.OnClickListener {
     private ImageView btnPersonal, btnResult,btnStartTest;
     private Intent objIntent;
-    //Database
-    SQLiteDatabase db;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_menu);
-        try{
-            //Database Create
-            myDBClass myDb = new myDBClass(this);
-            myDb.getWritableDatabase();//First method
-            //End Database
-        }
-        catch (Exception e){
-            Log.i("DB",e.toString());
-
-        }
-
-
-
         initialWidget();
         btnPersonal.setOnClickListener(this);
         btnStartTest.setOnClickListener(this);

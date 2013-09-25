@@ -1,6 +1,7 @@
 package com.backtoschool.testself;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
@@ -9,6 +10,8 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+    //Database
+    SQLiteDatabase db;
 
     private final int SPLASH_DISPLAY_LENGHT = 2000;
 
@@ -17,6 +20,16 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        try{
+            //Database Create
+            myDBClass myDb = new myDBClass(this);
+            myDb.getWritableDatabase();//First method
+            //End Database
+        }
+        catch (Exception e){
+            Log.i("DB",e.toString());
+
+        }
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/
@@ -25,7 +38,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(MainActivity.this, MainMenu.class);
+                Intent mainIntent = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(mainIntent);
                 MainActivity.this.finish();
             }
