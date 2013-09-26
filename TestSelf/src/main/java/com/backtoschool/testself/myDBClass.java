@@ -661,7 +661,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     // Insert Data Member
     public long Insert_Data_Member(String strName, String strLastname, String strEmail,
-                                   String strSex,String strAge,String strResult) {
+                                   String strSex,String strAge,String strResultScience, String strResultArt) {
         // TODO Auto-generated method stub
         try {
             SQLiteDatabase db;
@@ -684,7 +684,8 @@ public class myDBClass extends SQLiteOpenHelper{
             Val.put("Email", strEmail);
             Val.put("Sex", strSex);
             Val.put("Age", strAge);
-            Val.put("Result", strResult);
+            Val.put("ResultScience", strResultScience);
+            Val.put("ResultArt", strResultArt);
 
             long rows = db.insert(TABLE_MEMBER, null, Val);
 
@@ -699,7 +700,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     // Update Data TABLE_SCIENCESCORE_T2
     public long Update_Data_Member(String strMemberID,String strName, String strLastname,
-                                   String strEmail, String strSex,String strAge,String strResult) {
+                                   String strEmail, String strSex,String strAge,String strResultScience, String strResultArt) {
         // TODO Auto-generated method stub
 
         try {
@@ -738,8 +739,12 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strAge != "" || strAge != null){
                 Val.put("Age", strAge);
             }
-            if(strResult != "" || strResult != null){
-                Val.put("Result", strResult);
+            //String strResultScience, String strResultArt
+            if(strResultScience != "" || strResultScience != null){
+                Val.put("ResultScience", strResultScience);
+            }
+            if(strResultArt != "" || strResultArt != null){
+                Val.put("ResultArt", strResultArt);
             }
 
             long rows = db.update(TABLE_MEMBER, Val, " MemberID = ?",
@@ -780,7 +785,8 @@ public class myDBClass extends SQLiteOpenHelper{
                      *  3 = Email
                      *  4 = Sex
                      *  5 = Age
-                     *  6 = Result
+                     *  6 = ResultScience
+                     *  7 = ResultArt
                      */
                     arrData[0] = cursor.getString(0);
                     arrData[1] = cursor.getString(1);
@@ -789,6 +795,7 @@ public class myDBClass extends SQLiteOpenHelper{
                     arrData[4] = cursor.getString(4);
                     arrData[5] = cursor.getString(5);
                     arrData[6] = cursor.getString(6);
+                    arrData[7] = cursor.getString(6);
                 }
             }
             cursor.close();
@@ -822,7 +829,8 @@ public class myDBClass extends SQLiteOpenHelper{
              *  3 = Email
              *  4 = Sex
              *  5 = Age
-             *  6 = Result
+             *  6 = ResultScience
+             *  7 = ResultArt
              */
 
             if(cursor != null)
@@ -836,7 +844,8 @@ public class myDBClass extends SQLiteOpenHelper{
                         map.put("Email", cursor.getString(3));
                         map.put("Sex", cursor.getString(4));
                         map.put("Age", cursor.getString(5));
-                        map.put("Result", cursor.getString(6));
+                        map.put("ResultScience", cursor.getString(6));
+                        map.put("ResultArt", cursor.getString(7));
                         MyArrList.add(map);
                     } while (cursor.moveToNext());
                 }
@@ -850,6 +859,7 @@ public class myDBClass extends SQLiteOpenHelper{
         }
 
     }
+
 
 
 
