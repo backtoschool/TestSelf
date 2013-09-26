@@ -8,14 +8,19 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by refill on 9/13/13.
  */
 public class Sci2Test8Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "";
+    private String strScienceGroupType, strAns = "", strMenberID = "1";
     private myDBClass objMyDBClass;
+    private int IntQ1, IntQ2, IntQ3, IntQ4, IntQ5, IntQ6, IntQ7, IntQ8, IntTotal;
+    private long updateData;
 
     private Intent objIntent;
 
@@ -48,7 +53,7 @@ public class Sci2Test8Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "1";
+                strAns = "3";
 
             }else if(radChoice2.isChecked()){
 
@@ -56,11 +61,11 @@ public class Sci2Test8Activity extends Activity {
 
             }else if(radChoice3.isChecked()){
 
-                strAns = "3";
+                strAns = "1";
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "4";
+                strAns = "0";
 
             }
 
@@ -77,9 +82,14 @@ public class Sci2Test8Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                objIntent = new Intent(Sci2Test8Activity.this, ResultActivity.class);
-                startActivity(objIntent);
+                String TypeTest = CalculateResult();
 
+                if(TypeTest!=null){
+
+                    objIntent = new Intent(Sci2Test8Activity.this, ResultActivity.class);
+                    startActivity(objIntent);
+
+                }
             }
 
 
@@ -102,10 +112,104 @@ public class Sci2Test8Activity extends Activity {
         */
 
         objMyDBClass = new myDBClass(this);
-        long updateData = objMyDBClass.Update_Data_sciencescore_t2("1", "1", null, null, null, null, null, null, strAns, null, null);
+            updateData = objMyDBClass.Update_Data_sciencescore_t2("1", null, null, null, null, null, null, null, strAns, null);
 
-        Log.d("Database", "insert DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci2Test8Activity insert DB Success !!!!!" + strAns);
 
     }
+
+
+
+    public String CalculateResult(){
+
+        String result = null;
+
+        try{
+
+            objMyDBClass = new myDBClass(this);
+            final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataSciTest1(strMenberID);
+
+            strScienceGroupType = SciTest1DataList.get(0).get("ScienceGroupType").toString();
+            IntQ1 = Integer.valueOf(SciTest1DataList.get(0).get("Q1").toString());
+            IntQ2 = Integer.valueOf(SciTest1DataList.get(0).get("Q2").toString());
+            IntQ3 = Integer.valueOf(SciTest1DataList.get(0).get("Q3").toString());
+            IntQ4 = Integer.valueOf(SciTest1DataList.get(0).get("Q4").toString());
+            IntQ5 = Integer.valueOf(SciTest1DataList.get(0).get("Q5").toString());
+            IntQ6 = Integer.valueOf(SciTest1DataList.get(0).get("Q6").toString());
+            IntQ7 = Integer.valueOf(SciTest1DataList.get(0).get("Q7").toString());
+            IntQ8 = Integer.valueOf(SciTest1DataList.get(0).get("Q8").toString());
+
+
+            IntTotal = IntQ1+IntQ2+IntQ3+IntQ4+IntQ5+IntQ6+IntQ7+IntQ8;
+
+            if(strScienceGroupType=="Sci1-1"){
+
+                if(IntTotal>24){
+
+                    result = "sci1-1A";
+
+                }else if(IntTotal>=19){
+
+                    result = "sci1-1B";
+
+                }else if(IntTotal>=13){
+
+                    result = "sci1-1C";
+
+                }else{
+
+                    result = "sci1-1D";
+
+                }
+
+            }else if(strScienceGroupType=="Sci1-2"){
+
+                if(IntTotal>24){
+
+                    result = "sci1-2A";
+
+                }else if(IntTotal>=16){
+
+                    result = "sci1-2B";
+
+                }else{
+
+                    result = "sci1-2C";
+
+                }
+
+            }else if(strScienceGroupType=="Sci1-3"){
+
+                if(IntTotal>24){
+
+                    result = "sci1-3A";
+
+                }else if(IntTotal>=16){
+
+                    result = "sci1-3B";
+
+                }else{
+
+                    result = "sci1-3C";
+
+                }
+
+            }
+
+
+            updateData = objMyDBClass.Update_Data_sciencescore_t2(strMenberID, null, null, null, null, null, null, null, null, result);
+
+            Log.d("Database", "CalculateResult " + result);
+
+        }catch (Exception e){
+
+            Log.d("Database", "CalculateResult Error " + e.toString());
+
+        }
+
+        return result;
+    }
+
+
 
 }

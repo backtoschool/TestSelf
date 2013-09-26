@@ -15,7 +15,7 @@ public class Sci2Test1Activity extends Activity {
 
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "";
+    private String strAns = "", strMenberID="1";
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -46,19 +46,19 @@ public class Sci2Test1Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "1";
+                strAns = "5";
 
             }else if(radChoice2.isChecked()){
 
-                strAns = "2";
+                strAns = "3";
 
             }else if(radChoice3.isChecked()){
 
-                strAns = "3";
+                strAns = "1";
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "4";
+                strAns = "0";
 
             }
 
@@ -93,9 +93,9 @@ public class Sci2Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long updateData = objMyDBClass.Insert_Data_sciencescore_t2("1", "1", strAns);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t2(strMenberID, strAns, null, null, null, null, null, null, null, null);
 
-        Log.d("Database", "insert DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci2Test1Activity insert DB Success !!!!!" + strAns);
 
     }
 

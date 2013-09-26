@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -39,7 +38,7 @@ public class PersonalActivity extends Activity {
                 if(SaveData())
                 {
                     // Open Form Main
-                    Intent newActivity = new Intent(PersonalActivity.this,PersonalActivity.class);
+                    Intent newActivity = new Intent(PersonalActivity.this,LoginActivity.class);
                     startActivity(newActivity);
                 }
             }

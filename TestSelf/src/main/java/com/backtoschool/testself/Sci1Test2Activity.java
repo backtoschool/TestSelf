@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class Sci1Test2Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "", strMenberID = "1";
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -113,7 +113,7 @@ public class Sci1Test2Activity extends Activity {
                                                        String strResultType)
         */
 
-        long updateData = objMyDBClass.Update_Data_sciencescore_t1("1", strAns, null, null, null, null, null, null, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, strAns, null, null, null, null, null, null, null, null, null);
 
         Log.d("Database", "update DB Success !!!!!" + strAns);
 

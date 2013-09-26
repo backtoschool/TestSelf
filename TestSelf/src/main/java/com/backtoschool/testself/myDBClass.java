@@ -98,7 +98,6 @@ public class myDBClass extends SQLiteOpenHelper{
         db.execSQL("CREATE TABLE " + TABLE_SCIENCESCORE_T2 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 " MemberID Integer," +
-                " _id_ScienceScore_t1"+
                 " ScienceGroup TEXT(100),"+
                 " Q1 Integer,"+
                 " Q2 Integer,"+
@@ -108,8 +107,7 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q6 Integer,"+
                 " Q7 Integer,"+
                 " Q8 Integer,"+
-                " ResultType TEXT(100),"+
-                " ScienceGroupType TEXT(100)"+
+                " ResultType TEXT(100)"+
                 ");");
         Log.d("Database", "Create Table Successfully."+TABLE_SCIENCESCORE_T2);
 
@@ -456,9 +454,60 @@ public class myDBClass extends SQLiteOpenHelper{
             return -1;
         }
     }
+
+    // select data on TABLE_SCIENCESCORE_T1 where MemberID
+    public ArrayList<HashMap<String, String>> SelectDataSciTest1(String strMemberID) {
+
+        try {
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            Cursor cursor = db.query(TABLE_SCIENCESCORE_T1, new String[] { "*" },
+                    "MemberID=?",
+                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+
+                    do {
+
+                        map = new HashMap<String, String>();
+                        map.put("id", cursor.getString(0));
+                        map.put("MemberID", cursor.getString(1));
+                        map.put("Q1", cursor.getString(2));
+                        map.put("Q2", cursor.getString(3));
+                        map.put("Q3", cursor.getString(4));
+                        map.put("Q4", cursor.getString(5));
+                        map.put("Q5", cursor.getString(6));
+                        map.put("Q6", cursor.getString(7));
+                        map.put("Q7", cursor.getString(8));
+                        map.put("Q8", cursor.getString(9));
+                        map.put("Q9", cursor.getString(10));
+                        map.put("Q10", cursor.getString(11));
+                        map.put("ResultType", cursor.getString(12));
+                        MyArrList.add(map);
+
+                    }while (cursor.moveToNext());
+                }
+            }
+            cursor.close();
+            db.close();
+            return MyArrList;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+
     // Insert Data TABLE_SCIENCESCORE_T2
-    public long Insert_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
-                                            String strQ1) {
+    public long Insert_Data_sciencescore_t2(String strMemberID,String strQPre) {
         // TODO Auto-generated method stub
 
         try {
@@ -480,10 +529,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
-            Val.put("_id_ScienceScore_t1", strid_sciencescore_t1);
-            if(strQ1 != "" && strQ1 != null){
-                Val.put("Q1", strQ1);
-            }
+            Val.put("ScienceGroup", strQPre);
             long rows = db.insert(TABLE_SCIENCESCORE_T2, null, Val);
 
             db.close();
@@ -495,11 +541,11 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_SCIENCESCORE_T2
-    public long Update_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
+    public long Update_Data_sciencescore_t2(String strMemberID,
+                                            String strQ1,
                                             String strQ2,String strQ3,
                                             String strQ4,String strQ5,String strQ6, String strQ7,String strQ8,
-                                            String strResultType,
-                                            String strScienceGroupType) {
+                                            String strResultType) {
         // TODO Auto-generated method stub
 
         try {
@@ -523,9 +569,8 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-
-            if(strid_sciencescore_t1 != "" || strid_sciencescore_t1 != null){
-                Val.put("_id_ScienceScore_t1", strid_sciencescore_t1);
+            if(strQ1 != "" && strQ1 != null){
+                Val.put("Q1", strQ1);
             }
             if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
@@ -550,9 +595,6 @@ public class myDBClass extends SQLiteOpenHelper{
             }
             if(strResultType != "" && strResultType != null){
                 Val.put("ResultType", strResultType);
-            }
-            if(strScienceGroupType != "" && strScienceGroupType != null){
-                Val.put("ScienceGroupType", strScienceGroupType);
 
             }
             long rows = db.update(TABLE_SCIENCESCORE_T2, Val, " MemberID = ?",
@@ -564,6 +606,57 @@ public class myDBClass extends SQLiteOpenHelper{
             return -1;
         }
     }
+
+
+    // select data on TABLE_SCIENCESCORE_T2 where MemberID
+    public ArrayList<HashMap<String, String>> SelectDataSciTest2(String strMemberID) {
+
+        try {
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            Cursor cursor = db.query(TABLE_SCIENCESCORE_T1, new String[] { "*" },
+                    "MemberID=?",
+                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+
+                    do {
+
+                        map = new HashMap<String, String>();
+                        map.put("id", cursor.getString(0));
+                        map.put("MemberID", cursor.getString(1));
+                        map.put("ScienceGroupType", cursor.getString(2));
+                        map.put("Q1", cursor.getString(3));
+                        map.put("Q2", cursor.getString(4));
+                        map.put("Q3", cursor.getString(5));
+                        map.put("Q4", cursor.getString(6));
+                        map.put("Q5", cursor.getString(7));
+                        map.put("Q6", cursor.getString(8));
+                        map.put("Q7", cursor.getString(9));
+                        map.put("Q8", cursor.getString(10));
+                        map.put("ResultType", cursor.getString(11));
+                        MyArrList.add(map);
+
+                    }while (cursor.moveToNext());
+                }
+            }
+            cursor.close();
+            db.close();
+            return MyArrList;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
 
 
     // Insert Data Member
@@ -757,5 +850,12 @@ public class myDBClass extends SQLiteOpenHelper{
         }
 
     }
+
+
+
+
+
+
+
 
 }

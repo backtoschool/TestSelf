@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class Sci2Test4Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "";
+    private String strAns = "", strMenberID="1";
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -46,7 +46,7 @@ public class Sci2Test4Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "1";
+                strAns = "3";
 
             }else if(radChoice2.isChecked()){
 
@@ -54,11 +54,11 @@ public class Sci2Test4Activity extends Activity {
 
             }else if(radChoice3.isChecked()){
 
-                strAns = "3";
+                strAns = "1";
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "4";
+                strAns = "0";
 
             }
 
@@ -101,10 +101,10 @@ public class Sci2Test4Activity extends Activity {
 */
 
         objMyDBClass = new myDBClass(this);
-        long updateData = objMyDBClass.Update_Data_sciencescore_t2("1", "1", null, null, strAns, null, null, null, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t2(strMenberID, null, null, null, strAns, null, null, null, null, null);
 
 
-        Log.d("Database", "insert DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci2Test4Activity insert DB Success !!!!!" + strAns);
 
     }
 
