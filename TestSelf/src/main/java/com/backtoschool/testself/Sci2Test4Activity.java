@@ -101,7 +101,7 @@ public class Sci2Test4Activity extends Activity {
 */
 
         objMyDBClass = new myDBClass(this);
-        long updateData = objMyDBClass.Update_Data_sciencescore_t2("1", "1", null, null, strAns, null, null, null, null, null);
+        long updateData = objMyDBClass.Update_Data_sciencescore_t2("1", "1", null, null, strAns, null, null, null, null, null, null);
 
 
         Log.d("Database", "insert DB Success !!!!!" + strAns);

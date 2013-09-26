@@ -178,7 +178,7 @@
     <string name="qs10ans4">มีความารถด้านดนตรี เช่น ร้องเพลงหรือเล่นดนตรี</string>
 
 
-    <!-- end of sub test 1 and start of sub test 2 -->
+    <!-- end of sub sci test 1 and start of sub sci test 2 -->
 
     <string name="qs11">ลักษณะนิสัยใดที่ใช่ตัวเรา</string>
     <string name="qs11ans1">ชอบค้นคว้า</string>
@@ -233,6 +233,16 @@
     <string name="qs18ans2">ความสามารถในการใช้เหตุผล</string>
     <string name="qs18ans3">ความสามารถในการติดต่อสื่อสาร</string>
     <string name="qs18ans4">ความสามารถในการใช้จินตนาการ</string>
+
+    <!-- test pre sci type 1 -->
+
+    <string name="qs19title">ก้าวต่อไปของเด็กวิทย์ แบบที่ 1</string>
+    <string name="qs19">วิชาต่อไปนี้ที่ชอบเรียนและมีความสนใจมากกว่ากัน</string>
+    <string name="qs19ans1">ชอบ ชีววิทยา เคมี</string>
+    <string name="qs19ans2">ชอบ พอๆ กันทั้งฟิสิกส์ เคมี ชีววิทยา</string>
+    <string name="qs19ans3">ชอบ คณิตศาสตร์</string>
+
+
 
     <string name="mynameis">ฉันชื่อ</string>
     <string name="age">อายุ</string>

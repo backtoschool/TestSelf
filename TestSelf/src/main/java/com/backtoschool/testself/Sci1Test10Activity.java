@@ -74,8 +74,14 @@ public class Sci1Test10Activity extends Activity {
                 UpdateDataSQLite();
 
 
+
+
+
+                /*
                 objIntent = new Intent(Sci1Test10Activity.this, Sci2Test1Activity.class);
                 startActivity(objIntent);
+
+                */
 
             }
 
@@ -104,5 +110,24 @@ public class Sci1Test10Activity extends Activity {
         Log.d("Database", "update DB Success !!!!!" + strAns);
 
     }
+
+    public void CalculateResult(){
+
+
+        try{
+
+
+
+
+
+        }catch (Exception e){
+
+            Log.d("Database", "CalculateResult Error " + e.toString());
+
+        }
+
+
+    }
+
 
 }

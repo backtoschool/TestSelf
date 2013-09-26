@@ -108,6 +108,7 @@ public class myDBClass extends SQLiteOpenHelper{
                 " Q6 Integer,"+
                 " Q7 Integer,"+
                 " Q8 Integer,"+
+                " ResultType TEXT(100),"+
                 " ScienceGroupType TEXT(100)"+
                 ");");
         Log.d("Database", "Create Table Successfully."+TABLE_SCIENCESCORE_T2);
@@ -497,6 +498,7 @@ public class myDBClass extends SQLiteOpenHelper{
     public long Update_Data_sciencescore_t2(String strMemberID,String strid_sciencescore_t1,
                                             String strQ2,String strQ3,
                                             String strQ4,String strQ5,String strQ6, String strQ7,String strQ8,
+                                            String strResultType,
                                             String strScienceGroupType) {
         // TODO Auto-generated method stub
 
@@ -545,6 +547,9 @@ public class myDBClass extends SQLiteOpenHelper{
             }
             if(strQ8 != "" && strQ8 != null){
                 Val.put("Q8", strQ8);
+            }
+            if(strResultType != "" && strResultType != null){
+                Val.put("ResultType", strResultType);
             }
             if(strScienceGroupType != "" && strScienceGroupType != null){
                 Val.put("ScienceGroupType", strScienceGroupType);
