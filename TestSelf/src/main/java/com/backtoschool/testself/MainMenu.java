@@ -9,20 +9,37 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import java.lang.reflect.Member;
+
 /**
  * Created by MiracleLife on 31/8/2556.
  */
 public class MainMenu extends Activity implements View.OnClickListener {
     private ImageView btnPersonal, btnResult,btnStartTest;
     private Intent objIntent;
+    private String MemberID,Email;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_menu);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+           Email = extras.getString("Email");
+        }
+
+        //Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            MemberID = extras.getString("MemberID");
+        }
+
+        Log.i("DATA",Email+ MemberID);
+
         initialWidget();
         btnPersonal.setOnClickListener(this);
         btnStartTest.setOnClickListener(this);
         btnResult.setOnClickListener(this);
+
 
     }
 

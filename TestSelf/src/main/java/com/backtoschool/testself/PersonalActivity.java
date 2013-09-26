@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import java.lang.reflect.Member;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -26,7 +26,9 @@ public class PersonalActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_layout);
+        //Get Value from pass Intent for search Personal Data
 
+        //
         CheckData();
 
 
@@ -39,7 +41,7 @@ public class PersonalActivity extends Activity {
                 if(SaveData())
                 {
                     // Open Form Main
-                    Intent newActivity = new Intent(PersonalActivity.this,PersonalActivity.class);
+                    Intent newActivity = new Intent(PersonalActivity.this,LoginActivity.class);
                     startActivity(newActivity);
                 }
             }

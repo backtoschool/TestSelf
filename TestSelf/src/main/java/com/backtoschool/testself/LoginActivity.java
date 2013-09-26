@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.security.PublicKey;
+
 /**
  * Created by MiracleLife on 9/25/13.
  */
@@ -51,6 +53,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                     if(strEmail.equals(Email)){
                         //Intent to HomeScreen
                         objIntent = new Intent(LoginActivity.this,MainMenu.class);
+                        objIntent.putExtra("Email",Email);
                         startActivity(objIntent);
                     }else{
                         Toast.makeText(LoginActivity.this, "Email is not correct !!", Toast.LENGTH_LONG).show();
