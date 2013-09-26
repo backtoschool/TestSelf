@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(MainActivity.this, Sci1Test1Activity.class);
+                Intent mainIntent = new Intent(MainActivity.this, LoginActivity.class);
                 MainActivity.this.startActivity(mainIntent);
                 MainActivity.this.finish();
             }
