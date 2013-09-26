@@ -49,8 +49,8 @@ public class PersonalActivity extends Activity {
     }
     private void CheckData() {
         // new Class DB
-        final myDBClass myDb = new myDBClass(this);
-        final ArrayList<HashMap<String, String>> MebmerList = myDb.SelectAllDataMember();
+        //final myDBClass myDb = new myDBClass(this);
+        //final ArrayList<HashMap<String, String>> MebmerList = myDb.SelectAllDataMember();
 
 
 
@@ -110,7 +110,7 @@ public class PersonalActivity extends Activity {
         final myDBClass myDb = new myDBClass(this);
 
 
-        long saveStatus ;
+        long saveStatus = 0;
         try{
             // Save Data
             saveStatus = myDb.Insert_Data_Member(tName.getText().toString(),
@@ -118,21 +118,16 @@ public class PersonalActivity extends Activity {
                     tEmail.getText().toString(),
                     strSex,
                     tAge.getText().toString(),
+                    null,
                     null);
 
         }catch (Exception e){
 
-            Log.d("saveStatus", "saveStatus : " + e);
+            Log.d("saveStatus", "saveStatus : " + saveStatus + " Error : " + e.toString());
 
 
         }
 
-       // if(saveStatus <=  0)
-       // {
-      //      ad.setMessage("Error!! ");
-       //     ad.show();
-        //    return false;
-       // }
 
         Toast.makeText(PersonalActivity.this, "Add Data Successfully. ",
                 Toast.LENGTH_SHORT).show();
