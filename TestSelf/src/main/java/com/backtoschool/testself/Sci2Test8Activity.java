@@ -127,7 +127,7 @@ public class Sci2Test8Activity extends Activity {
         try{
 
             objMyDBClass = new myDBClass(this);
-            final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataSciTest1(strMenberID);
+            final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataSciTest2(strMenberID);
 
             strScienceGroupType = SciTest1DataList.get(0).get("ScienceGroupType").toString();
             IntQ1 = Integer.valueOf(SciTest1DataList.get(0).get("Q1").toString());
