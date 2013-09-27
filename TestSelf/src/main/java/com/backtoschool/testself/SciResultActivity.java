@@ -1,6 +1,7 @@
 package com.backtoschool.testself;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -13,7 +14,7 @@ import java.util.HashMap;
 public class SciResultActivity extends Activity {
 
     private String strMenberID, TypeResult, Sex, ResultScience;
-
+    private Intent objIntent;
     myDBClass objMyDBClass;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,16 @@ public class SciResultActivity extends Activity {
 
     }
 
+
+    private void onClick(){
+
+        objIntent = new Intent(SciResultActivity.this, SciResultDetialActivity.class);
+        objIntent.putExtra("MemberID",strMenberID);
+        objIntent.putExtra("TypeResult",TypeResult);
+        startActivity(objIntent);
+
+
+    }
 
 
     public String ShowResult(){
