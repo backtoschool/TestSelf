@@ -113,7 +113,8 @@ public class PersonalActivity extends Activity {
         long saveStatus = 0;
         try{
             // Save Data
-            saveStatus = myDb.Insert_Data_Member(tName.getText().toString(),
+            saveStatus = myDb.Insert_Data_Member(
+                    tName.getText().toString(),
                     null,
                     tEmail.getText().toString(),
                     strSex,
@@ -121,11 +122,9 @@ public class PersonalActivity extends Activity {
                     null,
                     null);
 
+            Log.i("saveStatus", "saveStatus : " + saveStatus );
         }catch (Exception e){
-
-            Log.d("saveStatus", "saveStatus : " + saveStatus + " Error : " + e.toString());
-
-
+            Log.i("saveStatus", "saveStatus : " + saveStatus + " Error : " + e.toString());
         }
 
 
