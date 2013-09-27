@@ -12,6 +12,10 @@ import android.widget.TextView;
  */
 public class PersonalDetailActivity extends Activity {
     private String Email;
+
+    private String
+
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_det_layout);
@@ -19,19 +23,8 @@ public class PersonalDetailActivity extends Activity {
         if (extras != null) {
             Email = extras.getString("Email");
         }
-
         ShowDataMember(Email);
-
-
-
-
-
         Log.i("DATA",Email);
-
-
-
-
-
     }
 
     private void ShowDataMember(String email) {
@@ -54,8 +47,8 @@ public class PersonalDetailActivity extends Activity {
                 //Age = arrData[5];
                // Result = arrData[6];
 
-                txtDet.setText("ฉันชื่อ ... " + arrData[1] + "ตอนนี้อายุ "+arrData[5] + " ขวบ");
-
+                txtDet.setText("ฉันชื่อ ... " + arrData[1].toString() + "ตอนนี้อายุ "+arrData[5].toString() + " ขวบ");
+                //Log.i("DATA",arrData[1]);
                 if(arrData[4].toString().equals("Male")){
                     imgProfile.setImageResource(R.drawable.boy);
 
