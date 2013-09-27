@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 public class Sci2TestPreActivity extends Activity {
 
-    private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
+    private RadioButton radChoice1, radChoice2, radChoice3;
     private String strAns = "", strMenberID="1";
     private myDBClass objMyDBClass;
 
@@ -28,13 +28,11 @@ public class Sci2TestPreActivity extends Activity {
 
     }
 
-
     public void initialWidget(){
 
         radChoice1 = (RadioButton) findViewById(R.id.radioButton);
         radChoice2 = (RadioButton) findViewById(R.id.radioButton2);
         radChoice3 = (RadioButton) findViewById(R.id.radioButton3);
-        radChoice4 = (RadioButton) findViewById(R.id.radioButton4);
 
     }
 
