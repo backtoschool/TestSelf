@@ -760,20 +760,15 @@ public class myDBClass extends SQLiteOpenHelper{
 
     public String[] SelectDataMember(String strEmail) {
         // TODO Auto-generated method stub
-
         //strMemberID = "1";
-
-
         try {
             String arrData[] = null;
-
             SQLiteDatabase db;
             db = this.getReadableDatabase(); // Read Data
 
             Cursor cursor = db.query(TABLE_MEMBER, new String[] { "*" },
                     "Email=?",
                     new String[] { String.valueOf(strEmail) }, null, null, null, null);
-
             if(cursor != null)
             {
                 if (cursor.moveToFirst()) {

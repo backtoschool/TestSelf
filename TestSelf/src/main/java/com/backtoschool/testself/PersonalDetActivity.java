@@ -3,19 +3,26 @@ package com.backtoschool.testself;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
  * Created by MiracleLife on 9/21/13.
  */
 public class PersonalDetActivity extends Activity {
+    private String Email;
+    //private Intent objIntent;
+
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.personal_det_layout);
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            Email = extras.getString("Email");
+        }
         try{
-            ShowData();
+            ShowData(Email);
         }catch (Exception e){
             Log.i("ShowData",e.toString());
         }
@@ -26,18 +33,42 @@ public class PersonalDetActivity extends Activity {
 
     }
 
-    private void ShowData() {
-
-        // txtMemberID, txtName, txtTel
+    private void ShowData(String email) {
         final TextView tName = (TextView) findViewById(R.id.txtData);
-        final ImageView imgMe = (ImageView) findViewById(R.id.imgMe);
+        //final ImageView imgMe = (ImageView) findViewById(R.id.imgMe);
         // new Class DB
         final myDBClass myDb = new myDBClass(this);
         // Show Data
-        String arrData[] = myDb.SelectDataMember("1");
+        String arrData[] = myDb.SelectDataMember(email);
 
-        if(arrData != null)
-        {
+        if(arrData.length >0){
+            tName.setText(arrData[0].toString() + " : " +
+                          arrData[1].toString() + " : " +
+                          arrData[2].toString() + " : " +
+                          arrData[3].toString() + " : " +
+                          arrData[4].toString() + " : " +
+                          arrData[5].toString() + " : " +
+                          arrData[6].toString() + " : " +
+                          arrData[7].toString() + " : "
+                        );
+
+        }
+
+
+    }
+
+    //private void ShowData() {
+
+        // txtMemberID, txtName, txtTel
+       // final TextView tName = (TextView) findViewById(R.id.txtData);
+     //   final ImageView imgMe = (ImageView) findViewById(R.id.imgMe);
+        // new Class DB
+     //   final myDBClass myDb = new myDBClass(this);
+        // Show Data
+     //   String arrData[] = myDb.SelectDataMember(MemberID);
+
+     //   if(arrData != null)
+    //    {
             //tName.setText(arrData[0]);
             /***
              *  0 = MemberID
@@ -49,11 +80,11 @@ public class PersonalDetActivity extends Activity {
              *  6 = Result
              */
 
-            tName.setText("ฉันชื่อ " + arrData[1].toString() + "อาย " + arrData[4].toString());
+      //      tName.setText("ฉันชื่อ " + arrData[1].toString() + "อายุ " + arrData[4].toString());
 
-        }
+      //  }
 
 
 
-    }
+  //  }
 }

@@ -54,6 +54,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                         //Intent to HomeScreen
                         objIntent = new Intent(LoginActivity.this,MainMenu.class);
                         objIntent.putExtra("Email",Email);
+                        objIntent.putExtra("MemberID",MemberID);
                         startActivity(objIntent);
                     }else{
                         Toast.makeText(LoginActivity.this, "Email is not correct !!", Toast.LENGTH_LONG).show();

@@ -33,7 +33,7 @@ public class MainMenu extends Activity implements View.OnClickListener {
             MemberID = extras.getString("MemberID");
         }
 
-        Log.i("DATA",Email+ MemberID);
+        //Log.i("DATA",Email+ MemberID);
 
         initialWidget();
         btnPersonal.setOnClickListener(this);
@@ -59,16 +59,22 @@ public class MainMenu extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgPersonal:
-                objIntent = new Intent(MainMenu.this,PersonalActivity.class);
-                //objIntent = new Intent(MainMenu.this,PersonalDetActivity.class);
+                //objIntent = new Intent(MainMenu.this,PersonalActivity.class);
+                objIntent = new Intent(MainMenu.this,PersonalDetActivity.class);
+                objIntent.putExtra("Email",Email);
+                //objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
             case R.id.imgStarttest:
                 objIntent = new Intent(MainMenu.this,TestMenuActivity.class);
+                objIntent.putExtra("Email",Email);
+                //objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
             case R.id.imgResult:
                 objIntent = new Intent(MainMenu.this,ResultActivity.class);
+                objIntent.putExtra("Email",Email);
+                //objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
         }
