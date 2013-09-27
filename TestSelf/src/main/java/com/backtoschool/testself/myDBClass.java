@@ -790,7 +790,104 @@ public class myDBClass extends SQLiteOpenHelper{
                     arrData[4] = cursor.getString(4);
                     arrData[5] = cursor.getString(5);
                     arrData[6] = cursor.getString(6);
-                    arrData[7] = cursor.getString(6);
+                    arrData[7] = cursor.getString(7);
+                }
+            }
+            cursor.close();
+            db.close();
+            return arrData;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+    public String[] SelectDataArt1(String strID) {
+        // TODO Auto-generated method stub
+        //strMemberID = "1";
+        try {
+            String arrData[] = null;
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            Cursor cursor = db.query(TABLE_ARTSCORE_T1, new String[] { "*" },
+                    "MemberID=?",
+                    new String[] { String.valueOf(strID) }, null, null, null, null);
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+                    arrData = new String[cursor.getColumnCount()];
+                    /***
+                     * MemberID Integer
+                     * Q1 Integer
+                     * Q2 Integer
+                     * Q3 Integer
+                     * Q4 Integer
+                     * Q5 Integer
+                     * ResultType Integer
+                     */
+                    arrData[0] = cursor.getString(0);
+                    arrData[1] = cursor.getString(1);
+                    arrData[2] = cursor.getString(2);
+                    arrData[3] = cursor.getString(3);
+                    arrData[4] = cursor.getString(4);
+                    arrData[5] = cursor.getString(5);
+                    arrData[6] = cursor.getString(6);
+                    arrData[7] = cursor.getString(7);
+                }
+            }
+            cursor.close();
+            db.close();
+            return arrData;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+    public String[] SelectDataArt2 (String strID) {
+        // TODO Auto-generated method stub
+        //strMemberID = "1";
+        try {
+            String arrData[] = null;
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            Cursor cursor = db.query(TABLE_ARTSCORE_T2, new String[] { "*" },
+                    "MemberID=?",
+                    new String[] { String.valueOf(strID) }, null, null, null, null);
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+                    arrData = new String[cursor.getColumnCount()];
+                    /***
+                     * MemberID Integer
+                     * Q1 Integer
+                     * Q2 Integer
+                     * Q3 Integer
+                     * Q4 Integer
+                     * Q5 Integer
+                     * Q6 Integer
+                     * Q7 Integer
+                     * Q8 Integer
+                     * Q9 Integer
+                     * Q10 Integer
+                     * ResultType Integer
+                     */
+                    arrData[0] = cursor.getString(0);
+                    arrData[1] = cursor.getString(1);
+                    arrData[2] = cursor.getString(2);
+                    arrData[3] = cursor.getString(3);
+                    arrData[4] = cursor.getString(4);
+                    arrData[5] = cursor.getString(5);
+                    arrData[6] = cursor.getString(6);
+                    arrData[7] = cursor.getString(7);
+                    arrData[8] = cursor.getString(8);
+                    arrData[9] = cursor.getString(9);
+                    arrData[10] = cursor.getString(10);
+                    arrData[11] = cursor.getString(11);
                 }
             }
             cursor.close();
