@@ -32,7 +32,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imgtest1"
+            android:id="@+id/imgresultsci"
             android:src="@drawable/sciresult"
             android:onClick="onClick" />
 
@@ -49,7 +49,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imgtest2"
+            android:id="@+id/imgresultart"
             android:src="@drawable/artresult"
             android:layout_gravity="center_vertical"
             android:onClick="onClick" />

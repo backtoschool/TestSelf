@@ -187,19 +187,19 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strMemberID != ""){
                 Val.put("MemberID", strMemberID);
             }
-            if(strQ1 != "" || strQ1 != null){
+            if(strQ1 != "" && strQ1 != null){
                 Val.put("Q1", strQ1);
             }
-            if(strQ2 != "" || strQ2 != null){
+            if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
-            if(strQ3 != "" || strQ3 != null){
+            if(strQ3 != "" && strQ3 != null){
                 Val.put("Q3", strQ3);
             }
-            if(strQ4 != "" || strQ4 != null){
+            if(strQ4 != "" && strQ4 != null){
                 Val.put("Q4", strQ4);
             }
-            if(strQ5 != "" || strQ5 != null){
+            if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
             if(strResultType != ""){
@@ -299,40 +299,40 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strid_artscore_t1 != "" || strid_artscore_t1 != null){
                 Val.put("_id_artscore_t1", strid_artscore_t1);
             }
-            if(strQ1 != "" || strQ1 != null){
+            if(strQ1 != "" && strQ1 != null){
                 Val.put("Q1", strQ1);
             }
-            if(strQ2 != "" || strQ2 != null){
+            if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
-            if(strQ3 != "" || strQ3 != null){
+            if(strQ3 != "" && strQ3 != null){
                 Val.put("Q3", strQ3);
             }
-            if(strQ4 != "" || strQ4 != null){
+            if(strQ4 != "" && strQ4 != null){
                 Val.put("Q4", strQ4);
             }
-            if(strQ5 != "" || strQ5 != null){
+            if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
-            if(strQ6 != "" || strQ6 != null){
+            if(strQ6 != "" && strQ6 != null){
                 Val.put("Q6", strQ6);
             }
-            if(strQ7 != "" || strQ7 != null){
+            if(strQ7 != "" && strQ7 != null){
                 Val.put("Q7", strQ7);
             }
-            if(strQ8 != "" || strQ8 != null){
+            if(strQ8 != "" && strQ8 != null){
                 Val.put("Q8", strQ8);
             }
-            if(strQ9 != "" || strQ9 != null){
+            if(strQ9 != "" && strQ9 != null){
                 Val.put("Q9", strQ9);
             }
-            if(strQ10 != "" || strQ10 != null){
+            if(strQ10 != "" && strQ10 != null){
                 Val.put("Q10", strQ10);
             }
-            if(strQ11 != "" || strQ11 != null){
+            if(strQ11 != "" && strQ11 != null){
                 Val.put("Q11", strQ11);
             }
-            if(strQ12 != "" || strQ12 != null){
+            if(strQ12 != "" && strQ12 != null){
                 Val.put("Q12", strQ12);
             }
             if(strResultGroup != ""){
@@ -724,26 +724,26 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strName != "" || strName != null){
+            if(strName != "" && strName != null){
                 Val.put("Name", strName);
             }
-            if(strLastname != "" || strLastname != null){
+            if(strLastname != "" && strLastname != null){
                 Val.put("Lastname", strLastname);
             }
-            if(strEmail != "" || strEmail != null){
+            if(strEmail != "" && strEmail != null){
                 Val.put("Email", strEmail);
             }
-            if(strSex != "" || strSex != null){
+            if(strSex != "" && strSex != null){
                 Val.put("Sex", strSex);
             }
-            if(strAge != "" || strAge != null){
+            if(strAge != "" && strAge != null){
                 Val.put("Age", strAge);
             }
             //String strResultScience, String strResultArt
-            if(strResultScience != "" || strResultScience != null){
+            if(strResultScience != "" && strResultScience != null){
                 Val.put("ResultScience", strResultScience);
             }
-            if(strResultArt != "" || strResultArt != null){
+            if(strResultArt != "" && strResultArt != null){
                 Val.put("ResultArt", strResultArt);
             }
 
