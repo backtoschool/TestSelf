@@ -11,9 +11,9 @@ import android.widget.TextView;
  */
 public class PersonalDetailActivity extends Activity {
     private String Email;
-
-   // private String
-
+    TextView txtData;
+    ImageView imgMe;
+    private String strName, strLastname,strSex,strAge;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,46 +22,39 @@ public class PersonalDetailActivity extends Activity {
         if (extras != null) {
             Email = extras.getString("Email");
         }
+        InitialWidget();
+
         ShowDataMember(Email);
-        Log.i("DATA",Email);
+        //Log.i("DATA",Email+strName+strLastname+strSex+strAge);
+        txtData.setText("....ฉันชื่อ "+ strName + " อายุ " + strAge);
+        if(strSex.equals("Male")){
+            imgMe.setImageResource(R.drawable.boy);
+
+        }else if(strSex.equals("Female")){
+            imgMe.setImageResource(R.drawable.girl);
+        }
+
+    }
+
+    private void InitialWidget() {
+        imgMe = (ImageView) findViewById(R.id.imgMe);
+        txtData = (TextView) findViewById(R.id.txtData);
     }
 
     private void ShowDataMember(String email) {
-        final TextView txtDet = (TextView) findViewById(R.id.txtData);
-        final ImageView imgProfile = (ImageView) findViewById(R.id.imgMe);
 
-        if(email.isEmpty()){
-            // new Class DB
             final myDBClass myDb = new myDBClass(this);
 
             // Show Data
             String arrData[] = myDb.SelectDataMember(email);
             if(arrData != null)
             {
-                //MemberID = arrData[0];
-                //Name = arrData[1];
-               // Lastname = arrData[2];
-                //Email = arrData[3];
-               // Sex = arrData[4];
-                //Age = arrData[5];
-               // Result = arrData[6];
-
-                txtDet.setText("ฉันชื่อ ... " + arrData[1].toString() + "ตอนนี้อายุ "+arrData[5].toString() + " ขวบ");
-                //Log.i("DATA",arrData[1]);
-                if(arrData[4].toString().equals("Male")){
-                    imgProfile.setImageResource(R.drawable.boy);
-
-
-                }else if(arrData[4].toString().equals("Female")){
-                    imgProfile.setImageResource(R.drawable.girl);
-
-                }
-
-
-
+                strName = arrData[1];
+                strLastname  = arrData[2];
+                strAge = arrData[5];
+                strSex = arrData[4];
             }
-            //return arrData;
 
-        }
+
     }
 }
