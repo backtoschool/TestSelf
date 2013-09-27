@@ -115,6 +115,7 @@
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".PersonalDetailActivity"
             android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".SciHeartArtActivity" />
 
         <meta-data android:value="@string/app_id"
             android:name="com.facebook.sdk.ApplicationId"/>

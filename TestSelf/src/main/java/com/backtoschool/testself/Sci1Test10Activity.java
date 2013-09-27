@@ -19,7 +19,7 @@ public class Sci1Test10Activity extends Activity {
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
     private String strAns = "", strMenberID = "1";
     private myDBClass objMyDBClass;
-    private long updateData;
+    private long updateData, updateMember;
     private int IntQ1, IntQ2, IntQ3, IntQ4, IntQ5, IntQ6, IntQ7, IntQ8, IntQ9, IntQ10, IntTotal;
 
     private Intent objIntent;
@@ -83,7 +83,7 @@ public class Sci1Test10Activity extends Activity {
 
                 if(TypeTest=="sci-heart-art"){
 
-                    objIntent = new Intent(Sci1Test10Activity.this, Art1Test1Activity.class);
+                    objIntent = new Intent(Sci1Test10Activity.this, SciHeartArtActivity.class);
                     startActivity(objIntent);
 
                 }else if(TypeTest=="sci-2A"){
@@ -145,20 +145,27 @@ public class Sci1Test10Activity extends Activity {
 
                 IntTotal = IntQ1+IntQ2+IntQ3+IntQ4+IntQ5+IntQ6+IntQ7+IntQ8+IntQ9+IntQ10;
 
-                if(IntTotal > 15){
 
-                    if((IntQ4==3 || IntQ4==2) && (IntQ8==2 || IntQ8==1) && (IntQ10==3 || IntQ10==0)){
+                /*
+                    Update_Data_Member(String strMemberID,String strName, String strLastname,
+                    String strEmail, String strSex,String strAge,String strResultScience, String strResultArt)
+                */
+
+
+                if(IntTotal > 15){
+                    if((IntQ4==3 || IntQ4==2) && (IntQ8==2 || IntQ8==1) && (IntQ10==3 || IntQ10==0) && (IntTotal<=22 || IntTotal>=16)){
                         result = "sci-2A";
-                    }else if((IntQ5==1 || IntQ5==0) && IntQ8==0 && IntQ10==1){
+                        updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
+                    }else if((IntQ5==1 || IntQ5==0) && IntQ8==0 && IntQ10==1 && (IntTotal<=26 || IntTotal>=16)){
                         result = "sci-2B";
+                        updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
                     }else{
                         result = "sci-type1";
                     }
-
                 }else{
                     result = "sci-heart-art";
+                    updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
                 }
-
 
                 updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, null, null, null, null, null, null, null, null, null, result);
 
