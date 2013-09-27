@@ -17,7 +17,7 @@ import java.lang.reflect.Member;
 public class MainMenu extends Activity implements View.OnClickListener {
     private ImageView btnPersonal, btnResult,btnStartTest;
     private Intent objIntent;
-    private String MemberID,Email;
+    private String MemberID ,Email;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +60,7 @@ public class MainMenu extends Activity implements View.OnClickListener {
         switch (v.getId()){
             case R.id.imgPersonal:
                 //objIntent = new Intent(MainMenu.this,PersonalActivity.class);
-                objIntent = new Intent(MainMenu.this,PersonalDetActivity.class);
+                objIntent = new Intent(MainMenu.this,PersonalDetailActivity.class);
                 objIntent.putExtra("Email",Email);
                 //objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
