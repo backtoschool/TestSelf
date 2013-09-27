@@ -757,7 +757,118 @@ public class myDBClass extends SQLiteOpenHelper{
         }
     }
 
+    // select all Data Member
+    public ArrayList<HashMap<String, String>> SelectAllDataMember() {
+        // TODO Auto-generated method stub
 
+        try {
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+            String strSQL = "SELECT  * FROM " + TABLE_MEMBER;
+            Cursor cursor = db.rawQuery(strSQL, null);
+            /***
+             *  0 = MemberID
+             *  1 = Name
+             *  2 = Lastname
+             *  3 = Email
+             *  4 = Sex
+             *  5 = Age
+             *  6 = ResultScience
+             *  7 = ResultArt
+             */
+
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+                    do {
+                        map = new HashMap<String, String>();
+                        map.put("MemberID", cursor.getString(0));
+                        map.put("Name", cursor.getString(1));
+                        map.put("Lastname", cursor.getString(2));
+                        map.put("Email", cursor.getString(3));
+                        map.put("Sex", cursor.getString(4));
+                        map.put("Age", cursor.getString(5));
+                        map.put("ResultScience", cursor.getString(6));
+                        map.put("ResultArt", cursor.getString(7));
+                        MyArrList.add(map);
+                    } while (cursor.moveToNext());
+                }
+            }
+            cursor.close();
+            db.close();
+            return MyArrList;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+
+        // select Data Member by MemberID
+
+    public ArrayList<HashMap<String, String>> SelectDataMemberID(String strMemberID) {
+        // TODO Auto-generated method stub
+        //strMemberID = "1";
+        try {
+            String arrData[] = null;
+            SQLiteDatabase db;
+            db = this.getReadableDatabase(); // Read Data
+
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
+            Cursor cursor = db.query(TABLE_MEMBER, new String[] { "*" },
+                    "MemberID=?",
+                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+
+            /***
+             *  0 = MemberID
+             *  1 = Name
+             *  2 = Lastname
+             *  3 = Email
+             *  4 = Sex
+             *  5 = Age
+             *  6 = ResultScience
+             *  7 = ResultArt
+             */
+
+            if(cursor != null)
+            {
+                if (cursor.moveToFirst()) {
+                    do {
+                        map = new HashMap<String, String>();
+                        map.put("MemberID", cursor.getString(0));
+                        map.put("Name", cursor.getString(1));
+                        map.put("Lastname", cursor.getString(2));
+                        map.put("Email", cursor.getString(3));
+                        map.put("Sex", cursor.getString(4));
+                        map.put("Age", cursor.getString(5));
+                        map.put("ResultScience", cursor.getString(6));
+                        map.put("ResultArt", cursor.getString(7));
+                        MyArrList.add(map);
+                    } while (cursor.moveToNext());
+                }
+            }
+
+            cursor.close();
+            db.close();
+            return MyArrList;
+
+        } catch (Exception e) {
+            return null;
+        }
+
+    }
+
+
+        // select Data Member by Email
     public String[] SelectDataMember(String strEmail) {
         // TODO Auto-generated method stub
         //strMemberID = "1";
@@ -899,65 +1010,6 @@ public class myDBClass extends SQLiteOpenHelper{
         }
 
     }
-
-    // Show All Data
-    public ArrayList<HashMap<String, String>> SelectAllDataMember() {
-        // TODO Auto-generated method stub
-
-        try {
-
-            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
-            HashMap<String, String> map;
-
-            SQLiteDatabase db;
-            db = this.getReadableDatabase(); // Read Data
-
-            String strSQL = "SELECT  * FROM " + TABLE_MEMBER;
-            Cursor cursor = db.rawQuery(strSQL, null);
-            /***
-             *  0 = MemberID
-             *  1 = Name
-             *  2 = Lastname
-             *  3 = Email
-             *  4 = Sex
-             *  5 = Age
-             *  6 = ResultScience
-             *  7 = ResultArt
-             */
-
-            if(cursor != null)
-            {
-                if (cursor.moveToFirst()) {
-                    do {
-                        map = new HashMap<String, String>();
-                        map.put("MemberID", cursor.getString(0));
-                        map.put("Name", cursor.getString(1));
-                        map.put("Lastname", cursor.getString(2));
-                        map.put("Email", cursor.getString(3));
-                        map.put("Sex", cursor.getString(4));
-                        map.put("Age", cursor.getString(5));
-                        map.put("ResultScience", cursor.getString(6));
-                        map.put("ResultArt", cursor.getString(7));
-                        MyArrList.add(map);
-                    } while (cursor.moveToNext());
-                }
-            }
-            cursor.close();
-            db.close();
-            return MyArrList;
-
-        } catch (Exception e) {
-            return null;
-        }
-
-    }
-
-
-
-
-
-
-
 
 
 }

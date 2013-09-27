@@ -92,14 +92,14 @@ public class Sci1Test10Activity extends Activity {
 
                 }else if(TypeTest=="sci-2A"){
 
-                    objIntent = new Intent(Sci1Test10Activity.this, ResultActivity.class);
+                    objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
                     objIntent.putExtra("MemberID",strMenberID);
                     objIntent.putExtra("TypeResult",TypeTest);
                     startActivity(objIntent);
 
                 }else if(TypeTest=="sci-2B"){
 
-                    objIntent = new Intent(Sci1Test10Activity.this, ResultActivity.class);
+                    objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
                     objIntent.putExtra("MemberID",strMenberID);
                     objIntent.putExtra("TypeResult",TypeTest);
                     startActivity(objIntent);
