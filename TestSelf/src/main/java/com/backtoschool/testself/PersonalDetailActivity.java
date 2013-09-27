@@ -1,7 +1,6 @@
 package com.backtoschool.testself;
 
 import android.app.Activity;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
@@ -13,7 +12,7 @@ import android.widget.TextView;
 public class PersonalDetailActivity extends Activity {
     private String Email;
 
-    private String
+   // private String
 
 
     public void onCreate(Bundle savedInstanceState) {

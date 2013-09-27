@@ -2,14 +2,10 @@ package com.backtoschool.testself;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-
-import java.lang.reflect.Member;
 
 /**
  * Created by MiracleLife on 31/8/2556.
@@ -68,13 +64,13 @@ public class MainMenu extends Activity implements View.OnClickListener {
             case R.id.imgStarttest:
                 objIntent = new Intent(MainMenu.this,TestMenuActivity.class);
                 objIntent.putExtra("Email",Email);
-                //objIntent.putExtra("MemberID",MemberID);
+                objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
             case R.id.imgResult:
                 objIntent = new Intent(MainMenu.this,ResultActivity.class);
                 objIntent.putExtra("Email",Email);
-                //objIntent.putExtra("MemberID",MemberID);
+                objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
         }

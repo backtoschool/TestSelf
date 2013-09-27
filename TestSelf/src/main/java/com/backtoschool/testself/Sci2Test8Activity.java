@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class Sci2Test8Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strScienceGroupType, strAns = "", strMenberID = "1";
+    private String strScienceGroupType, TypeTest, strAns = "", strMenberID;
     private myDBClass objMyDBClass;
     private int IntQ1, IntQ2, IntQ3, IntQ4, IntQ5, IntQ6, IntQ7, IntQ8, IntTotal;
     private long updateData, updateMember;
@@ -30,7 +30,10 @@ public class Sci2Test8Activity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.art2test8_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -82,11 +85,13 @@ public class Sci2Test8Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                String TypeTest = CalculateResult();
+                TypeTest = CalculateResult();
 
                 if(TypeTest!=null){
 
                     objIntent = new Intent(Sci2Test8Activity.this, ResultActivity.class);
+                    objIntent.putExtra("MemberID",strMenberID);
+                    objIntent.putExtra("TypeResult",TypeTest);
                     startActivity(objIntent);
 
                 }

@@ -23,7 +23,10 @@ public class Sci2Test7Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci2test7_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -75,6 +78,7 @@ public class Sci2Test7Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Sci2Test7Activity.this, Sci2Test8Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }

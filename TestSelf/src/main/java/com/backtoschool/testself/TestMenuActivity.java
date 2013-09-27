@@ -14,6 +14,7 @@ public class TestMenuActivity extends Activity implements View.OnClickListener {
 
     private ImageView btntest1,btntest2;
     private Intent objIntent;
+    private String MemberID;
 
     public void onCreate(Bundle savedInstanceState) {
 
@@ -22,6 +23,11 @@ public class TestMenuActivity extends Activity implements View.OnClickListener {
         initialWidget();
         btntest1.setOnClickListener(this);
         btntest2.setOnClickListener(this);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            MemberID = extras.getString("MemberID");
+        }
 
     }
 
@@ -41,10 +47,12 @@ public class TestMenuActivity extends Activity implements View.OnClickListener {
         switch (v.getId()){
             case R.id.imgtest1:
                 objIntent = new Intent(TestMenuActivity.this,Sci1Test1Activity.class);
+                objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
             case R.id.imgtest2:
                 objIntent = new Intent(TestMenuActivity.this,Art1Test1Activity.class);
+                objIntent.putExtra("MemberID",MemberID);
                 startActivity(objIntent);
                 break;
 

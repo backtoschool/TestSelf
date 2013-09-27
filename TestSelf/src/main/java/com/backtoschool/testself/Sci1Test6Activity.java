@@ -15,7 +15,7 @@ public class Sci1Test6Activity extends Activity {
 
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "", strMenberID = "1";
+    private String strAns = "", strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -25,6 +25,10 @@ public class Sci1Test6Activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci1test6_layout);
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
 
         initialWidget();
 
@@ -78,6 +82,7 @@ public class Sci1Test6Activity extends Activity {
 
 
                 objIntent = new Intent(Sci1Test6Activity.this, Sci1Test7Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -105,7 +110,7 @@ public class Sci1Test6Activity extends Activity {
 
         long updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, null, null, null, null, strAns, null, null, null, null, null);
 
-        Log.d("Database", "update DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci1Test6Activity update DB Success !!!!!" + strAns);
 
     }
 

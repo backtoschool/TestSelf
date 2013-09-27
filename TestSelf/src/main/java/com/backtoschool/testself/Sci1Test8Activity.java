@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class Sci1Test8Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "", strMenberID = "1";
+    private String strAns = "", strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -24,7 +24,10 @@ public class Sci1Test8Activity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci1test8_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
 
@@ -77,6 +80,7 @@ public class Sci1Test8Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Sci1Test8Activity.this, Sci1Test9Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -104,7 +108,7 @@ public class Sci1Test8Activity extends Activity {
 
         long updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, null, null, null, null, null, null, strAns, null, null, null);
 
-        Log.d("Database", "update DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci1Test8Activity update DB Success !!!!!" + strAns);
 
     }
 

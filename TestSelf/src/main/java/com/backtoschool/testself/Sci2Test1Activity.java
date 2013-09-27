@@ -15,7 +15,7 @@ public class Sci2Test1Activity extends Activity {
 
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "", strMenberID="1";
+    private String strAns = "", strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -24,7 +24,10 @@ public class Sci2Test1Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci2test1_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -76,6 +79,7 @@ public class Sci2Test1Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Sci2Test1Activity.this, Sci2Test2Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }

@@ -23,7 +23,10 @@ public class Sci1Test4Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci1test4_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
     }
 
@@ -76,6 +79,7 @@ public class Sci1Test4Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Sci1Test4Activity.this, Sci1Test5Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -104,7 +108,7 @@ public class Sci1Test4Activity extends Activity {
 
         long updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, null, null, strAns, null, null, null, null, null, null, null);
 
-        Log.d("Database", "update DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci1Test4Activity update DB Success !!!!!" + strAns);
 
     }
 

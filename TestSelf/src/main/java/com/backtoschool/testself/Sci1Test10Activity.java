@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class Sci1Test10Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "", strMenberID = "1";
+    private String strAns = "", strMenberID, TypeTest;
     private myDBClass objMyDBClass;
     private long updateData, updateMember;
     private int IntQ1, IntQ2, IntQ3, IntQ4, IntQ5, IntQ6, IntQ7, IntQ8, IntQ9, IntQ10, IntTotal;
@@ -27,7 +27,10 @@ public class Sci1Test10Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci1test10_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -78,27 +81,33 @@ public class Sci1Test10Activity extends Activity {
                 UpdateDataSQLite();
 
 
-                String TypeTest = CalculateResult();
+                TypeTest = CalculateResult();
 
 
                 if(TypeTest=="sci-heart-art"){
 
                     objIntent = new Intent(Sci1Test10Activity.this, SciHeartArtActivity.class);
+                    objIntent.putExtra("MemberID",strMenberID);
                     startActivity(objIntent);
 
                 }else if(TypeTest=="sci-2A"){
 
                     objIntent = new Intent(Sci1Test10Activity.this, ResultActivity.class);
+                    objIntent.putExtra("MemberID",strMenberID);
+                    objIntent.putExtra("TypeResult",TypeTest);
                     startActivity(objIntent);
 
                 }else if(TypeTest=="sci-2B"){
 
                     objIntent = new Intent(Sci1Test10Activity.this, ResultActivity.class);
+                    objIntent.putExtra("MemberID",strMenberID);
+                    objIntent.putExtra("TypeResult",TypeTest);
                     startActivity(objIntent);
 
                 }else{
 
                     objIntent = new Intent(Sci1Test10Activity.this, Sci2TestPreActivity.class);
+                    objIntent.putExtra("MemberID",strMenberID);
                     startActivity(objIntent);
 
                 }

@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class Sci2Test5Activity extends Activity {
 
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4;
-    private String strAns = "", strMenberID="1";
+    private String strAns = "", strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -22,7 +22,10 @@ public class Sci2Test5Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sci2test5_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -74,6 +77,7 @@ public class Sci2Test5Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Sci2Test5Activity.this, Sci2Test6Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
