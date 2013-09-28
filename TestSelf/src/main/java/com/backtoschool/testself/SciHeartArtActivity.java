@@ -3,6 +3,8 @@ package com.backtoschool.testself;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 /**
  * Created by Shana on 9/27/13.
@@ -27,14 +29,22 @@ public class SciHeartArtActivity extends Activity {
     }
 
 
-    public void onClick(){
+    public void onClick(View view){
 
-        objIntent = new Intent(SciHeartArtActivity.this, Art1Test1Activity.class);
-        objIntent.putExtra("MemberID",strMenberID);
-        startActivity(objIntent);
+        try{
+
+            objIntent = new Intent(SciHeartArtActivity.this, Art1Test1Activity.class);
+            objIntent.putExtra("MemberID",strMenberID);
+            startActivity(objIntent);
+
+            Log.d("Database", "go to art test");
+
+        }catch (Exception e){
+
+            Log.d("Database", "invalidate go to art test");
+
+        }
 
     }
-
-
 
 }
