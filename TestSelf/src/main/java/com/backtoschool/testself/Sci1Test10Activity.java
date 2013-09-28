@@ -43,7 +43,10 @@ public class Sci1Test10Activity extends Activity {
         radChoice4 = (RadioButton) findViewById(R.id.radioButton4);
 
     }
-
+    private enum Fruit {
+        sciheartart, sci2A, sci2B, scitype1;
+    }
+    String value; // assume input
 
     public void onClickNext(View view){
 
@@ -83,35 +86,35 @@ public class Sci1Test10Activity extends Activity {
 
                 TypeTest = CalculateResult();
 
+                Log.i("DATA", TypeTest + " " + strMenberID );
 
-                if(TypeTest=="sci-heart-art"){
+                Fruit fruit = Fruit.valueOf(TypeTest); // surround with try/catch
 
-                    objIntent = new Intent(Sci1Test10Activity.this, SciHeartArtActivity.class);
-                    objIntent.putExtra("MemberID",strMenberID);
-                    startActivity(objIntent);
-
-                }else if(TypeTest=="sci-2A"){
-
-                    objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
-                    objIntent.putExtra("MemberID",strMenberID);
-                    objIntent.putExtra("TypeResult",TypeTest);
-                    startActivity(objIntent);
-
-                }else if(TypeTest=="sci-2B"){
-
-                    objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
-                    objIntent.putExtra("MemberID",strMenberID);
-                    objIntent.putExtra("TypeResult",TypeTest);
-                    startActivity(objIntent);
-
-                }else{
-
-                    objIntent = new Intent(Sci1Test10Activity.this, Sci2TestPreActivity.class);
-                    objIntent.putExtra("MemberID",strMenberID);
-                    startActivity(objIntent);
-
+                switch(fruit) {
+                    case sciheartart:
+                        objIntent = new Intent(Sci1Test10Activity.this, SciHeartArtActivity.class);
+                        objIntent.putExtra("MemberID",strMenberID);
+                        startActivity(objIntent);
+                        break;
+                    case sci2A:
+                        objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
+                        objIntent.putExtra("MemberID",strMenberID);
+                        objIntent.putExtra("TypeResult",TypeTest);
+                        startActivity(objIntent);
+                        break;
+                    case sci2B:
+                        objIntent = new Intent(Sci1Test10Activity.this, SciResultActivity.class);
+                        objIntent.putExtra("MemberID",strMenberID);
+                        objIntent.putExtra("TypeResult",TypeTest);
+                        startActivity(objIntent);
+                        break;
+                    case scitype1:
+                        objIntent = new Intent(Sci1Test10Activity.this, Sci2TestPreActivity.class);
+                        objIntent.putExtra("MemberID",strMenberID);
+                        objIntent.putExtra("TypeResult",TypeTest);
+                        startActivity(objIntent);
+                        break;
                 }
-
             }
 
 
@@ -163,16 +166,16 @@ public class Sci1Test10Activity extends Activity {
 
                 if(IntTotal > 15){
                     if((IntQ4==3 || IntQ4==2) && (IntQ8==2 || IntQ8==1) && (IntQ10==3 || IntQ10==0) && (IntTotal<=22 || IntTotal>=16)){
-                        result = "sci-2A";
+                        result = "sci2A";
                         updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
                     }else if((IntQ5==1 || IntQ5==0) && IntQ8==0 && IntQ10==1 && (IntTotal<=26 || IntTotal>=16)){
-                        result = "sci-2B";
+                        result = "sci2B";
                         updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
                     }else{
-                        result = "sci-type1";
+                        result = "scitype1";
                     }
                 }else{
-                    result = "sci-heart-art";
+                    result = "sciheartart";
                     updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
                 }
 

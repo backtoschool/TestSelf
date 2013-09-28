@@ -59,7 +59,7 @@ public class SciResultActivity extends Activity {
 
             Sex = SciTest1DataList.get(0).get("Sex").toString();
             ResultScience = SciTest1DataList.get(0).get("ResultScience").toString();
-
+            Log.i("DATA",Sex + ResultScience);
 
             if(TypeResult == ResultScience){
 

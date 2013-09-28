@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.backtoschool.testself"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0"
+    android:installLocation="preferExternal">
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -113,10 +114,14 @@
             android:theme="@style/splashScreenTheme"/>
         <activity android:name=".PersonalDetailActivity"
             android:theme="@style/splashScreenTheme"/>
-        <activity android:name=".SciHeartArtActivity" />
-        <activity android:name=".SciResultActivity" />
-        <activity android:name=".SciResultDetialActivity" />
-        <activity android:name=".ArtResultDetailActivity" />
+        <activity android:name=".SciHeartArtActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".SciResultActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".SciResultDetialActivity"
+            android:theme="@style/splashScreenTheme"/>
+        <activity android:name=".ArtResultDetailActivity"
+            android:theme="@style/splashScreenTheme"/>
 
         <meta-data android:value="@string/app_id"
             android:name="com.facebook.sdk.ApplicationId"/>
