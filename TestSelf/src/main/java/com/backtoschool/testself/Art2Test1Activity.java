@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by MiracleLife on 7/9/2556.
  */
 public class Art2Test1Activity extends Activity {
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "",strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -23,7 +26,10 @@ public class Art2Test1Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.art2test1_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -46,11 +52,11 @@ public class Art2Test1Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "4";
+                strAns = "1";
 
             }else if(radChoice2.isChecked()){
 
-                strAns = "3";
+                strAns = "2";
 
             }else if(radChoice3.isChecked()){
 
@@ -58,7 +64,7 @@ public class Art2Test1Activity extends Activity {
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "0";
+                strAns = "4";
 
             }
 
@@ -78,6 +84,7 @@ public class Art2Test1Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Art2Test1Activity.this, Art2Test2Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -95,9 +102,15 @@ public class Art2Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, null, strAns, null, null, null, null, null, null, null, null, null);
-
-
+        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt2(strMenberID);
+        if(Art1DataList.get(0).get("id").toString().equals(""))
+        {
+            long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID, strAns,null,null,null,null,null,null,null,null,null,null,null,null);
+        }
+        else
+        {
+            long insertID = objMyDBClass.Insert_Data_artscore_t2(strMenberID, strAns);
+        }
 
     }
 }

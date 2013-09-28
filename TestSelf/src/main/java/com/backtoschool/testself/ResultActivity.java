@@ -40,47 +40,15 @@ public class ResultActivity extends Activity {
         }
         switch (v.getId()){
             case R.id.imgresultsci:
-                objIntent = new Intent(ResultActivity.this,PersonalActivity.class);
+                objIntent = new Intent(ResultActivity.this,SciResultActivity.class);
                 startActivity(objIntent);
                 break;
             case R.id.imgResult:
-                getDataMember(MemberID);
-                if(MemberID.equals(Result))
-                {
-                    if (Result == "1A")
-                    {
-                        if(sex == "male")
-                            objIntent = new Intent(ResultActivity.this,Art1Result1MaleActivity.class);
-                        else
-                            objIntent = new Intent(ResultActivity.this,Art1Result1FemaleActivity.class);
-
-                        startActivity(objIntent);
-                    }
-                }
+                objIntent = new Intent(ResultActivity.this,ArtResultActivity.class);
+                startActivity(objIntent);
                 break;
         }
-
     }
 
-    private void getDataMember(String strID) {
-        // new Class DB
-        final myDBClass myDb = new myDBClass(this);
 
-        // Show Data
-        String arrData[] = myDb.SelectDataArt1(strID);
-        if(arrData != null)
-        {
-            Result = arrData[6];
-        }
-
-        final myDBClass myDb2 = new myDBClass(this);
-        // Show Data
-        String arrData2[] = myDb.SelectDataMember(strID);
-        if(arrData != null)
-        {
-            sex = arrData[4];
-        }
-        //return arrData;
-
-    }
 }

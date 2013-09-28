@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 public class Art2Test3Activity extends Activity {
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "",strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -23,7 +23,10 @@ public class Art2Test3Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.art2test3_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -46,11 +49,11 @@ public class Art2Test3Activity extends Activity {
 
             if(radChoice1.isChecked()){
 
-                strAns = "4";
+                strAns = "1";
 
             }else if(radChoice2.isChecked()){
 
-                strAns = "3";
+                strAns = "2";
 
             }else if(radChoice3.isChecked()){
 
@@ -58,7 +61,7 @@ public class Art2Test3Activity extends Activity {
 
             }else if(radChoice4.isChecked()){
 
-                strAns = "0";
+                strAns = "4";
 
             }
 
@@ -78,6 +81,7 @@ public class Art2Test3Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Art2Test3Activity.this, Art2Test4Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -95,7 +99,7 @@ public class Art2Test3Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t2(null,null,null,null,null,strAns,null,null,null,null,null,null,null,null,null,null);
+        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,strAns,null,null,null,null,null,null,null,null,null,null);
 
 
 

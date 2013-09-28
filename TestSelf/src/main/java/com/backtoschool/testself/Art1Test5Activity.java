@@ -8,12 +8,16 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by MiracleLife on 7/9/2556.
  */
 public class Art1Test5Activity extends Activity {
+    public static int score1,score2,score3,score4,score5,score6,score7,score8,score9,score10,score11,score12,sum;
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "",strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -23,7 +27,10 @@ public class Art1Test5Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.art1test5_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -78,6 +85,7 @@ public class Art1Test5Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Art1Test5Activity.this, Art2Test1Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -95,6 +103,33 @@ public class Art1Test5Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t1(null, null, null, null, null, null, strAns, null);
+        //csFunction fun = new csFunction();
+        //String result = fun.ArtResult1(strMenberID);
+        final myDBClass objMyDBClass = new myDBClass(this);
+
+        // Show Data
+        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
+        // if(!Art1DataList.get(0).get("id").toString().equals(""))
+        //{
+        Log.d("test1",Art1DataList.get(0).get("Q1").toString());
+        // if(Art1DataList.get(0).get("Q1").toString() != null && Art1DataList.get(0).get("Q1").toString() != "")
+        score1 = Integer.valueOf(Art1DataList.get(0).get("Q1").toString()) ;
+
+        //   if(Art1DataList.get(0).get("Q2").toString() != null && Art1DataList.get(0).get("Q2").toString() != "")
+        score2 = Integer.valueOf(Art1DataList.get(0).get("Q2").toString()) ;
+
+        // if(Art1DataList.get(0).get("Q3").toString() != null && Art1DataList.get(0).get("Q3").toString() != "")
+        score3 = Integer.valueOf(Art1DataList.get(0).get("Q3").toString()) ;
+
+        //  if(Art1DataList.get(0).get("Q4").toString() != null && Art1DataList.get(0).get("Q4").toString() != "")
+        score4 = Integer.valueOf(Art1DataList.get(0).get("Q4").toString()) ;
+
+        //if(Art1DataList.get(0).get("Q5").toString() != null && Art1DataList.get(0).get("Q5").toString() != "")
+        score5 = Integer.valueOf(Art1DataList.get(0).get("Q5").toString()) ;
+        // }
+        sum = score1+score2+score3+score4+score5;
+        csFunction fun = new csFunction();
+        String result = fun.ArtResult1(sum);
+        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID,null, null, null, null, strAns, result);
     }
 }

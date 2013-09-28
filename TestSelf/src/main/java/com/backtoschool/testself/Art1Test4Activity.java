@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 public class Art1Test4Activity extends Activity {
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "",strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -23,7 +23,10 @@ public class Art1Test4Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.art1test4_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -78,6 +81,7 @@ public class Art1Test4Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Art1Test4Activity.this, Art1Test5Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -95,7 +99,7 @@ public class Art1Test4Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t1(null, null, null, null, null, strAns, null, null);
+        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID,null,  null, null, strAns, null, null);
 
 
     }

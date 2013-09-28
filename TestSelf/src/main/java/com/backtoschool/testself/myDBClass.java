@@ -61,7 +61,6 @@ public class myDBClass extends SQLiteOpenHelper{
         db.execSQL("CREATE TABLE " + TABLE_ARTSCORE_T2 +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 " MemberID Integer," +
-                " _id_artscore_t1 Integer,"+
                 " Q1 Integer,"+
                 " Q2 Integer,"+
                 " Q3 Integer,"+
@@ -117,9 +116,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Insert Data TABLE_ARTSCORE_T1
-    public long Insert_Data_artscore_t1(String memberID, String strAns, String q2, String q3, String q4, String strMemberID,
-                                        String strQ1, String strQ2, String strQ3,
-                                        String strQ4, String strQ5, String strResultType) {
+    public long Insert_Data_artscore_t1(String strMemberID,
+                                        String strQ1) {
         // TODO Auto-generated method stub
 
         try {
@@ -142,11 +140,6 @@ public class myDBClass extends SQLiteOpenHelper{
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
             Val.put("Q1", strQ1);
-            Val.put("Q2", strQ2);
-            Val.put("Q3", strQ3);
-            Val.put("Q4", strQ4);
-            Val.put("Q5", strQ5);
-            Val.put("ResultType",strResultType);
             long rows = db.insert(TABLE_ARTSCORE_T1, null, Val);
 
             db.close();
@@ -158,8 +151,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_ARTSCORE_T1
-    public long Update_Data_artscore_t1(String _id_TABLE_ARTSCORE_T1,String strMemberID,
-                                        String strQ1,String strQ2,String strQ3, String strQ4,
+    public long Update_Data_artscore_t1(String strMemberID,String strQ1,
+                                        String strQ2,String strQ3, String strQ4,
                                         String strQ5, String strResultType) {
         // TODO Auto-generated method stub
 
@@ -184,9 +177,7 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strMemberID != ""){
-                Val.put("MemberID", strMemberID);
-            }
+           // if(strMemberID != "" && strMemberID != null){
             if(strQ1 != "" && strQ1 != null){
                 Val.put("Q1", strQ1);
             }
@@ -202,12 +193,13 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strQ5 != "" && strQ5 != null){
                 Val.put("Q5", strQ5);
             }
-            if(strResultType != ""){
+            if(strResultType != "" && strResultType != null){
                 Val.put("ResultType", strResultType);
 
             }
-            long rows = db.update(TABLE_ARTSCORE_T1, Val, " _id = ?",
-                    new String[] { String.valueOf(_id_TABLE_ARTSCORE_T1) });
+            long rows = db.update(TABLE_ARTSCORE_T1, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
+            //}
             db.close();
             return rows; // return rows updated.
 
@@ -216,10 +208,8 @@ public class myDBClass extends SQLiteOpenHelper{
         }
     }
     // Insert Data TABLE_ARTSCORE_T2
-    public long Insert_Data_artscore_t2(String strMemberID,String strid_artscore_t1,
-                                        String strQ1, String strQ2,String strQ3, String strQ4, String strQ5,
-                                        String strQ6, String strQ7,String strQ8, String strQ9,String strQ10,
-                                        String strQ11, String strQ12,String strResultGroup) {
+    public long Insert_Data_artscore_t2(String strMemberID,
+                                        String strQ1 ) {
         // TODO Auto-generated method stub
 
         try {
@@ -241,20 +231,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
-            Val.put("id_artscore_t1", strid_artscore_t1);
             Val.put("Q1", strQ1);
-            Val.put("Q2", strQ2);
-            Val.put("Q3", strQ3);
-            Val.put("Q4", strQ4);
-            Val.put("Q5", strQ5);
-            Val.put("Q6", strQ6);
-            Val.put("Q7", strQ7);
-            Val.put("Q8", strQ8);
-            Val.put("Q9", strQ9);
-            Val.put("Q10", strQ10);
-            Val.put("Q11", strQ11);
-            Val.put("Q12", strQ12);
-            Val.put("ResultType",strResultGroup);
             long rows = db.insert(TABLE_ARTSCORE_T2, null, Val);
 
             db.close();
@@ -266,8 +243,8 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_ARTSCORE_T2
-    public long Update_Data_artscore_t2(String _id_TABLE_ARTSCORE_T2,String strMemberID,String strid_artscore_t1,
-                                        String strQ1, String strQ2,String strQ3, String strQ4,
+    public long Update_Data_artscore_t2(String strMemberID,String strQ1,
+                                        String strQ2,String strQ3, String strQ4,
                                         String strQ5, String strQ6, String strQ7,String strQ8,
                                         String strQ9,String strQ10, String strQ11, String strQ12,String strResultGroup) {
         // TODO Auto-generated method stub
@@ -293,12 +270,7 @@ public class myDBClass extends SQLiteOpenHelper{
              *
              */
             ContentValues Val = new ContentValues();
-            if(strMemberID != ""){
-                Val.put("MemberID", strMemberID);
-            }
-            if(strid_artscore_t1 != "" || strid_artscore_t1 != null){
-                Val.put("_id_artscore_t1", strid_artscore_t1);
-            }
+           // if(strMemberID != "" && strMemberID != null){
             if(strQ1 != "" && strQ1 != null){
                 Val.put("Q1", strQ1);
             }
@@ -335,12 +307,13 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strQ12 != "" && strQ12 != null){
                 Val.put("Q12", strQ12);
             }
-            if(strResultGroup != ""){
+            if(strResultGroup != "" && strResultGroup != null){
                 Val.put("ResultGroup", strResultGroup);
             }
 
-            long rows = db.update(TABLE_ARTSCORE_T2, Val, " _id = ?",
-                    new String[] { String.valueOf(_id_TABLE_ARTSCORE_T2) });
+            long rows = db.update(TABLE_ARTSCORE_T2, Val, " MemberID = ?",
+                    new String[] { String.valueOf(strMemberID) });
+            //}
             db.close();
             return rows; // return rows updated.
 
@@ -914,43 +887,44 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
 
-    public String[] SelectDataArt1(String strID) {
-        // TODO Auto-generated method stub
-        //strMemberID = "1";
+    // select data on TABLE_ARTSCORE_T1 where MemberID
+    public ArrayList<HashMap<String, String>> SelectDataArt1(String strMemberID) {
+
         try {
-            String arrData[] = null;
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
             SQLiteDatabase db;
             db = this.getReadableDatabase(); // Read Data
 
             Cursor cursor = db.query(TABLE_ARTSCORE_T1, new String[] { "*" },
                     "MemberID=?",
-                    new String[] { String.valueOf(strID) }, null, null, null, null);
+                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+
             if(cursor != null)
             {
                 if (cursor.moveToFirst()) {
-                    arrData = new String[cursor.getColumnCount()];
-                    /***
-                     * MemberID Integer
-                     * Q1 Integer
-                     * Q2 Integer
-                     * Q3 Integer
-                     * Q4 Integer
-                     * Q5 Integer
-                     * ResultType Integer
-                     */
-                    arrData[0] = cursor.getString(0);
-                    arrData[1] = cursor.getString(1);
-                    arrData[2] = cursor.getString(2);
-                    arrData[3] = cursor.getString(3);
-                    arrData[4] = cursor.getString(4);
-                    arrData[5] = cursor.getString(5);
-                    arrData[6] = cursor.getString(6);
-                    arrData[7] = cursor.getString(7);
+
+                    do {
+
+                        map = new HashMap<String, String>();
+                        map.put("id", cursor.getString(0));
+                        map.put("MemberID", cursor.getString(1));
+                        map.put("Q1", cursor.getString(2));
+                        map.put("Q2", cursor.getString(3));
+                        map.put("Q3", cursor.getString(4));
+                        map.put("Q4", cursor.getString(5));
+                        map.put("Q5", cursor.getString(6));
+                        map.put("ResultType", cursor.getString(7));
+                        MyArrList.add(map);
+
+                    }while (cursor.moveToNext());
                 }
             }
             cursor.close();
             db.close();
-            return arrData;
+            return MyArrList;
 
         } catch (Exception e) {
             return null;
@@ -958,52 +932,51 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
 
-    public String[] SelectDataArt2 (String strID) {
-        // TODO Auto-generated method stub
-        //strMemberID = "1";
+    // select data on TABLE_ARTSCORE_T2 where MemberID
+    public ArrayList<HashMap<String, String>> SelectDataArt2(String strMemberID) {
+
         try {
-            String arrData[] = null;
+
+            ArrayList<HashMap<String, String>> MyArrList = new ArrayList<HashMap<String, String>>();
+            HashMap<String, String> map;
+
             SQLiteDatabase db;
             db = this.getReadableDatabase(); // Read Data
 
             Cursor cursor = db.query(TABLE_ARTSCORE_T2, new String[] { "*" },
                     "MemberID=?",
-                    new String[] { String.valueOf(strID) }, null, null, null, null);
+                    new String[] { String.valueOf(strMemberID) }, null, null, null, null);
+
             if(cursor != null)
             {
                 if (cursor.moveToFirst()) {
-                    arrData = new String[cursor.getColumnCount()];
-                    /***
-                     * MemberID Integer
-                     * Q1 Integer
-                     * Q2 Integer
-                     * Q3 Integer
-                     * Q4 Integer
-                     * Q5 Integer
-                     * Q6 Integer
-                     * Q7 Integer
-                     * Q8 Integer
-                     * Q9 Integer
-                     * Q10 Integer
-                     * ResultType Integer
-                     */
-                    arrData[0] = cursor.getString(0);
-                    arrData[1] = cursor.getString(1);
-                    arrData[2] = cursor.getString(2);
-                    arrData[3] = cursor.getString(3);
-                    arrData[4] = cursor.getString(4);
-                    arrData[5] = cursor.getString(5);
-                    arrData[6] = cursor.getString(6);
-                    arrData[7] = cursor.getString(7);
-                    arrData[8] = cursor.getString(8);
-                    arrData[9] = cursor.getString(9);
-                    arrData[10] = cursor.getString(10);
-                    arrData[11] = cursor.getString(11);
+
+                    do {
+
+                        map = new HashMap<String, String>();
+                        map.put("id", cursor.getString(0));
+                        map.put("MemberID", cursor.getString(1));
+                        map.put("Q1", cursor.getString(2));
+                        map.put("Q2", cursor.getString(3));
+                        map.put("Q3", cursor.getString(4));
+                        map.put("Q4", cursor.getString(5));
+                        map.put("Q5", cursor.getString(6));
+                        map.put("Q6", cursor.getString(7));
+                        map.put("Q7", cursor.getString(8));
+                        map.put("Q8", cursor.getString(9));
+                        map.put("Q9", cursor.getString(10));
+                        map.put("Q10", cursor.getString(11));
+                        map.put("Q11", cursor.getString(12));
+                        map.put("Q12", cursor.getString(13));
+                        map.put("ResultType", cursor.getString(14));
+                        MyArrList.add(map);
+
+                    }while (cursor.moveToNext());
                 }
             }
             cursor.close();
             db.close();
-            return arrData;
+            return MyArrList;
 
         } catch (Exception e) {
             return null;

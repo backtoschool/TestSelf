@@ -15,7 +15,7 @@ public class Art2Test7Activity extends Activity {
 
     //Cerate By KAE 21/9/2556
     private RadioButton rad1, rad2, rad3, rad4;
-    private String strAns;
+    private String strAns,strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -24,7 +24,10 @@ public class Art2Test7Activity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.art2test7_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -44,19 +47,19 @@ public class Art2Test7Activity extends Activity {
 
             if(rad1.isChecked()){
 
-                strAns = "4";
+                strAns = "1";
 
             }else if(rad2.isChecked()){
 
-                strAns = "4";
+                strAns = "2";
 
             }else if(rad3.isChecked()){
 
-                strAns = "2";
+                strAns = "3";
 
             }else if(rad4.isChecked()){
 
-                strAns = "0";
+                strAns = "4";
 
             }
 
@@ -76,6 +79,7 @@ public class Art2Test7Activity extends Activity {
                 Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
 
                 objIntent = new Intent(Art2Test7Activity.this, Art2Test8Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -93,7 +97,7 @@ public class Art2Test7Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t2(null,null,null,null,null,null,null,null,null,strAns,null,null,null,null,null,null);
+        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,strAns,null,null,null,null,null,null);
 
     }
 

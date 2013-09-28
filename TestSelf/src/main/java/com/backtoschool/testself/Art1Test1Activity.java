@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by MiracleLife on 7/9/2556.
  */
 public class Art1Test1Activity extends Activity {
     private RadioButton radChoice1, radChoice2, radChoice3, radChoice4, radChoice5, radChoice6;
-    private String strAns = "";
+    private String strAns = "",strMenberID;
     private myDBClass objMyDBClass;
 
     private Intent objIntent;
@@ -23,7 +26,10 @@ public class Art1Test1Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.art1test1_layout);
-
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            strMenberID = extras.getString("MemberID");
+        }
         initialWidget();
 
     }
@@ -78,6 +84,7 @@ public class Art1Test1Activity extends Activity {
                 UpdateDataSQLite();
 
                 objIntent = new Intent(Art1Test1Activity.this, Art1Test2Activity.class);
+                objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
             }
@@ -95,8 +102,16 @@ public class Art1Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Insert_Data_artscore_t1(null, strAns, null, null, null, null, null, null, null, null, null, null);
 
+        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
+        if(Art1DataList.get(0).get("id").toString().equals(""))
+        {
+            long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID, strAns,null,null,null,null,null);
+        }
+        else
+        {
+            long insertID = objMyDBClass.Insert_Data_artscore_t1(strMenberID, strAns);
+        }
 
 
     }
