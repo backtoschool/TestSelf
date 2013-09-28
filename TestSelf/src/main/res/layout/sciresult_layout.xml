@@ -15,7 +15,6 @@
             android:layout_height="fill_parent"
             android:id="@+id/imgSci"
             android:layout_gravity="center"
-            android:background="@drawable/art1afemale"
             android:onClick="onClick" />
     </LinearLayout>
 
