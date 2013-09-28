@@ -80,7 +80,6 @@ public class Sci2BeginActivity extends Activity {
 
     }
 
-
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
