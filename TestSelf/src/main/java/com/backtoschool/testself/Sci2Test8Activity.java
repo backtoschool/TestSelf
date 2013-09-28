@@ -87,14 +87,12 @@ public class Sci2Test8Activity extends Activity {
 
                 TypeTest = CalculateResult();
 
-                if(TypeTest!=null){
+                objIntent = new Intent(Sci2Test8Activity.this, SciResultActivity.class);
+                objIntent.putExtra("MemberID",strMenberID);
+                objIntent.putExtra("TypeResult",TypeTest);
+                startActivity(objIntent);
 
-                    objIntent = new Intent(Sci2Test8Activity.this, SciResultActivity.class);
-                    objIntent.putExtra("MemberID",strMenberID);
-                    objIntent.putExtra("TypeResult",TypeTest);
-                    startActivity(objIntent);
 
-                }
             }
 
 
