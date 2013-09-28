@@ -145,7 +145,7 @@ public class Sci2Test8Activity extends Activity {
 
             IntTotal = IntQ1+IntQ2+IntQ3+IntQ4+IntQ5+IntQ6+IntQ7+IntQ8;
 
-            if(strScienceGroupType=="Sci1-1"){
+            if(strScienceGroupType.equals("Sci1-1")){
 
                 if(IntTotal>24){
 
@@ -165,7 +165,7 @@ public class Sci2Test8Activity extends Activity {
 
                 }
 
-            }else if(strScienceGroupType=="Sci1-2"){
+            }else if(strScienceGroupType.equals("Sci1-2")){
 
                 if(IntTotal>24){
 
@@ -181,7 +181,7 @@ public class Sci2Test8Activity extends Activity {
 
                 }
 
-            }else if(strScienceGroupType=="Sci1-3"){
+            }else if(strScienceGroupType.equals("Sci1-3")){
 
                 if(IntTotal>24){
 
@@ -203,7 +203,7 @@ public class Sci2Test8Activity extends Activity {
             updateData = objMyDBClass.Update_Data_sciencescore_t2(strMenberID, null, null, null, null, null, null, null, null, result);
             updateMember = objMyDBClass.Update_Data_Member(strMenberID, null, null, null, null, null, result, null);
 
-            Log.d("Database", "CalculateResult " + result);
+            Log.d("Database", "CalculateResult " + result + " Score " +IntTotal);
 
         }catch (Exception e){
 

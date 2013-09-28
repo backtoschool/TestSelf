@@ -29,6 +29,7 @@ public class SciResultDetialActivity extends Activity {
         }
 
         initialWidget();
+        ShowResultDetail();
 
     }
 
@@ -55,61 +56,33 @@ public class SciResultDetialActivity extends Activity {
         try{
 
 
-                    if(TypeResult == "sci-2A"){
-
-                        ShResult = "sci2a_de.png";
-
-                    }else if(TypeResult == "sci-2B"){
-
-                        ShResult = "sci2b_de.png";
-
-                    }else if(TypeResult == "sci1-1A"){
-
-                        ShResult = "sci1-1a_de.png";
-
-                    }else if(TypeResult == "sci1-1B"){
-
-                        ShResult = "sci1-1b_de.png";
-
-                    }else if(TypeResult == "sci1-1C"){
-
-                        ShResult = "sci1-1c_de.png";
-
-                    }else if(TypeResult == "sci1-1D"){
-
-                        ShResult = "sci1-1d_de.png";
-
-                    }else if(TypeResult == "sci1-2A"){
-
-                        ShResult = "sci1-2a_de.png";
-
-                    }else if(TypeResult == "sci1-2B"){
-
-                        ShResult = "sci1-2b_de.png";
-
-                    }else if(TypeResult == "sci1-2C"){
-
-                        ShResult = "sci1-2c_de.png";
-
-                    }else if(TypeResult == "sci1-3A"){
-
-                        ShResult = "sci1-3a_de.png";
-
-                    }else if(TypeResult == "sci1-3B"){
-
-                        ShResult = "sci1-3b_de.png";
-
-                    }else if(TypeResult == "sci1-3C"){
-
-                        ShResult = "sci1-3c_de.png";
-
-                    }else{
-
-                        Log.d("Database", "invalidate TypeResult " + TypeResult);
-
-                    }
-
-
+                if(TypeResult.equals("sci2A")){
+                    imgSci.setImageResource(R.drawable.sci2ade);
+                }else if(TypeResult.equals("sci2B")){
+                    imgSci.setImageResource(R.drawable.sci2bde);
+                }else if(TypeResult.equals("sci1-1A")){
+                    imgSci.setImageResource(R.drawable.sci11ade);
+                }else if(TypeResult.equals("sci1-1B")){
+                    imgSci.setImageResource(R.drawable.sci11bde);
+                }else if(TypeResult.equals("sci1-1C")){
+                    imgSci.setImageResource(R.drawable.sci11cde);
+                }else if(TypeResult.equals("sci1-1D")){
+                    imgSci.setImageResource(R.drawable.sci11dde);
+                }else if(TypeResult.equals("sci1-2A")){
+                    imgSci.setImageResource(R.drawable.sci12ade);
+                }else if(TypeResult.equals("sci1-2B")){
+                    imgSci.setImageResource(R.drawable.sci12bde);
+                }else if(TypeResult.equals("sci1-2C")){
+                    imgSci.setImageResource(R.drawable.sci12cde);
+                }else if(TypeResult.equals("sci1-3A")){
+                    imgSci.setImageResource(R.drawable.sci13ade);
+                }else if(TypeResult.equals("sci1-3B")){
+                    imgSci.setImageResource(R.drawable.sci13bde);
+                }else if(TypeResult.equals("sci1-3C")){
+                    imgSci.setImageResource(R.drawable.sci13cde);
+                }else{
+                    Log.d("Database", "invalidate TypeResult " + TypeResult);
+                }
 
         }catch (Exception e){
 
@@ -119,8 +92,6 @@ public class SciResultDetialActivity extends Activity {
 
         return ShResult;
     }
-
-
 
 
 }
