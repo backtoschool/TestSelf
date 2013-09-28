@@ -31,6 +31,7 @@ public class SciResultActivity extends Activity {
             TypeResult = extras.getString("TypeResult");
         }
         initialWidget();
+        ShowResult();
     }
 
     private void initialWidget() {

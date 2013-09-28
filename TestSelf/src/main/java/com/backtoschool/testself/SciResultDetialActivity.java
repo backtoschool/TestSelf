@@ -1,8 +1,11 @@
 package com.backtoschool.testself;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 
 /**
  * Created by Shana on 9/28/13.
@@ -10,8 +13,10 @@ import android.util.Log;
 public class SciResultDetialActivity extends Activity {
 
     private String strMenberID, TypeResult, Sex, ResultScience;
+    private Intent objIntent;
     myDBClass objMyDBClass;
 
+    private ImageView imgSci;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,13 +28,23 @@ public class SciResultDetialActivity extends Activity {
             TypeResult = extras.getString("TypeResult");
         }
 
-
-
-
+        initialWidget();
 
     }
 
+    private void initialWidget() {
+        imgSci = (ImageView) findViewById(R.id.imgSci);
+    }
 
+    public void onClick(View view){
+
+        objIntent = new Intent(SciResultDetialActivity.this, MainMenu.class);
+        objIntent.putExtra("MemberID",strMenberID);
+        objIntent.putExtra("TypeResult",TypeResult);
+        startActivity(objIntent);
+
+
+    }
 
 
     public String ShowResultDetail(){
