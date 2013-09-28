@@ -65,7 +65,7 @@ public class SciResultActivity extends Activity {
             Log.i("DATA",Sex + ResultScience);
 
             if(TypeResult.equals(ResultScience)){
-                    if(Sex.equals("male")){
+                    if(Sex.equals("Male")){
                         if(TypeResult.equals("sci2A")){
                             imgSci.setImageResource(R.drawable.sciece2amale);
                         }else if(TypeResult.equals("sci2B")){
@@ -94,7 +94,7 @@ public class SciResultActivity extends Activity {
                             Log.d("Database", "invalidate TypeResult " + TypeResult);
                         }
 
-                    }else if(Sex.equals("female")){
+                    }else if(Sex.equals("Female")){
 
                         if(TypeResult.equals("sci2A")){
 
