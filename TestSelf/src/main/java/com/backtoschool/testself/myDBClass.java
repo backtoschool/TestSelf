@@ -619,7 +619,7 @@ public class myDBClass extends SQLiteOpenHelper{
             SQLiteDatabase db;
             db = this.getReadableDatabase(); // Read Data
 
-            Cursor cursor = db.query(TABLE_SCIENCESCORE_T1, new String[] { "*" },
+            Cursor cursor = db.query(TABLE_SCIENCESCORE_T2, new String[] { "*" },
                     "MemberID=?",
                     new String[] { String.valueOf(strMemberID) }, null, null, null, null);
 

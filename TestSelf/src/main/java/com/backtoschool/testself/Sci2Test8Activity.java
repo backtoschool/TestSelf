@@ -145,25 +145,38 @@ public class Sci2Test8Activity extends Activity {
 
             IntTotal = IntQ1+IntQ2+IntQ3+IntQ4+IntQ5+IntQ6+IntQ7+IntQ8;
 
+
+            Log.d("Database", "strScienceGroupType " + strScienceGroupType);
+
             if(strScienceGroupType.equals("Sci1-1")){
 
                 if(IntTotal>24){
 
                     result = "sci1-1A";
 
+                    Log.d("Database", "result > 24 " + result);
+
                 }else if(IntTotal>=19){
 
                     result = "sci1-1B";
+
+                    Log.d("Database", "result >=19 " + result);
 
                 }else if(IntTotal>=13){
 
                     result = "sci1-1C";
 
+                    Log.d("Database", "result >= 13 " + result);
+
                 }else{
 
                     result = "sci1-1D";
 
+                    Log.d("Database", "result >13 " + result);
+
                 }
+
+                Log.d("Database", "strScienceGroupType " + strScienceGroupType);
 
             }else if(strScienceGroupType.equals("Sci1-2")){
 
@@ -171,15 +184,23 @@ public class Sci2Test8Activity extends Activity {
 
                     result = "sci1-2A";
 
+                    Log.d("Database", "result >24 " + result);
+
                 }else if(IntTotal>=16){
 
                     result = "sci1-2B";
+
+                    Log.d("Database", "result >=16 " + result);
 
                 }else{
 
                     result = "sci1-2C";
 
+                    Log.d("Database", "result >16 " + result);
+
                 }
+
+                Log.d("Database", "strScienceGroupType " + strScienceGroupType);
 
             }else if(strScienceGroupType.equals("Sci1-3")){
 
@@ -187,15 +208,23 @@ public class Sci2Test8Activity extends Activity {
 
                     result = "sci1-3A";
 
+                    Log.d("Database", "result >24 " + result);
+
                 }else if(IntTotal>=16){
 
                     result = "sci1-3B";
+
+                    Log.d("Database", "result >=16 " + result);
 
                 }else{
 
                     result = "sci1-3C";
 
+                    Log.d("Database", "result >16 " + result);
+
                 }
+
+                Log.d("Database", "strScienceGroupType " + strScienceGroupType);
 
             }
 
