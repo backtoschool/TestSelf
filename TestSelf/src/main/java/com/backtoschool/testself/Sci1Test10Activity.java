@@ -109,7 +109,7 @@ public class Sci1Test10Activity extends Activity {
                         startActivity(objIntent);
                         break;
                     case scitype1:
-                        objIntent = new Intent(Sci1Test10Activity.this, Sci2TestPreActivity.class);
+                        objIntent = new Intent(Sci1Test10Activity.this, Sci2BeginActivity.class);
                         objIntent.putExtra("MemberID",strMenberID);
                         objIntent.putExtra("TypeResult",TypeTest);
                         startActivity(objIntent);
