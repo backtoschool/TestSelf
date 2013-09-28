@@ -29,7 +29,7 @@ public class Sci2Test8Activity extends Activity {
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.art2test8_layout);
+        setContentView(R.layout.sci2test8_layout);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             strMenberID = extras.getString("MemberID");

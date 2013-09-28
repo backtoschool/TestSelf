@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,6 +18,8 @@ public class SciResultActivity extends Activity {
     private Intent objIntent;
     myDBClass objMyDBClass;
 
+    private ImageView imgSci;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sciresult_layout);
@@ -26,11 +29,18 @@ public class SciResultActivity extends Activity {
             strMenberID = extras.getString("MemberID");
             TypeResult = extras.getString("TypeResult");
         }
+        initialWidget();
 
 
 
 
 
+
+
+    }
+
+    private void initialWidget() {
+        imgSci = (ImageView) findViewById(R.id.imgSci);
 
 
     }
@@ -61,116 +71,85 @@ public class SciResultActivity extends Activity {
             ResultScience = SciTest1DataList.get(0).get("ResultScience").toString();
             Log.i("DATA",Sex + ResultScience);
 
-            if(TypeResult == ResultScience){
-
-
-
-                    if(Sex == "male"){
-
-
-                        if(TypeResult == "sci-2A"){
-
-                            ShResult = "";
-
-                        }else if(TypeResult == "sci-2B"){
-
-                            ShResult = "";
-
-                        }else if(TypeResult == "sci1-1A"){
-
-                            ShResult = "sciece1_1_a_male.png";
-
-                        }else if(TypeResult == "sci1-1B"){
-
-                            ShResult = "sciece1_1_b_male.png";
-
-                        }else if(TypeResult == "sci1-1C"){
-
-                            ShResult = "sciece1_1_c_male.png";
-
-                        }else if(TypeResult == "sci1-1D"){
-
-                            ShResult = "sciece1_1_d_male.png";
-
-                        }else if(TypeResult == "sci1-2A"){
-
-                            ShResult = "sciece1_2_a_male.png";
-
-                        }else if(TypeResult == "sci1-2B"){
-
-                            ShResult = "sciece1_2_b_female.png";
-
-                        }else if(TypeResult == "sci1-2C"){
-
-                            ShResult = "sciece1_2_c_male.png";
-
-                        }else if(TypeResult == "sci1-3A"){
-
-                            ShResult = "sciece1_3_a_male.png";
-
-                        }else if(TypeResult == "sci1-3B"){
-
-                            ShResult = "sciece1_3_b_male.png";
-
-                        }else if(TypeResult == "sci1-3C"){
-
-                            ShResult = "sciece1_3_c_male.png";
-
+            if(TypeResult.equals(ResultScience)){
+                    if(Sex.equals("male")){
+                        if(TypeResult.equals("sci-2A")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci-2B")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-1A")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-1B")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-1C")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-1D")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-2A")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-2B")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-2C")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-3A")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-3B")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
+                        }else if(TypeResult.equals("sci1-3C")){
+                            imgSci.setImageResource(R.drawable.sciece11amale);
                         }else{
-
                             Log.d("Database", "invalidate TypeResult " + TypeResult);
-
                         }
 
-                    }else if(Sex == "female"){
+                    }else if(Sex.equals("female")){
 
-                        if(TypeResult == "sci-2A"){
+                        if(TypeResult.equals("sci-2A")){
 
-                            ShResult = "";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci-2B"){
+                        }else if(TypeResult.equals("sci-2B")){
 
-                            ShResult = "";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-1A"){
+                        }else if(TypeResult.equals("sci1-1A")){
 
-                            ShResult = "sciece1_1_a_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-1B"){
+                        }else if(TypeResult.equals("sci1-1B")){
 
-                            ShResult = "sciece1_1_b_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-1C"){
+                        }else if(TypeResult.equals("sci1-1C")){
 
-                            ShResult = "sciece1_1_c_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-1D"){
+                        }else if(TypeResult.equals("sci1-1D")){
 
-                            ShResult = "sciece1_1_d_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-2A"){
+                        }else if(TypeResult.equals("sci1-2A")){
 
-                            ShResult = "sciece1_2_a_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-2B"){
+                        }else if(TypeResult.equals("sci1-2B")){
 
-                            ShResult = "sciece1_2_b_male.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-2C"){
+                        }else if(TypeResult.equals("sci1-2C")){
 
-                            ShResult = "sciece1_2_c_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-3A"){
+                        }else if(TypeResult.equals("sci1-3A")){
 
-                            ShResult = "sciece1_3_a_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-3B"){
+                        }else if(TypeResult.equals("sci1-3B")){
 
-                            ShResult = "sciece1_3_b_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
-                        }else if(TypeResult == "sci1-3C"){
+                        }else if(TypeResult.equals("sci1-3C")){
 
-                            ShResult = "sciece1_3_c_female.png";
+                            imgSci.setImageResource(R.drawable.sciece11amale);
 
                         }else{
 
