@@ -67,9 +67,9 @@ public class SciResultActivity extends Activity {
             if(TypeResult.equals(ResultScience)){
                     if(Sex.equals("male")){
                         if(TypeResult.equals("sci2A")){
-                            imgSci.setImageResource(R.drawable.sciece11amale);
+                            imgSci.setImageResource(R.drawable.sciece2amale);
                         }else if(TypeResult.equals("sci2B")){
-                            imgSci.setImageResource(R.drawable.sciece11amale);
+                            imgSci.setImageResource(R.drawable.sciece2bmale);
                         }else if(TypeResult.equals("sci1-1A")){
                             imgSci.setImageResource(R.drawable.sciece11amale);
                         }else if(TypeResult.equals("sci1-1B")){
@@ -98,11 +98,11 @@ public class SciResultActivity extends Activity {
 
                         if(TypeResult.equals("sci2A")){
 
-                            imgSci.setImageResource(R.drawable.sciece11amale);
+                            imgSci.setImageResource(R.drawable.sciece2afemale);
 
                         }else if(TypeResult.equals("sci2B")){
 
-                            imgSci.setImageResource(R.drawable.sciece11amale);
+                            imgSci.setImageResource(R.drawable.sciece2bfemale);
 
                         }else if(TypeResult.equals("sci1-1A")){
 
