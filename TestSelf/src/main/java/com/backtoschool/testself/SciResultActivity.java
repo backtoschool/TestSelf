@@ -15,7 +15,7 @@ import java.util.HashMap;
  */
 public class SciResultActivity extends Activity {
 
-    private String strMenberID, TypeResult, Sex, ResultScience;
+    private String strMenberID, Sex, ResultScience;
     private Intent objIntent;
     myDBClass objMyDBClass;
 
@@ -28,7 +28,6 @@ public class SciResultActivity extends Activity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             strMenberID = extras.getString("MemberID");
-            TypeResult = extras.getString("TypeResult");
         }
         initialWidget();
         ShowResult();
@@ -43,7 +42,7 @@ public class SciResultActivity extends Activity {
 
         objIntent = new Intent(SciResultActivity.this, SciResultDetialActivity.class);
         objIntent.putExtra("MemberID",strMenberID);
-        //objIntent.putExtra("TypeResult",TypeResult);
+        objIntent.putExtra("TypeResult",ResultScience);
         startActivity(objIntent);
 
 
@@ -62,9 +61,9 @@ public class SciResultActivity extends Activity {
 
             Sex = SciTest1DataList.get(0).get("Sex").toString();
             ResultScience = SciTest1DataList.get(0).get("ResultScience").toString();
-            Log.i("DATA",Sex + ResultScience);
+            Log.i("database",Sex + ResultScience);
 
-            //if(ResultScience.equals(ResultScience)){
+
                     if(Sex.equals("Male")){
                         if(ResultScience.equals("sci2A")){
                             imgSci.setImageResource(R.drawable.sciece2amale);
@@ -144,7 +143,7 @@ public class SciResultActivity extends Activity {
 
                         }else{
 
-                            Log.d("Database", "invalidate TypeResult " + TypeResult);
+                            Log.d("Database", "invalidate TypeResult " + ResultScience);
 
                         }
 
@@ -153,13 +152,6 @@ public class SciResultActivity extends Activity {
                         Log.d("Database", "invalidate Sex " + Sex);
 
                     }
-
-
-           // }else{
-
-           //     Log.d("Database", "Both TypeResult ("+TypeResult+") and ResultScience ("+ResultScience+") are not equal");
-
-           // }
 
         }catch (Exception e){
 

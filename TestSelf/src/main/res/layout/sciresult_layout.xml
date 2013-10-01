@@ -11,7 +11,7 @@
         android:layout_height="fill_parent">
 
         <ImageView
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:id="@+id/imgSci"
             android:layout_gravity="center"

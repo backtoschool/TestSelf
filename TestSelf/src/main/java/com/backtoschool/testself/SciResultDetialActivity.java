@@ -55,7 +55,6 @@ public class SciResultDetialActivity extends Activity {
 
         try{
 
-
                 if(TypeResult.equals("sci2A")){
                     imgSci.setImageResource(R.drawable.sci2ade);
                 }else if(TypeResult.equals("sci2B")){
@@ -86,7 +85,7 @@ public class SciResultDetialActivity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("Database", "ShowResult Error " + e.toString());
+            Log.d("Database", "ShowResult detail Error " + e.toString());
 
         }
 
