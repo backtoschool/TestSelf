@@ -131,7 +131,7 @@ public class Sci1Test10Activity extends Activity {
         objMyDBClass = new myDBClass(this);
         updateData = objMyDBClass.Update_Data_sciencescore_t1(strMenberID, null, null, null, null, null, null, null, null, strAns, null);
 
-        Log.d("Database", "update DB Success !!!!!" + strAns);
+        Log.d("Database", "Sci1Test10Activity update DB Success !!!!!" + strAns);
 
     }
 

@@ -45,6 +45,7 @@ public class SciResultActivity extends Activity {
         objIntent.putExtra("TypeResult",ResultScience);
         startActivity(objIntent);
 
+        Log.d("Database", "go to sci result detail");
 
     }
 

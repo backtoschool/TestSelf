@@ -31,6 +31,8 @@ public class SciResultDetialActivity extends Activity {
         initialWidget();
         ShowResultDetail();
 
+
+
     }
 
     private void initialWidget() {
@@ -44,6 +46,7 @@ public class SciResultDetialActivity extends Activity {
         objIntent.putExtra("TypeResult",TypeResult);
         startActivity(objIntent);
 
+        Log.d("Database", "go to main menu");
 
     }
 
@@ -80,7 +83,7 @@ public class SciResultDetialActivity extends Activity {
                 }else if(TypeResult.equals("sci1-3C")){
                     imgSci.setImageResource(R.drawable.sci13cde);
                 }else{
-                    Log.d("Database", "invalidate TypeResult " + TypeResult);
+                    Log.d("Database", "invalidate TypeResult detail " + TypeResult);
                 }
 
         }catch (Exception e){

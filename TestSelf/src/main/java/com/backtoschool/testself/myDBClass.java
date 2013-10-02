@@ -445,7 +445,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
 
                     do {
 
@@ -598,7 +598,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
 
                     do {
 
@@ -671,7 +671,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
 
-    // Update Data TABLE_SCIENCESCORE_T2
+    // Update Data TABLE_Update_Data_Member
     public long Update_Data_Member(String strMemberID,String strName, String strLastname,
                                    String strEmail, String strSex,String strAge,String strResultScience, String strResultArt) {
         // TODO Auto-generated method stub
@@ -757,7 +757,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
                     do {
                         map = new HashMap<String, String>();
                         map.put("MemberID", cursor.getString(0));
@@ -814,7 +814,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
                     do {
                         map = new HashMap<String, String>();
                         map.put("MemberID", cursor.getString(0));
@@ -855,7 +855,7 @@ public class myDBClass extends SQLiteOpenHelper{
                     new String[] { String.valueOf(strEmail) }, null, null, null, null);
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
                     arrData = new String[cursor.getColumnCount()];
                     /***
                      *  0 = MemberID
@@ -949,7 +949,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
 
                     do {
 
