@@ -72,7 +72,7 @@ public class Art2Test12Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art2Test12Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -82,9 +82,7 @@ public class Art2Test12Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
-
-                objIntent = new Intent(Art2Test12Activity.this, ResultActivity.class);
+                objIntent = new Intent(Art2Test12Activity.this, ArtResultActivity.class);
                 objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
 
@@ -93,7 +91,7 @@ public class Art2Test12Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "my Error " + e.toString());
+            Log.d("database", "Art2Test12Activity Error " + e.toString());
 
         }
 
@@ -102,61 +100,49 @@ public class Art2Test12Activity extends Activity {
 
     public void UpdateDataSQLite(){
 
+        try{
+
         objMyDBClass = new myDBClass(this);
+        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,null,strAns,null);
 
-        // Show Data
-        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt2(strMenberID);
-        //if(!Art1DataList.get(0).get("id").toString().equals(""))
-        //{
-        Log.d("test2",Art1DataList.get(0).get("Q1").toString());
-        //if(Art1DataList.get(0).get("Q1").toString() != null && Art1DataList.get(0).get("Q1").toString() != "")
-        score1 = Integer.valueOf(Art1DataList.get(0).get("Q1").toString()) ;
+        final ArrayList<HashMap<String, String>> Art2DataList = objMyDBClass.SelectDataArt2(strMenberID);
 
-        // if(Art1DataList.get(0).get("Q2").toString() != null && Art1DataList.get(0).get("Q2").toString() != "")
-        score2 = Integer.valueOf(Art1DataList.get(0).get("Q2").toString()) ;
+        score1 = Integer.valueOf(Art2DataList.get(0).get("Q1").toString());
+        score2 = Integer.valueOf(Art2DataList.get(0).get("Q2").toString());
+        score3 = Integer.valueOf(Art2DataList.get(0).get("Q3").toString());
+        score4 = Integer.valueOf(Art2DataList.get(0).get("Q4").toString());
+        score5 = Integer.valueOf(Art2DataList.get(0).get("Q5").toString());
+        score6 = Integer.valueOf(Art2DataList.get(0).get("Q6").toString());
+        score7 = Integer.valueOf(Art2DataList.get(0).get("Q7").toString());
+        score8 = Integer.valueOf(Art2DataList.get(0).get("Q8").toString());
+        score9 = Integer.valueOf(Art2DataList.get(0).get("Q9").toString());
+        score10 = Integer.valueOf(Art2DataList.get(0).get("Q10").toString());
+        score11 = Integer.valueOf(Art2DataList.get(0).get("Q11").toString());
+        score12 = Integer.valueOf(Art2DataList.get(0).get("Q12").toString());
 
-        // if(Art1DataList.get(0).get("Q3").toString() != null && Art1DataList.get(0).get("Q3").toString() != "")
-        score3 = Integer.valueOf(Art1DataList.get(0).get("Q3").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q4").toString() != null && Art1DataList.get(0).get("Q4").toString() != "")
-        score4 = Integer.valueOf(Art1DataList.get(0).get("Q4").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q5").toString() != null && Art1DataList.get(0).get("Q5").toString() != "")
-        score5 = Integer.valueOf(Art1DataList.get(0).get("Q5").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q6").toString() != null && Art1DataList.get(0).get("Q6").toString() != "")
-        score6 = Integer.valueOf(Art1DataList.get(0).get("Q6").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q7").toString() != null && Art1DataList.get(0).get("Q7").toString() != "")
-        score7 = Integer.valueOf(Art1DataList.get(0).get("Q7").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q8").toString() != null && Art1DataList.get(0).get("Q8").toString() != "")
-        score8 = Integer.valueOf(Art1DataList.get(0).get("Q8").toString()) ;
-
-        //if(Art1DataList.get(0).get("Q9").toString() != null && Art1DataList.get(0).get("Q9").toString() != "")
-        score9 = Integer.valueOf(Art1DataList.get(0).get("Q9").toString()) ;
-
-        //if(Art1DataList.get(0).get("Q10").toString() != null && Art1DataList.get(0).get("Q10").toString() != "")
-        score10 = Integer.valueOf(Art1DataList.get(0).get("Q10").toString()) ;
-
-        //if(Art1DataList.get(0).get("Q11").toString() != null && Art1DataList.get(0).get("Q11").toString() != "")
-        score11 = Integer.valueOf(Art1DataList.get(0).get("Q11").toString()) ;
-
-        //if(Art1DataList.get(0).get("Q12").toString() != null && Art1DataList.get(0).get("Q12").toString() != "")
-        score12 = Integer.valueOf(Art1DataList.get(0).get("Q12").toString()) ;
-        // }
         sum = score1+score2+score3+score4+score5+score6+score7+score8+score9+score10+score11+score12;
+
         csFunction fun = new csFunction();
-        String result = fun.ArtResult2(sum);
-        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,null,null,strAns,result);
-        fun = new csFunction();
+        String Test2Result = fun.ArtResult2(sum);
 
-        final ArrayList<HashMap<String, String>> Art1DataList2 = objMyDBClass.SelectDataArt1(strMenberID);
-        //if(!Art1DataList.get(0).get("id").toString().equals(""))
-        //{
-        result += Art1DataList.get(0).get("ResultType").toString();
+            final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
+            String Test1Result = Art2DataList.get(0).get("ResultType").toString();
+
+            String result = Test1Result+Test2Result;
+
+
+        long insertID_result = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,null,null,result);
+
         objMyDBClass.Update_Data_Member(strMenberID,null,null,null,null,null,null,result);
-    }
 
+        Log.d("database", "art total " + sum + " art result " + result);
+
+        }catch (Exception e){
+
+            Log.d("database", "Art2Test12Activity "+sum+" UpdateDataSQLite Error " + e.toString());
+
+        }
+
+    }
 
 }

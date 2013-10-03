@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 /**
  * Created by MiracleLife on 7/9/2556.
  */
@@ -71,7 +68,7 @@ public class Art2Test1Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art2Test1Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -79,7 +76,7 @@ public class Art2Test1Activity extends Activity {
 
             }else{
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
+
 
                 UpdateDataSQLite();
 
@@ -92,7 +89,7 @@ public class Art2Test1Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Art2Test3Activity Error " + e.toString());
+            Log.d("Database", "Art2Test1Activity Error " + e.toString());
 
         }
 
@@ -102,15 +99,10 @@ public class Art2Test1Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt2(strMenberID);
-        if(Art1DataList.get(0).get("id").toString().equals(""))
-        {
-            long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID, strAns,null,null,null,null,null,null,null,null,null,null,null,null);
-        }
-        else
-        {
+
             long insertID = objMyDBClass.Insert_Data_artscore_t2(strMenberID, strAns);
-        }
+
+            Log.d("Database", "Art2Test1Activity insert DB Success !!!!!" + strAns);
 
     }
 }

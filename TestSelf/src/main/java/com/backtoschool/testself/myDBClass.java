@@ -151,7 +151,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_ARTSCORE_T1
-    public long Update_Data_artscore_t1(String strMemberID,String strQ1,
+    public long Update_Data_artscore_t1(String strMemberID,
                                         String strQ2,String strQ3, String strQ4,
                                         String strQ5, String strResultType) {
         // TODO Auto-generated method stub
@@ -160,27 +160,9 @@ public class myDBClass extends SQLiteOpenHelper{
 
             SQLiteDatabase db;
             db = this.getWritableDatabase(); // Write Data
-            /**
-             *  for API 11 and above
-             SQLiteStatement insertCmd;
-             String strSQL = "UPDATE " + TABLE_MEMBER
-             + " SET Name = ? "
-             + " , Tel = ? "
-             + " WHERE MemberID = ? ";
 
-             insertCmd = db.compileStatement(strSQL);
-             insertCmd.bindString(1, strName);
-             insertCmd.bindString(2, strTel);
-             insertCmd.bindString(3, strMemberID);
-
-             return insertCmd.executeUpdateDelete();
-             *
-             */
             ContentValues Val = new ContentValues();
-           // if(strMemberID != "" && strMemberID != null){
-            if(strQ1 != "" && strQ1 != null){
-                Val.put("Q1", strQ1);
-            }
+
             if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
@@ -207,6 +189,9 @@ public class myDBClass extends SQLiteOpenHelper{
             return -1;
         }
     }
+
+
+
     // Insert Data TABLE_ARTSCORE_T2
     public long Insert_Data_artscore_t2(String strMemberID,
                                         String strQ1 ) {
@@ -215,19 +200,6 @@ public class myDBClass extends SQLiteOpenHelper{
         try {
             SQLiteDatabase db;
             db = this.getWritableDatabase(); // Write Data
-
-            /**
-             *  for API 11 and above
-             SQLiteStatement insertCmd;
-             String strSQL = "INSERT INTO " + TABLE_MEMBER
-             + "(MemberID,Name,Tel) VALUES (?,?,?)";
-
-             insertCmd = db.compileStatement(strSQL);
-             insertCmd.bindString(1, strMemberID);
-             insertCmd.bindString(2, strName);
-             insertCmd.bindString(3, strTel);
-             return insertCmd.executeInsert();
-             */
 
             ContentValues Val = new ContentValues();
             Val.put("MemberID", strMemberID);
@@ -243,7 +215,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
     }
     // Update Data TABLE_ARTSCORE_T2
-    public long Update_Data_artscore_t2(String strMemberID,String strQ1,
+    public long Update_Data_artscore_t2(String strMemberID,
                                         String strQ2,String strQ3, String strQ4,
                                         String strQ5, String strQ6, String strQ7,String strQ8,
                                         String strQ9,String strQ10, String strQ11, String strQ12,String strResultGroup) {
@@ -253,27 +225,9 @@ public class myDBClass extends SQLiteOpenHelper{
 
             SQLiteDatabase db;
             db = this.getWritableDatabase(); // Write Data
-            /**
-             *  for API 11 and above
-             SQLiteStatement insertCmd;
-             String strSQL = "UPDATE " + TABLE_MEMBER
-             + " SET Name = ? "
-             + " , Tel = ? "
-             + " WHERE MemberID = ? ";
 
-             insertCmd = db.compileStatement(strSQL);
-             insertCmd.bindString(1, strName);
-             insertCmd.bindString(2, strTel);
-             insertCmd.bindString(3, strMemberID);
-
-             return insertCmd.executeUpdateDelete();
-             *
-             */
             ContentValues Val = new ContentValues();
-           // if(strMemberID != "" && strMemberID != null){
-            if(strQ1 != "" && strQ1 != null){
-                Val.put("Q1", strQ1);
-            }
+
             if(strQ2 != "" && strQ2 != null){
                 Val.put("Q2", strQ2);
             }
@@ -904,7 +858,7 @@ public class myDBClass extends SQLiteOpenHelper{
 
             if(cursor != null)
             {
-                if (cursor.moveToFirst()) {
+                if (cursor.moveToLast()) {
 
                     do {
 

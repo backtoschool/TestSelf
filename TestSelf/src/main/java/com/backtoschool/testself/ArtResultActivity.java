@@ -30,12 +30,7 @@ public class ArtResultActivity extends Activity {
             TypeResult = extras.getString("TypeResult");
         }
         initialWidget();
-
-
-
-
-
-
+        ShowResult();
 
     }
 
@@ -46,21 +41,20 @@ public class ArtResultActivity extends Activity {
     }
 
 
-    private void onClick(){
+    public void onClick(){
 
         objIntent = new Intent(ArtResultActivity.this, ArtResultDetailActivity.class);
         objIntent.putExtra("MemberID",strMenberID);
         objIntent.putExtra("TypeResult",TypeResult);
         startActivity(objIntent);
 
+        Log.d("Database", "go to art result detail");
 
     }
 
 
-    public String ShowResult(){
+    public  void ShowResult(){
 
-
-        String ShResult = null;
 
         try{
 
@@ -68,10 +62,10 @@ public class ArtResultActivity extends Activity {
             final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataMemberID(strMenberID);
 
             Sex = SciTest1DataList.get(0).get("Sex").toString();
-            ResultArt = SciTest1DataList.get(0).get("ResultScience").toString();
+            ResultArt = SciTest1DataList.get(0).get("ResultArt").toString();
             Log.i("DATA",Sex + ResultArt);
 
-            if(TypeResult.equals(ResultArt)){
+
                     if(Sex.equals("male")){
                         if(TypeResult.equals("A1")){
                             imgSci.setImageResource(R.drawable.art1amale);
@@ -125,19 +119,12 @@ public class ArtResultActivity extends Activity {
                     }
 
 
-            }else{
-
-                Log.d("Database", "Both TypeResult ("+TypeResult+") and ResultScience ("+ResultArt+") are not equal");
-
-            }
-
         }catch (Exception e){
 
             Log.d("Database", "ShowResult Error " + e.toString());
 
         }
 
-        return ShResult;
     }
 
 

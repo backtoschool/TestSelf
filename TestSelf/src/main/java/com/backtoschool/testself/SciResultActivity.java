@@ -50,10 +50,7 @@ public class SciResultActivity extends Activity {
     }
 
 
-    public String ShowResult(){
-
-
-        String ShResult = null;
+    public void ShowResult(){
 
         try{
 
@@ -160,7 +157,6 @@ public class SciResultActivity extends Activity {
 
         }
 
-        return ShResult;
     }
 
 

@@ -72,7 +72,7 @@ public class Art1Test5Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art1Test5Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -80,7 +80,7 @@ public class Art1Test5Activity extends Activity {
 
             }else{
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
+
 
                 UpdateDataSQLite();
 
@@ -93,7 +93,7 @@ public class Art1Test5Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Art1Test4Activity Error " + e.toString());
+            Log.d("Database", "Art1Test5Activity Error " + e.toString());
 
         }
 
@@ -106,30 +106,28 @@ public class Art1Test5Activity extends Activity {
         //csFunction fun = new csFunction();
         //String result = fun.ArtResult1(strMenberID);
         final myDBClass objMyDBClass = new myDBClass(this);
+        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID, null, null, null, strAns, null);
 
-        // Show Data
+        Log.d("Database", "Art1Test5Activity insert DB Success !!!!!" + strAns);
+
+
+        // cal resulte of test
         final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
-        // if(!Art1DataList.get(0).get("id").toString().equals(""))
-        //{
-        Log.d("test1",Art1DataList.get(0).get("Q1").toString());
-        // if(Art1DataList.get(0).get("Q1").toString() != null && Art1DataList.get(0).get("Q1").toString() != "")
+
         score1 = Integer.valueOf(Art1DataList.get(0).get("Q1").toString()) ;
-
-        //   if(Art1DataList.get(0).get("Q2").toString() != null && Art1DataList.get(0).get("Q2").toString() != "")
         score2 = Integer.valueOf(Art1DataList.get(0).get("Q2").toString()) ;
-
-        // if(Art1DataList.get(0).get("Q3").toString() != null && Art1DataList.get(0).get("Q3").toString() != "")
         score3 = Integer.valueOf(Art1DataList.get(0).get("Q3").toString()) ;
-
-        //  if(Art1DataList.get(0).get("Q4").toString() != null && Art1DataList.get(0).get("Q4").toString() != "")
         score4 = Integer.valueOf(Art1DataList.get(0).get("Q4").toString()) ;
-
-        //if(Art1DataList.get(0).get("Q5").toString() != null && Art1DataList.get(0).get("Q5").toString() != "")
         score5 = Integer.valueOf(Art1DataList.get(0).get("Q5").toString()) ;
-        // }
+
         sum = score1+score2+score3+score4+score5;
+
         csFunction fun = new csFunction();
         String result = fun.ArtResult1(sum);
-        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID,null, null, null, null, strAns, result);
+
+        long insertID_resulte = objMyDBClass.Update_Data_artscore_t1(strMenberID, null, null, null, null, result);
+
+        Log.d("Database", "art total "+ sum +" result " + result);
+
     }
 }

@@ -76,7 +76,6 @@ public class Art2Test2Activity extends Activity {
 
             }else{
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
 
                 UpdateDataSQLite();
 
@@ -89,7 +88,7 @@ public class Art2Test2Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Art2Test2Activity Error " + e.toString());
+            Log.d("Database", "Art2Test2Activity Error " + e.toString());
 
         }
 
@@ -99,9 +98,9 @@ public class Art2Test2Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,strAns,null,null,null,null,null,null,null,null,null,null,null);
+        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,strAns,null,null,null,null,null,null,null,null,null,null,null);
 
-
+        Log.d("Database", "Art2Test2Activity insert answer "+ strAns);
 
     }
 }

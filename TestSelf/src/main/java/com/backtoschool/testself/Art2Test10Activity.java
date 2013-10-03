@@ -68,7 +68,7 @@ public class Art2Test10Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art2Test10Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -78,7 +78,7 @@ public class Art2Test10Activity extends Activity {
 
                 UpdateDataSQLite();
 
-                Log.d("insertDB", "insert DB Success !!!!!!!!!"+strAns);
+
 
                 objIntent = new Intent(Art2Test10Activity.this, Art2Test11Activity.class);
                 objIntent.putExtra("MemberID",strMenberID);
@@ -89,7 +89,7 @@ public class Art2Test10Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "my Error " + e.toString());
+            Log.d("database", "Art2Test10Activity Error " + e.toString());
 
         }
 
@@ -99,8 +99,8 @@ public class Art2Test10Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,strAns,null,null,null);
-
+        long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,strAns,null,null,null);
+        Log.d("database", "Art2Test10Activity insert DB Success !!!!!!!!!"+strAns);
     }
 
 }

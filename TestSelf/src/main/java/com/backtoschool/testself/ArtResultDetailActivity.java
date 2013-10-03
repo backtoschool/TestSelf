@@ -1,8 +1,11 @@
 package com.backtoschool.testself;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 
 /**
  * Created by Shana on 9/28/13.
@@ -10,7 +13,10 @@ import android.util.Log;
 public class ArtResultDetailActivity extends Activity {
 
     private String strMenberID, TypeResult, Sex, ResultScience;
+    private Intent objIntent;
     myDBClass objMyDBClass;
+
+    private ImageView imgSci;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,60 +28,56 @@ public class ArtResultDetailActivity extends Activity {
             TypeResult = extras.getString("TypeResult");
         }
 
+        initialWidget();
+        ShowResultDetail();
 
     }
 
-    public String ShowResultDetail(){
 
+    private void initialWidget() {
+        imgSci = (ImageView) findViewById(R.id.imgSci);
+    }
 
-        String ShResult = null;
+    public void onClick(View view){
+
+        objIntent = new Intent(ArtResultDetailActivity.this, MainMenu.class);
+        objIntent.putExtra("MemberID",strMenberID);
+        objIntent.putExtra("TypeResult",TypeResult);
+        startActivity(objIntent);
+
+        Log.d("Database", "go to main menu");
+
+    }
+
+    public void ShowResultDetail(){
+
 
         try{
 
 
-            if(TypeResult == "sci-2A"){
-
-                ShResult = "art_1a.png";
-
-            }else if(TypeResult == "sci-2B"){
-
-                ShResult = "art_1b.png";
-
-            }else if(TypeResult == "sci1-1A"){
-
-                ShResult = "art_1c.png";
-
-            }else if(TypeResult == "sci1-1B"){
-
-                ShResult = "art_2a.png";
-
-            }else if(TypeResult == "sci1-1C"){
-
-                ShResult = "art_2b.png";
-
-            }else if(TypeResult == "sci1-1D"){
-
-                ShResult = "art_2c.png";
-
-            }else if(TypeResult == "sci1-2A"){
-
-                ShResult = "art_3a.png";
-
-            }else if(TypeResult == "sci1-2B"){
-
-                ShResult = "art_3b.png";
-
-            }else if(TypeResult == "sci1-2C"){
-
-                ShResult = "art_3c.png";
-
+            if(TypeResult.equals("A1")){
+                imgSci.setImageResource(R.drawable.art1ad);
+            }else if(TypeResult.equals("A2")){
+                imgSci.setImageResource(R.drawable.art2ad);
+            }else if(TypeResult.equals("A3")){
+                imgSci.setImageResource(R.drawable.art3ad);
+            }else if(TypeResult.equals("B1")){
+                imgSci.setImageResource(R.drawable.art1bd);
+            }else if(TypeResult.equals("B2")){
+                imgSci.setImageResource(R.drawable.art2bd);
+            }else if(TypeResult.equals("B3")){
+                imgSci.setImageResource(R.drawable.art3bd);
+            }else if(TypeResult.equals("C1")){
+                imgSci.setImageResource(R.drawable.art1cd);
+            }else if(TypeResult.equals("C2")){
+                imgSci.setImageResource(R.drawable.art2cd);
+            }else if(TypeResult.equals("C3")){
+                imgSci.setImageResource(R.drawable.art3cd);
             }else{
 
-                Log.d("Database", "invalidate TypeResult " + TypeResult);
+                Log.d("Database", "invalidate TypeResult detail" + TypeResult);
 
             }
-
-
 
         }catch (Exception e){
 
@@ -83,7 +85,6 @@ public class ArtResultDetailActivity extends Activity {
 
         }
 
-        return ShResult;
     }
 
 

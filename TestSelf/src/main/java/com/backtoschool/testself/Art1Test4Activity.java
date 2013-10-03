@@ -68,7 +68,7 @@ public class Art1Test4Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("insertDB", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art1Test4Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -76,7 +76,7 @@ public class Art1Test4Activity extends Activity {
 
             }else{
 
-                Log.d("insertDB", "insert DB Success !!!!!" + strAns);
+
 
                 UpdateDataSQLite();
 
@@ -89,7 +89,7 @@ public class Art1Test4Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("insertDB", "Art1Test4Activity Error " + e.toString());
+            Log.d("Database", "Art1Test4Activity Error " + e.toString());
 
         }
 
@@ -99,7 +99,9 @@ public class Art1Test4Activity extends Activity {
     public void UpdateDataSQLite(){
 
         objMyDBClass = new myDBClass(this);
-        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID,null,  null, null, strAns, null, null);
+        long insertID = objMyDBClass.Update_Data_artscore_t1(strMenberID, null,  null, strAns, null, null);
+
+        Log.d("Database", "Art1Test4Activity insert DB Success !!!!!" + strAns);
 
 
     }
