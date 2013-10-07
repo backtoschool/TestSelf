@@ -114,6 +114,8 @@ public class ResultActivity extends Activity implements View.OnClickListener {
 
     private String ResultSci, ResultArt, test;
 
+    private int result_count=0;
+
     public void onClick(View v) {
 
 
@@ -122,18 +124,16 @@ public class ResultActivity extends Activity implements View.OnClickListener {
             objMyDBClass = new myDBClass(this);
             final ArrayList<HashMap<String, String>> allResultDataList = objMyDBClass.SelectDataMemberID(MemberID);
 
-            ResultSci = allResultDataList.get(0).get("ResultScience").toString();
-            ResultArt = allResultDataList.get(0).get("ResultArt").toString();
-            test = allResultDataList.get(0).get("MemberID").toString();
+            result_count = allResultDataList.size();
 
-            Log.i("Data",test + " : " + ResultSci + " : " + ResultArt);
-
-           /* if(ResultSci.isEmpty() || ResultArt.isEmpty()){
+           if(result_count==0){
                 Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบ",
                         Toast.LENGTH_SHORT).show();
 
-
             }else{
+
+               ResultSci = allResultDataList.get(0).get("ResultScience").toString();
+               ResultArt = allResultDataList.get(0).get("ResultArt").toString();
 
                 switch (v.getId()){
                     case R.id.imgresultsci:
@@ -146,8 +146,9 @@ public class ResultActivity extends Activity implements View.OnClickListener {
                         objIntent.putExtra("MemberID",MemberID);
                         startActivity(objIntent);
                         break;
+                }
 
-            }*/
+            }
 
 
 
@@ -174,7 +175,7 @@ public class ResultActivity extends Activity implements View.OnClickListener {
 
         }catch (Exception e){
 
-            Log.d("Database", "get "+ResultSci+" or "+ResultArt+" result error "  + e.toString());
+            Log.d("Database", "MemID "+MemberID+" get "+ResultSci+" or "+ResultArt+" result error "  + e.toString());
 
         }
 
