@@ -127,13 +127,24 @@ public class ResultActivity extends Activity implements View.OnClickListener {
             result_count = allResultDataList.size();
 
            if(result_count==0){
+
                 Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบ",
                         Toast.LENGTH_SHORT).show();
 
+               Log.d("Database", "none result");
+
             }else{
+
 
                ResultSci = allResultDataList.get(0).get("ResultScience").toString();
                ResultArt = allResultDataList.get(0).get("ResultArt").toString();
+
+               Log.d("Database", "MemID "+MemberID+" count "+result_count+" get Sci "+ResultSci+" or Art "+ResultArt+" result");
+
+
+               /*
+
+
 
                 switch (v.getId()){
                     case R.id.imgresultsci:
@@ -148,34 +159,14 @@ public class ResultActivity extends Activity implements View.OnClickListener {
                         break;
                 }
 
+                */
+
             }
 
 
-
-
-
-            //Log.i("Data",ResultSci + " : " + ResultArt);
-
-            //if(ResultSci.equals(null)){
-
-            //    Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบสายวิทย์",
-            //    Toast.LENGTH_SHORT).show();
-
-            //}else if(ResultArt.equals(null)){
-
-            //    Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบสายศิลป์",
-            //    Toast.LENGTH_SHORT).show();
-
-            //}else{
-
-
-            //    }
-
-           // }
-
         }catch (Exception e){
 
-            Log.d("Database", "MemID "+MemberID+" get "+ResultSci+" or "+ResultArt+" result error "  + e.toString());
+            Log.d("Database", "MemID "+MemberID+" count "+result_count+" get sci "+ResultSci+" or art "+ResultArt+" result error "  + e.toString());
 
         }
 
