@@ -666,7 +666,7 @@ public class myDBClass extends SQLiteOpenHelper{
             if(strAge != "" && strAge != null){
                 Val.put("Age", strAge);
             }
-            //String strResultScience, String strResultArt
+
             if(strResultScience != "" && strResultScience != null){
                 Val.put("ResultScience", strResultScience);
             }

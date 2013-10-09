@@ -22,6 +22,9 @@ public class PersonalActivity extends Activity {
 
 
     private String strSex;
+    private String strResultScience = "none";
+    private String strResultArt = "none";
+
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -119,8 +122,8 @@ public class PersonalActivity extends Activity {
                     tEmail.getText().toString(),
                     strSex,
                     tAge.getText().toString(),
-                    null,
-                    null);
+                    strResultScience,
+                    strResultArt);
 
             Log.i("saveStatus", "saveStatus : " + saveStatus );
         }catch (Exception e){

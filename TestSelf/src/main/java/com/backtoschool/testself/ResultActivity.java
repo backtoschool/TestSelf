@@ -15,10 +15,12 @@ import java.util.HashMap;
  * Created by MiracleLife on 6/9/2556.
  */
 public class ResultActivity extends Activity implements View.OnClickListener {
-    private String MemberID,Email;
+
+    private String MemberID,Email,ResultSci,ResultArt;
     private ImageView btnResultart,btnResultSci;
     private Intent objIntent;
-    public static  String Result,sex;
+    private int result_count=0;
+
     myDBClass objMyDBClass;
 
 
@@ -53,123 +55,56 @@ public class ResultActivity extends Activity implements View.OnClickListener {
     }
 
 
-
-/*
-    public void onClickSci(View view){
-
-
-        objMyDBClass = new myDBClass(this);
-        final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataMemberID(MemberID);
-
-        String ResultSci = SciTest1DataList.get(0).get("ResultScience").toString();
-
-
-        if(ResultSci.equals("")){
-
-            Log.d("Database", "no sci result");
-
-            Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบสายวิทย์",
-                    Toast.LENGTH_SHORT).show();
-
-        }else{
-            objIntent = new Intent(ResultActivity.this,SciResultActivity.class);
-            objIntent.putExtra("MemberID",MemberID);
-            startActivity(objIntent);
-
-            Log.d("Database", "go to sci result");
-
-        }
-
-    }
-
-
-    public void onClickArt(View view){
-
-
-        objMyDBClass = new myDBClass(this);
-        final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataMemberID(MemberID);
-
-        String ResultArt = SciTest1DataList.get(0).get("ResultArt").toString();
-
-
-        if(ResultArt.equals("")){
-
-            Log.d("Database", "no art result");
-
-            Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบสายศิลป์",
-                    Toast.LENGTH_SHORT).show();
-
-        }else{
-            objIntent = new Intent(ResultActivity.this,ArtResultActivity.class);
-            objIntent.putExtra("MemberID",MemberID);
-            startActivity(objIntent);
-
-            Log.d("Database", "go to art result");
-
-        }
-
-
-    }
-*/
-
-    private String ResultSci, ResultArt, test;
-
-    private int result_count=0;
-
     public void onClick(View v) {
-
 
         try{
 
             objMyDBClass = new myDBClass(this);
             final ArrayList<HashMap<String, String>> allResultDataList = objMyDBClass.SelectDataMemberID(MemberID);
 
-            result_count = allResultDataList.size();
 
-           if(result_count==0){
+            ResultSci = allResultDataList.get(0).get("ResultScience").toString();
+            ResultArt = allResultDataList.get(0).get("ResultArt").toString();
 
-                Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบ",
+            Log.d("Database", "MemID "+MemberID+" get Sci "+ResultSci+" or Art "+ResultArt+" result");
+
+            switch (v.getId()){
+                case R.id.imgresultsci:
+
+                    if(ResultSci.equals("none")){
+                        Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบวิทย์",
                         Toast.LENGTH_SHORT).show();
-
-               Log.d("Database", "none result");
-
-            }else{
-
-
-               ResultSci = allResultDataList.get(0).get("ResultScience").toString();
-               ResultArt = allResultDataList.get(0).get("ResultArt").toString();
-
-               Log.d("Database", "MemID "+MemberID+" count "+result_count+" get Sci "+ResultSci+" or Art "+ResultArt+" result");
-
-
-               /*
-
-
-
-                switch (v.getId()){
-                    case R.id.imgresultsci:
+                        Log.d("Database", "none sci result");
+                    }else{
                         objIntent = new Intent(ResultActivity.this,SciResultActivity.class);
                         objIntent.putExtra("MemberID",MemberID);
                         startActivity(objIntent);
-                        break;
-                    case R.id.imgResult:
+                        Log.d("Database", "go to sci recently result");
+                    }
+
+                    break;
+                case R.id.imgResult:
+
+                    if(ResultArt.equals("none")){
+                        Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบศิลป์",
+                        Toast.LENGTH_SHORT).show();
+                        Log.d("Database", "none art result");
+                    }else{
                         objIntent = new Intent(ResultActivity.this,ArtResultActivity.class);
                         objIntent.putExtra("MemberID",MemberID);
                         startActivity(objIntent);
-                        break;
-                }
+                        Log.d("Database", "go to art recently result");
+                    }
 
-                */
+                    break;
 
             }
 
-
         }catch (Exception e){
 
-            Log.d("Database", "MemID "+MemberID+" count "+result_count+" get sci "+ResultSci+" or art "+ResultArt+" result error "  + e.toString());
+            Log.d("Database", "MemID "+MemberID+" count "+result_count+" get Sci "+ResultSci+" or Art "+ResultArt+" result error " + e.toString());
 
         }
-
 
     }
 
