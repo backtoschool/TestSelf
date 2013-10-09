@@ -47,7 +47,7 @@ public class ResultActivity extends Activity implements View.OnClickListener {
     private void initialWidget() {
         try{
             btnResultSci = (ImageView) findViewById(R.id.imgresultsci);
-            btnResultart = (ImageView) findViewById(R.id.imgResult);
+            btnResultart = (ImageView) findViewById(R.id.imgresultart);
         }
         catch (Exception e){
             Log.i("Result", e.toString());
@@ -62,16 +62,16 @@ public class ResultActivity extends Activity implements View.OnClickListener {
             objMyDBClass = new myDBClass(this);
             final ArrayList<HashMap<String, String>> allResultDataList = objMyDBClass.SelectDataMemberID(MemberID);
 
-
-            ResultSci = allResultDataList.get(0).get("ResultScience").toString();
-            ResultArt = allResultDataList.get(0).get("ResultArt").toString();
+            ResultSci = allResultDataList.get(0).get("ResultScience");
+            ResultArt = allResultDataList.get(0).get("ResultArt");
 
             Log.d("Database", "MemID "+MemberID+" get Sci "+ResultSci+" or Art "+ResultArt+" result");
 
             switch (v.getId()){
+
                 case R.id.imgresultsci:
 
-                    if(ResultSci.equals("none")){
+                    if(ResultSci == null){
                         Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบวิทย์",
                         Toast.LENGTH_SHORT).show();
                         Log.d("Database", "none sci result");
@@ -83,9 +83,10 @@ public class ResultActivity extends Activity implements View.OnClickListener {
                     }
 
                     break;
-                case R.id.imgResult:
 
-                    if(ResultArt.equals("none")){
+                case R.id.imgresultart:
+
+                    if(ResultArt == null){
                         Toast.makeText(ResultActivity.this, "ยังไม่ได้ทำแบบทดสอบศิลป์",
                         Toast.LENGTH_SHORT).show();
                         Log.d("Database", "none art result");

@@ -43,6 +43,7 @@ public class Sci1Test10Activity extends Activity {
         radChoice4 = (RadioButton) findViewById(R.id.radioButton4);
 
     }
+
     private enum Fruit {
         sciheartart, sci2A, sci2B, scitype1;
     }

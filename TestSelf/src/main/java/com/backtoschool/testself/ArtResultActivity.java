@@ -14,7 +14,7 @@ import java.util.HashMap;
  */
 public class ArtResultActivity extends Activity {
 
-    private String strMenberID, TypeResult, Sex, ResultArt;
+    private String strMenberID, TypeResult, Sex;
     private Intent objIntent;
     myDBClass objMyDBClass;
 
@@ -27,7 +27,6 @@ public class ArtResultActivity extends Activity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             strMenberID = extras.getString("MemberID");
-            TypeResult = extras.getString("TypeResult");
         }
         initialWidget();
         ShowResult();
@@ -62,11 +61,9 @@ public class ArtResultActivity extends Activity {
             final ArrayList<HashMap<String, String>> SciTest1DataList = objMyDBClass.SelectDataMemberID(strMenberID);
 
             Sex = SciTest1DataList.get(0).get("Sex").toString();
-            ResultArt = SciTest1DataList.get(0).get("ResultArt").toString();
-            Log.i("DATA",Sex + ResultArt);
+            TypeResult = SciTest1DataList.get(0).get("ResultArt").toString();
 
-
-                    if(Sex.equals("male")){
+                    if(Sex.equals("Male")){
                         if(TypeResult.equals("A1")){
                             imgSci.setImageResource(R.drawable.art1amale);
                         }else if(TypeResult.equals("A2")){
@@ -89,7 +86,7 @@ public class ArtResultActivity extends Activity {
                             Log.d("Database", "invalidate TypeResult " + TypeResult);
                         }
 
-                    }else if(Sex.equals("female")){
+                    }else if(Sex.equals("Female")){
                         if(TypeResult.equals("A1")){
                             imgSci.setImageResource(R.drawable.art1afemale);
                         }else if(TypeResult.equals("A2")){
@@ -121,7 +118,7 @@ public class ArtResultActivity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("Database", "ShowResult Error " + e.toString());
+            Log.d("Database", "ShowResult sex "+Sex+" result "+TypeResult+" Error "+ e.toString());
 
         }
 

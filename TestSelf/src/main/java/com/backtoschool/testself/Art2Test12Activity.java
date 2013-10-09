@@ -72,7 +72,7 @@ public class Art2Test12Activity extends Activity {
 
             if(strAns.equals("")){
 
-                Log.d("database", "Have Check Button !!!!!");
+                Log.d("Database", "Have Check Button !!!!!");
 
                 Toast.makeText(Art2Test12Activity.this, "กรุณาเลือกคำตอบด้วยค่ะ",
                         Toast.LENGTH_SHORT).show();
@@ -91,7 +91,7 @@ public class Art2Test12Activity extends Activity {
 
         }catch (Exception e){
 
-            Log.d("database", "Art2Test12Activity Error " + e.toString());
+            Log.d("Database", "Art2Test12Activity Error " + e.toString());
 
         }
 
@@ -123,23 +123,25 @@ public class Art2Test12Activity extends Activity {
         sum = score1+score2+score3+score4+score5+score6+score7+score8+score9+score10+score11+score12;
 
         csFunction fun = new csFunction();
-        String Test2Result = fun.ArtResult2(sum);
+        String Test2Result = fun.ArtResult2(sum); // result art test2
 
-            final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
-            String Test1Result = Art2DataList.get(0).get("ResultType").toString();
+        // get result art test 1
+        final ArrayList<HashMap<String, String>> Art1DataList = objMyDBClass.SelectDataArt1(strMenberID);
+        String Test1Result = Art1DataList.get(0).get("ResultType").toString(); // result test1
 
-            String result = Test1Result+Test2Result;
+        String result = Test2Result+Test1Result;
 
+        // insert result test2 in art2 database
+        long insert_result_test2 = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,null,null,result);
 
-        long insertID_result = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,null,null,null,null,null,null,null,null,result);
+        // insert result test2 in member database
+        long insert_result_member = objMyDBClass.Update_Data_Member(strMenberID,null,null,null,null,null,null,result);
 
-        objMyDBClass.Update_Data_Member(strMenberID,null,null,null,null,null,null,result);
-
-        Log.d("database", "art total " + sum + " art result " + result);
+        Log.d("Database", "art total " + sum + " art result " + result);
 
         }catch (Exception e){
 
-            Log.d("database", "Art2Test12Activity "+sum+" UpdateDataSQLite Error " + e.toString());
+            Log.d("Database", "Art2Test12Activity "+sum+" UpdateDataSQLite Error " + e.toString());
 
         }
 

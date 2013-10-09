@@ -12,7 +12,7 @@ import android.widget.ImageView;
  */
 public class ArtResultDetailActivity extends Activity {
 
-    private String strMenberID, TypeResult, Sex, ResultScience;
+    private String strMenberID, TypeResult;
     private Intent objIntent;
     myDBClass objMyDBClass;
 

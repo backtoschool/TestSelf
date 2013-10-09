@@ -75,8 +75,6 @@ public class Art2Test5Activity extends Activity {
 
                 UpdateDataSQLite();
 
-
-
                 objIntent = new Intent(Art2Test5Activity.this, Art2Test6Activity.class);
                 objIntent.putExtra("MemberID",strMenberID);
                 startActivity(objIntent);
@@ -98,7 +96,7 @@ public class Art2Test5Activity extends Activity {
         objMyDBClass = new myDBClass(this);
         long insertID = objMyDBClass.Update_Data_artscore_t2(strMenberID,null,null,null,strAns,null,null,null,null,null,null,null,null);
 
-        Log.d("Database", "Art2Test5Activity insert DB Success !!!!!!!!!"+strAns);
+        Log.d("Database", "Art2Test5Activity insert DB Success !!!!!!!!! "+strAns);
 
     }
 

@@ -22,8 +22,8 @@ public class PersonalActivity extends Activity {
 
 
     private String strSex;
-    private String strResultScience = "none";
-    private String strResultArt = "none";
+    private String strResultScience = null;
+    private String strResultArt = null;
 
 
     public void onCreate(Bundle savedInstanceState) {
