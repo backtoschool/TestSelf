@@ -210,43 +210,15 @@
           <theme>@style/splashScreenTheme</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/testimei_layout.xml">
-        <config>
-          <device>Nexus 4</device>
-          <theme>@style/splashScreenTheme</theme>
-        </config>
-      </layout>
     </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6097bbcf-28da-428a-8ccc-adedff5730c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test1Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test1Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test2Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test2Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test3Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test3Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test4Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test4Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test5Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art1Test5Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test10Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test10Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test11Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test11Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test1Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test2Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test3Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test4Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test5Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test5Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test7Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test7Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test8Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test8Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test9Activity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test9Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultDetailActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/SciResultActivity.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/SciResultActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_de_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_de_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_layout.xml" afterPath="$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" afterPath="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/Manifest.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/libraries/facebook/gen/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSelf.iws" />
@@ -268,6 +240,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -304,7 +277,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -314,76 +286,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myDBClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="780" column="42" selection-start="27084" selection-end="27093" vertical-scroll-proportion="0.0" vertical-offset="12609" max-vertical-offset="15980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csFunction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1156">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="art2test12_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Art2Test12Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="1763" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="2448">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sci2Test8Activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci2Test8Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="2022" max-vertical-offset="4148">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArtResultActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="62" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2278">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArtResultDetailActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultDetailActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="77" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="1547">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="92" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.815" vertical-offset="497" max-vertical-offset="1513">
+            <state line="24" column="20" selection-start="920" selection-end="920" vertical-scroll-proportion="0.46341464" vertical-offset="237" max-vertical-offset="2397">
               <folding />
             </state>
           </provider>
@@ -395,6 +301,10 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\DropBox\Dropbox\bedo mobil android\Project\TestSelf\keystoretestself.jks" />
+    <option name="KEY_ALIAS" value="StudentID" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -437,19 +347,19 @@
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/myDBClass.java" />
-        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java" />
         <option value="$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java" />
+        <option value="$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -477,10 +387,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -569,6 +475,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,6 +506,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="372" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="EmuAtom" />
+    <property name="ExportedModule" value="main" />
+    <property name="ExportedApkPath" value="E:\DropBox\Dropbox\bedo mobil android\Project\TestSelf\TestSelf\src\main\main.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1127,7 +1040,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1137,18 +1050,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3082822" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3535188" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21360256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32731137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33475026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3535188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17825606" sideWeight="0.6652497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.64648116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30074388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1198,102 +1111,108 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/sciresult_de_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_layout.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/artresult_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test8_layout.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test6Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-0.006666667" vertical-offset="1058" max-vertical-offset="1751">
-          <folding />
-        </state>
+        <state line="68" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-0.006666667" vertical-offset="1058" max-vertical-offset="1751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/SciResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="29" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.11" vertical-offset="682" max-vertical-offset="2788">
-          <folding />
-        </state>
+        <state line="52" column="29" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.11" vertical-offset="682" max-vertical-offset="2788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/result_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="54" selection-start="6258" selection-end="6258" vertical-scroll-proportion="0.745" vertical-offset="1729" max-vertical-offset="2414">
-          <folding>
-            <element signature="e#6293#6309#0" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/SciResultDetialActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="659" selection-end="659" vertical-scroll-proportion="-0.585" vertical-offset="674" max-vertical-offset="1683">
-          <folding />
-        </state>
+        <state line="24" column="48" selection-start="659" selection-end="659" vertical-scroll-proportion="-0.585" vertical-offset="674" max-vertical-offset="1683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci2Test8Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="2022" max-vertical-offset="4148">
+        <state line="91" column="40" selection-start="2403" selection-end="2403" vertical-scroll-proportion="3.1516855" vertical-offset="272" max-vertical-offset="2941">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="77" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="1547">
+        <state line="42" column="77" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-0.2303523" vertical-offset="714" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="62" selection-start="1644" selection-end="1644" vertical-scroll-proportion="-0.32249323" vertical-offset="1088" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Sci2Test8Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="-0.41463414" vertical-offset="272" max-vertical-offset="4148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="1763" selection-end="1896" vertical-scroll-proportion="-0.42977527" vertical-offset="1292" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/res/layout/art2test12_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/csFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.26287264" vertical-offset="787" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
@@ -1305,23 +1224,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ArtResultActivity.java">
+    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="62" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="2278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/Art2Test12Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="1763" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="863" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestSelf/src/main/java/com/backtoschool/testself/ResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="92" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.815" vertical-offset="497" max-vertical-offset="1513">
+        <state line="24" column="20" selection-start="920" selection-end="920" vertical-scroll-proportion="0.46341464" vertical-offset="237" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
